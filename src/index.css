@@ -2,7 +2,6 @@ html,
 body,
 #root {
   margin: 0;
-  padding: 0;
   min-height: 100%;
 }
 
@@ -10,4 +9,14 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background: #f5f5f5;
   color: #231f20;
+}
+
+section {
+  min-height: 100vh;
+  padding: 120px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
 }
