@@ -15,25 +15,31 @@ import ResearchProgress from "./sections/ResearchProgress";
 import Ethics from "./sections/Ethics";
 import About from "./sections/About";
 
+import Sidebar from "./components/Sidebar";
+
 function App() {
   return (
     <>
-      <Intro />
-      <Problem />
-      <Hypothesis />
-      <WhyHarmony />
-      <Methodology />
-      <Scales />
-      <CollectingPerceptions />
-      <CreatingStimuli />
-      <ConstructingTopologies />
-      <Analysis />
-      <HarmonyGenerator />
-      <AudioCanvas />
-      <TopologyExplorer />
-      <ResearchProgress />
-      <Ethics />
-      <About />
+      <Sidebar />
+
+      <main>
+        <Intro />
+        <Problem />
+        <Hypothesis />
+        <WhyHarmony />
+        <Methodology />
+        <Scales />
+        <CollectingPerceptions />
+        <CreatingStimuli />
+        <ConstructingTopologies />
+        <Analysis />
+        <HarmonyGenerator />
+        <AudioCanvas />
+        <TopologyExplorer />
+        <ResearchProgress />
+        <Ethics />
+        <About />
+      </main>
     </>
   );
 }
