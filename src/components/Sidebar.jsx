@@ -6,24 +6,42 @@ function Sidebar() {
 
   return (
     <aside className="sidebar">
-      <div className="sidebar__brand">
+      <a href="#intro" className="sidebar__brand">
         TOPO.AUDIO / <span>BRIEF</span>
-      </div>
+      </a>
 
       <nav className="sidebar__nav">
-        {sections.map((section) => (
+        {sections.map((section, index) => {
+          if (section.heading) {
+            return (
+              <div key={`${section.label}-${index}`} className="sidebar-heading">
+                <span className="sidebar-marker sidebar-marker--none" />
+                <span>{section.label}</span>
+              </div>
+            );
+          }
+
+          return (
             <a
-            key={section.id}
-            href={`#${section.id}`}
-            className={
-                activeSection === section.id
-                ? "sidebar-link active"
-                : "sidebar-link"
-            }
+              key={section.id}
+              href={`#${section.id}`}
+              className={[
+                "sidebar-item",
+                activeSection === section.id ? "active" : "",
+                section.sub ? "sub" : "",
+                section.spaced ? "spaced" : "",
+                section.tone || "",
+              ].join(" ")}
             >
-            {section.label}
-          </a>
-        ))}
+              <span
+                className={`sidebar-marker sidebar-marker--${
+                  section.marker || "dot"
+                }`}
+              />
+              <span className="sidebar-link">{section.label}</span>
+            </a>
+          );
+        })}
       </nav>
     </aside>
   );

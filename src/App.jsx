@@ -12,6 +12,7 @@ import HarmonyGenerator from "./sections/HarmonyGenerator";
 import AudioCanvas from "./sections/AudioCanvas";
 import TopologyExplorer from "./sections/TopologyExplorer";
 import ResearchProgress from "./sections/ResearchProgress";
+import GenerativeComposing from "./sections/GenerativeComposing";
 import Ethics from "./sections/Ethics";
 import About from "./sections/About";
 
@@ -37,6 +38,7 @@ function App() {
         <AudioCanvas />
         <TopologyExplorer />
         <ResearchProgress />
+        <GenerativeComposing />
         <Ethics />
         <About />
       </main>

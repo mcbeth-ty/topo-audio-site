@@ -2,13 +2,14 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 
+import FadeIn from "../components/FadeIn";
+
 function Intro() {
   return (
     <section id="intro">
       <PageContainer>
         <SectionGrid>
-          <div className="intro-copy">
-
+          <FadeIn className="intro-copy">
             <SectionTitle>
               emotional
               <br />
@@ -21,13 +22,13 @@ function Intro() {
               exploring whether collective spatial organization of harmony
               can reveal the hidden structure of emotion in music
             </p>
-          </div>
+          </FadeIn>
 
-          <div className="intro-figure">
+          <FadeIn className="intro-figure">
             <div className="placeholder-figure">
               intro diagram
             </div>
-          </div>
+          </FadeIn>
         </SectionGrid>
       </PageContainer>
     </section>
