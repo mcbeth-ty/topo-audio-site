@@ -1,48 +1,24 @@
-import Intro from "./sections/Intro";
-import Problem from "./sections/Problem";
-import Hypothesis from "./sections/Hypothesis";
-import WhyHarmony from "./sections/WhyHarmony";
-import Methodology from "./sections/Methodology";
-import Scales from "./sections/Scales";
-import CollectingPerceptions from "./sections/CollectingPerceptions";
-import CreatingStimuli from "./sections/CreatingStimuli";
-import ConstructingTopologies from "./sections/ConstructingTopologies";
-import Analysis from "./sections/Analysis";
-import HarmonyGenerator from "./sections/HarmonyGenerator";
-import AudioCanvas from "./sections/AudioCanvas";
-import TopologyExplorer from "./sections/TopologyExplorer";
-import ResearchProgress from "./sections/ResearchProgress";
-import GenerativeComposing from "./sections/GenerativeComposing";
-import Ethics from "./sections/Ethics";
-import About from "./sections/About";
+import { Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
+import HomePage from "./pages/HomePage";
+import BriefPage from "./pages/BriefPage";
+import AboutPage from "./pages/AboutPage";
+import BibliographyPage from "./pages/BibliographyPage";
+import MethodologyPage from "./pages/MethodologyPage";
+import ResearchLogPage from "./pages/ResearchLogPage";
+import ToolsPage from "./pages/ToolsPage";
 
 function App() {
   return (
-    <>
-      <Sidebar />
-
-      <main>
-        <Intro />
-        <Problem />
-        <Hypothesis />
-        <WhyHarmony />
-        <Methodology />
-        <Scales />
-        <CollectingPerceptions />
-        <CreatingStimuli />
-        <ConstructingTopologies />
-        <Analysis />
-        <HarmonyGenerator />
-        <AudioCanvas />
-        <TopologyExplorer />
-        <ResearchProgress />
-        <GenerativeComposing />
-        <Ethics />
-        <About />
-      </main>
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/brief" element={<BriefPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/bibliography" element={<BibliographyPage />} />
+      <Route path="/methodology" element={<MethodologyPage />} />
+      <Route path="/research-log" element={<ResearchLogPage />} />
+      <Route path="/tools" element={<ToolsPage />} />
+    </Routes>
   );
 }
 

@@ -1,7 +1,20 @@
 import { sections } from "../data/sections";
 import useActiveSection from "../hooks/useActiveSection";
+import { Link, useLocation } from "react-router-dom";
+import SiteMenu from "./SiteMenu";
 
 function Sidebar() {
+  const location = useLocation();
+
+  const pageLabel = {
+    "/brief": "BRIEF",
+    "/about": "ABOUT",
+    "/bibliography": "BIBLIOGRAPHY",
+    "/methodology": "METHODOLOGY",
+    "/research-log": "RESEARCH LOG",
+    "/tools": "TOOLS",
+  }[location.pathname] || "";
+  
   const activeSection = useActiveSection();
 
   const darkSections = [
@@ -14,10 +27,7 @@ function Sidebar() {
 
   return (
     <aside className={`sidebar ${isDarkSection ? "sidebar--dark" : ""}`}>
-      <a href="#intro" className="sidebar__brand">
-        TOPO.AUDIO / <span>BRIEF</span>
-      </a>
-
+      <SiteMenu />  
       <nav className="sidebar__nav">
         {sections.map((section, index) => {
           if (section.heading) {
