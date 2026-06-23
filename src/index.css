@@ -52,6 +52,11 @@ section {
   position: relative;
 }
 
+.section-title {
+  margin-bottom: calc(var(--u) * 1.1);
+  color: var(--color-text);
+}
+
 section h1 {
   margin: 0;
 }
@@ -362,6 +367,15 @@ h3 {
 .body-copy p {
   text-align: justify;
 }
+
+.body-copy {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
 .body-copy p:last-child {
   margin-bottom: 0;
 }
@@ -860,7 +874,7 @@ h3 {
 }
 
 .collecting-figures {
-  grid-column: 7 / span 14;
+  grid-column: 8 / span 14;
 
   display: flex;
   flex-direction: column;
@@ -908,6 +922,85 @@ h3 {
   color: var(--color-text);
 }
 
+
+
+
+/* ===========================
+   CREATING STIMULI
+=========================== */
+
+.process-steps--stimuli {
+  position: absolute;
+  top: calc(var(--u) * 1.25);
+  left: 50%;
+}
+
+.process-steps--stimuli.fade-in {
+  transform: translateX(-50%) translateY(24px);
+}
+
+.process-steps--stimuli.fade-in.visible {
+  transform: translateX(-50%) translateY(0);
+}
+
+.process-steps--stimuli img {
+  width: calc(var(--u) * 7);
+  height: auto;
+  display: block;
+}
+
+/* left text */
+
+.stimuli-copy {
+  grid-column: 1 / span 4;
+  width: calc(var(--u) * 6);
+}
+
+.stimuli-copy .section-title {
+  margin-bottom: calc(var(--u) * 0.75);
+}
+
+/* right figure */
+
+.stimuli-figure {
+  grid-column: 8 / span 14;
+  align-self: start;
+}
+
+
+.stimuli-figure figure {
+  margin: 0;
+}
+
+.stimuli-image {
+  width: 100%;
+  display: block;
+}
+
+/* space below process diagram */
+
+#creating-stimuli .section-grid {
+  padding-top: calc(var(--u) * 3.2);
+}
+
+.collecting-figures figure,
+.stimuli-figure figure {
+  margin: 0;
+}
+
+#creating-stimuli .next-section-link {
+  bottom: calc(var(--u) * -0.2);
+  
+}
+
+#creating-stimuli {
+  border-bottom: 0;
+  padding-bottom: calc(var(--u) * 1.5);
+}
+
+#constructing-topologies {
+  padding-top: calc(var(--u) * 3);
+}
 /* responsive stacking */
 
 @media (max-width: 1200px) {
@@ -916,8 +1009,6 @@ h3 {
     width: 100%;
   }
 }
-
-
 
 
 @media (max-width: 1250px) {
