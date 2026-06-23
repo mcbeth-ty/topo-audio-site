@@ -110,7 +110,7 @@ function ConstructingTopologies() {
           </FadeIn>
         </SectionGrid>
 
-        <NextSectionLink href="#analysis" label="ANALYSIS" />
+  
       </PageContainer>
     </section>
   );
