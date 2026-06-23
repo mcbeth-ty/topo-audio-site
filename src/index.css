@@ -82,7 +82,10 @@ h3 {
   color: var(--color-text);
 }
 
-
+.body-highlight {
+  color: var(--color-text);
+  font-weight: 500;
+}
 
 .next-section-link {
   position: absolute;
@@ -638,10 +641,149 @@ h3 {
 }
 
 
+/* ---------------------------------------------
+   Why Harmony section
+--------------------------------------------- */
+
+.why-copy {
+  grid-column: 1 / span 6;
+  padding-top: calc(var(--u) * 1.2);
+
+  width: calc(var(--u) * 6);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.why-copy .section-title {
+  margin-bottom: calc(var(--u) * 1.1);
+  color: var(--color-text);
+}
+
+.why-copy .highlight {
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+.why-audio {
+  grid-column: 9 / span 9;
+  padding-top: calc(var(--u) * 2.4);
+}
+
+.audio-example {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: calc(var(--u) * 0.65);
+}
+
+.audio-example__button {
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--color-text);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 9px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.audio-example__label {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: 19px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.audio-example__label::after {
+  content: "";
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+  height: 1px;
+  background: var(--color-text);
+}
+
+.why-caption {
+  max-width: calc(var(--u) * 5);
+  margin-top: calc(var(--u) * 0.85);
+  margin-left: 54px;
+
+  font-family: var(--font-serif);
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 200;
+  color: var(--color-text);
+}
 
 
+/* ---------------------------------------------
+   Methodology section
+--------------------------------------------- */
 
+.methodology-copy {
+  grid-column: 1 / span 6;
+  padding-top: calc(var(--u) * 0.5);
+  width: calc(var(--u) * 6);
 
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.methodology-copy .section-title {
+  margin-bottom: calc(var(--u) * 0.9);
+  color: var(--color-text);
+}
+
+.methodology-concept {
+  grid-column: 9 / span 8;
+  padding-top: calc(var(--u) * 1.1);
+}
+
+.methodology-concept-diagram {
+  width: calc(var(--u) * 11);
+  height: auto;
+  display: block;
+}
+
+.methodology-framework {
+  grid-column: 1 / span 9;
+  padding-top: calc(var(--u) * 1.2);
+}
+
+.methodology-framework-diagram {
+  width: calc(var(--u) * 12);
+  height: auto;
+  display: block;
+}
+
+.methodology-right {
+  grid-column: 13 / span 5;
+  margin-top: calc(var(--u) * -2);
+  width: calc(var(--u) * 6);
+
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.methodology-right .section-title {
+  margin-bottom: calc(var(--u) * 0.9);
+  text-align: right;
+  color: var(--color-text);
+}
 
 
 
@@ -651,32 +793,38 @@ h3 {
 
 @media (max-width: 1250px) {
   .section-grid {
-    grid-template-columns: repeat(12, var(--u)) !important;
+    grid-template-columns: repeat(10, var(--u)) !important;
   }
 
-  .intro-copy {
-    grid-column: 2 / span 8 !important;
+  .section-grid > * {
+    grid-column: 1 / -1 !important;
   }
 
-  .intro-figure {
-    grid-column: 2 / span 8 !important;
-    margin-top: calc(var(--u) * 1.2);
+  .intro-copy,
+  .intro-figure,
+  .problem-copy,
+  .problem-figure,
+  .hypothesis-title,
+  .hypothesis-figure,
+  .hypothesis-copy,
+  .why-copy,
+  .why-audio {
+    width: auto;
+    max-width: calc(var(--u) * 8);
   }
 
-  .intro-diagram {
-    width: calc(var(--u) * 8) !important;
+  .intro-figure,
+  .problem-figure,
+  .hypothesis-figure,
+  .hypothesis-copy,
+  .why-audio {
+    margin-top: calc(var(--u) * 1);
+    padding-top: 0;
   }
 
-  .problem-copy {
-    grid-column: 1 / span 6 !important;
-  }
-
-  .problem-figure {
-    grid-column: 1 / span 10 !important;
-    padding-top: calc(var(--u) * 1.2);
-  }
-
-  .problem-diagram {
-    width: calc(var(--u) * 9) !important;
+  .intro-diagram,
+  .problem-diagram,
+  .hypothesis-diagram {
+    width: min(100%, calc(var(--u) * 8)) !important;
   }
 }
