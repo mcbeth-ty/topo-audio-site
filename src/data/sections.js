@@ -76,7 +76,7 @@ export const sections = [
   },
 
   {
-    id: "harmony-generator",
+    id: "harmonic-sequence-generator",
     label: "HARMONIC SEQUENCE GENERATOR",
     marker: "square",
     tone: "primary",

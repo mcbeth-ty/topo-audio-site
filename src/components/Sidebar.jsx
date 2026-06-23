@@ -4,8 +4,16 @@ import useActiveSection from "../hooks/useActiveSection";
 function Sidebar() {
   const activeSection = useActiveSection();
 
+  const darkSections = [
+    "harmonic-sequence-generator",
+    "audio-canvas",
+    "topology-explorer",
+  ];
+
+  const isDarkSection = darkSections.includes(activeSection);
+
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${isDarkSection ? "sidebar--dark" : ""}`}>
       <a href="#intro" className="sidebar__brand">
         TOPO.AUDIO / <span>BRIEF</span>
       </a>
