@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function Hypothesis() {
   return (
@@ -14,7 +15,7 @@ function Hypothesis() {
           </FadeIn>
 
           <FadeIn className="hypothesis-figure">
-            <img
+            <LightboxImage
               src="/diagrams/hypothesis-diagram.webp"
               alt="Layered topology diagram representing the hypothesis"
               className="hypothesis-diagram"

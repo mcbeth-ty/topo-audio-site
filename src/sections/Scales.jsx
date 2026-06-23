@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function Scales() {
   return (
@@ -75,7 +76,7 @@ function Scales() {
           </FadeIn>
 
           <FadeIn className="scales-figure">
-            <img
+            <LightboxImage
               src="/diagrams/scales-diagram.webp"
               alt="Short and long scale topologies"
               className="scales-diagram"

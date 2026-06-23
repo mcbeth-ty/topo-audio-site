@@ -5,6 +5,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function ConstructingTopologies() {
   return (
@@ -91,7 +92,7 @@ function ConstructingTopologies() {
 
           <FadeIn className="topology-figure">
             <figure>
-              <img
+              <LightboxImage
                 src="/diagrams/topo-ex.webp"
                 alt="Topo Analysis Pipeline interface"
                 className="topology-image"

@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function Problem() {
   return (
@@ -64,7 +65,7 @@ function Problem() {
           </FadeIn>
 
           <FadeIn className="problem-figure">
-            <img
+            <LightboxImage
               src="/diagrams/hidden-structure.webp"
               alt="Abstract representation of hidden emotional structure"
               className="problem-diagram"

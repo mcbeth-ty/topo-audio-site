@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function CollectingPerceptions() {
   return (
@@ -83,7 +84,7 @@ function CollectingPerceptions() {
 
           <FadeIn className="collecting-figures">
             <figure>
-              <img
+              <LightboxImage
                 src="/diagrams/line-v1.webp"
                 alt="Audio Canvas line_v1 methodology"
                 className="collecting-image"
@@ -99,7 +100,7 @@ function CollectingPerceptions() {
             </figure>
 
             <figure>
-              <img
+              <LightboxImage
                 src="/diagrams/vector-v1.webp"
                 alt="Audio Canvas vector_v1 methodology"
                 className="collecting-image"

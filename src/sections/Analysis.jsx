@@ -5,6 +5,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function Analysis() {
   return (
@@ -65,7 +66,7 @@ function Analysis() {
 
           <FadeIn className="analysis-figure">
             <figure>
-              <img
+              <LightboxImage
                 src="/diagrams/topo-ex-2.webp"
                 alt="Topology Explorer analysis interface"
                 className="analysis-image"

@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function Methodology() {
   return (
@@ -64,7 +65,7 @@ function Methodology() {
           </FadeIn>
 
           <FadeIn className="methodology-concept">
-            <img
+            <LightboxImage
               src="/diagrams/methodology-concept.png"
               alt="Overview of the topo.audio methodology process"
               className="methodology-concept-diagram"
@@ -72,7 +73,7 @@ function Methodology() {
           </FadeIn>
 
           <FadeIn className="methodology-framework">
-            <img
+            <LightboxImage
               src="/diagrams/methodology-diagram.webp"
               alt="Topo.audio research framework"
               className="methodology-framework-diagram"

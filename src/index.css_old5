@@ -5,11 +5,6 @@
   --color-bg: #ffffff;
   --color-accent: #7fd8e8;
 
-  --body-font-size: 11.5px;
-  --body-line-height: 1.5;
-  --body-font-weight: 300;
-  --body-color: var(--color-muted);
-
   --font-sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-serif: Georgia, "Cormorant Garamond", serif;
   --font-mono: "Roboto Mono", monospace;
@@ -66,7 +61,7 @@ section {
   min-height: 100vh;
   padding: var(--section-padding-y) var(--page-padding-x);
   box-sizing: border-box;
-  border-bottom: 0px solid rgba(35, 31, 32, 0.08);
+  border-bottom: 1px solid rgba(35, 31, 32, 0.08);
   scroll-margin-top: 80px;
   position: relative;
 }
@@ -495,10 +490,10 @@ h3 {
 
 .page-text {
   font-family: var(--font-sans);
-  font-size: var(--body-font-size);
+  font-size: 11px;
   line-height: 1.35;
-  font-weight: var(--body-font-weight);
-  color: var(--body-color);
+  font-weight: 300;
+  color: var(--color-muted);
 }
 
 .body-copy p {
@@ -507,10 +502,10 @@ h3 {
 
 .body-copy {
   font-family: var(--font-sans);
-  font-size: var(--body-font-size);
-  line-height: var(--body-line-height);
-  font-weight: var(--body-font-weight);
-  color: var(--body-color);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-muted);
 }
 
 .body-copy p:last-child {
@@ -645,7 +640,6 @@ h3 {
   margin-top: calc(var(--u) * 1.2);
 
   font-family: var(--font-sans);
-  font-size: 11px;
   line-height: 1.5;
   font-weight: 300;
   color: #939598;
@@ -2169,131 +2163,6 @@ h3 {
   padding-bottom: calc(var(--u) * 2.2);
 }
 
-/* --------------------------------------------------
-   GLOBAL BODY TEXT OVERRIDE
-   Edit the --body-* variables in :root to control body text.
--------------------------------------------------- */
-
-.body-copy,
-.page-text,
-.problem-text,
-.hypothesis-copy,
-.why-copy,
-.methodology-copy,
-.methodology-right,
-.scales-copy,
-.collecting-copy,
-.stimuli-copy,
-.topology-copy,
-.analysis-copy,
-.research-status,
-.research-future,
-.applications-copy,
-.ethics-copy,
-.about-copy {
-  font-family: var(--font-sans);
-  font-size: var(--body-font-size);
-  line-height: var(--body-line-height);
-  font-weight: var(--body-font-weight);
-  color: var(--body-color);
-}
-
-.body-copy strong,
-.page-text strong,
-.problem-text strong,
-.hypothesis-copy strong,
-.why-copy strong,
-.methodology-copy strong,
-.methodology-right strong,
-.scales-copy strong,
-.collecting-copy strong,
-.stimuli-copy strong,
-.topology-copy strong,
-.analysis-copy strong,
-.research-status strong,
-.research-future strong,
-.applications-copy strong,
-.ethics-copy strong,
-.about-copy strong {
-  color: var(--color-text);
-  font-weight: 500;
-}
-
-
-
-/* --------------------------------------------------
-   LIGHTBOX IMAGES
--------------------------------------------------- */
-
-.lightbox-trigger {
-  display: block;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background: transparent;
-  cursor: zoom-in;
-}
-
-.lightbox-trigger img {
-  display: block;
-}
-
-.lightbox-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  padding: calc(var(--u) * 0.8);
-  background: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.lightbox-paper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #ffffff;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.lightbox-paper::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: #ffffff;
-  z-index: 0;
-}
-
-.lightbox-image {
-  display: block !important;
-  position: relative;
-  z-index: 1;
-
-  width: auto !important;
-  height: auto !important;
-
-  max-width: calc(100vw - 96px) !important;
-  max-height: calc(100vh - 96px) !important;
-
-  object-fit: contain;
-}
-
-.lightbox-close {
-  position: fixed;
-  top: 28px;
-  right: 32px;
-  z-index: 101;
-
-  border: 0;
-  background: transparent;
-  color: #111;
-
-  font-family: var(--font-mono);
-  font-size: 28px;
-  line-height: 1;
-  cursor: pointer;
+:root {
+  --color-body: #202020;
 }

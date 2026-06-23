@@ -62,8 +62,9 @@ function About() {
             <h3>TYLER MCBETH</h3>
 
             <p>
-              Designer · Composer ·<br />
-              Researcher
+              Composer<br />
+              Designer <br />
+              
               <br />
               Japan
             </p>

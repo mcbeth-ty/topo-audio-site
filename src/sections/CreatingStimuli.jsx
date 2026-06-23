@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function CreatingStimuli() {
   return (
@@ -86,7 +87,7 @@ function CreatingStimuli() {
 
           <FadeIn className="stimuli-figure">
             <figure>
-              <img
+              <LightboxImage
                 src="/diagrams/harm-gen.webp"
                 alt="Harmonic Sequence Generator interface"
                 className="stimuli-image"
