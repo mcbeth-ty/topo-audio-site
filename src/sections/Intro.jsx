@@ -3,6 +3,7 @@ import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 
 import FadeIn from "../components/FadeIn";
+import NextSectionLink from "../components/NextSectionLink";
 
 function Intro() {
   return (
@@ -25,12 +26,15 @@ function Intro() {
           </FadeIn>
 
           <FadeIn className="intro-figure">
-            <div className="placeholder-figure">
-              intro diagram
-            </div>
+            <img
+            src="/diagrams/intro-diagram.webp"
+            alt="Conceptual relationship between harmony, perception, and emotional topology"
+            className="intro-diagram"
+            />
           </FadeIn>
         </SectionGrid>
       </PageContainer>
+      <NextSectionLink href="#problem" label="PROBLEM" />
     </section>
   );
 }

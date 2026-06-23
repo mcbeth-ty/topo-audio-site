@@ -49,76 +49,11 @@ section {
   box-sizing: border-box;
   border-bottom: 1px solid rgba(35, 31, 32, 0.08);
   scroll-margin-top: 80px;
-  position: relative;
 }
 
 section h1 {
   margin: 0;
 }
-
-h3 {
-  margin: 0;
-
-  font-family: var(--font-serif);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0;
-  text-transform: lowercase;
-  color: var(--color-text);
-}
-
-.pull-quote {
-  margin: calc(var(--u) * 0.65) 0;
-  padding-left: 24px;
-
-  border-left: 1px solid #9e9e9e;
-
-  font-family: var(--font-serif);
-  font-size: 16px;
-  line-height: 1.45;
-  font-weight: 400;
-
-  color: var(--color-text);
-}
-
-
-
-.next-section-link {
-  position: absolute;
-  left: 50%;
-  bottom: calc(var(--u) * 0.7);
-  transform: translateX(-50%);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-
-  font-family: var(--font-mono);
-  font-size: 19px;
-  line-height: 1;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.next-section-link__arrow {
-  font-size: 24px;
-  line-height: 1;
-  transition: transform 300ms ease;
-}
-
-.next-section-link:hover .next-section-link__arrow {
-  transform: translateY(5px);
-}
-
-
-
-
-
 
 /* ---------------------------------------------
    Sidebar / fixed page menu
@@ -356,13 +291,6 @@ h3 {
   color: var(--color-muted);
 }
 
-.body-copy p {
-  text-align: justify;
-}
-.body-copy p:last-child {
-  margin-bottom: 0;
-}
-
 .page-text strong,
 .page-text .highlight {
   color: var(--color-text);
@@ -421,7 +349,6 @@ h3 {
    Responsive
 --------------------------------------------- */
 
-
 @media (max-width: 900px) {
   :root {
     --sidebar-width: 0px;
@@ -441,8 +368,6 @@ h3 {
   section h1 {
     font-size: 36px;
   }
-
-}
 
 /* ---------------------------------------------
    Intro section
@@ -465,7 +390,7 @@ h3 {
   font-family: var(--font-serif);
   font-size: 14px;
   line-height: 1.18;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--color-text);
 }
 
@@ -477,7 +402,7 @@ h3 {
 }
 
 .intro-diagram {
-  width: calc(var(--u) * 10);
+  width: calc(var(--u) * 8);
   max-width: none;
   height: auto;
   display: block;
@@ -504,7 +429,7 @@ h3 {
 
   font-family: var(--font-sans);
   font-size: 11px;
-  line-height: 1.5;
+  line-height: 1.35;
   font-weight: 300;
   color: #939598;
 }
@@ -518,165 +443,8 @@ h3 {
 }
 
 .problem-diagram {
-  width: calc(var(--u) * 13);
-  max-width: none;
-  height: auto;
-  display: block;
-  align-self: start;
-  padding-top: 100px;
-}
-
-
-.problem-text p {
-  margin-bottom: 22px;
-}
-
-.problem-text h3 {
-  margin-top: calc(var(--u) * 0.75);
-  margin-bottom: calc(var(--u) * 0.35);
-}
-
-
-/* ---------------------------------------------
-   Responsive section layouts
---------------------------------------------- */
-
-@media (max-width: 900px) {
-  .section-grid {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  .intro-copy,
-  .intro-figure,
-  .problem-copy,
-  .problem-figure {
-    grid-column: 1 / -1;
-  }
-
-  .intro-copy {
-    padding-top: 0;
-  }
-
-  .intro-copy .section-title {
-    font-size: 48px;
-  }
-
-  .intro-subtitle,
-  .problem-text {
-    width: auto;
-    max-width: none;
-  }
-
-  .intro-figure,
-  .problem-figure {
-    margin-top: 64px;
-    padding-top: 0;
-  }
-
-  .intro-diagram,
-  .problem-diagram {
-    width: 100%;
-    max-width: 100%;
-  }
-}
-
-
-/* ---------------------------------------------
-   Hypothesis section
---------------------------------------------- */
-
-.hypothesis-title {
-  grid-column: 1 / span 6;
-  padding-top: calc(var(--u) * 0.8);
-}
-
-.hypothesis-title .section-title {
-  font-size: 42px;
-  line-height: 0.98;
-  letter-spacing: 0.01em;
-}
-
-.hypothesis-figure {
-  grid-column: 1 / span 7;
-  padding-top: calc(var(--u) * 2.2);
-}
-
-.hypothesis-diagram {
   width: calc(var(--u) * 9);
   max-width: none;
   height: auto;
   display: block;
-}
-
-.hypothesis-copy {
-  grid-column: 11 / span 6;
-  padding-top: calc(var(--u) * 2.3);
-
-  font-family: var(--font-sans);
-  font-size: 11px;
-  line-height: 1.5;
-  font-weight: 300;
-  color: var(--color-muted);
-}
-
-.hypothesis-copy p {
-  margin-top: 0;
-  margin-bottom: 22px;
-}
-
-.hypothesis-list {
-  color: var(--color-text);
-}
-
-.hypothesis-list strong {
-  font-weight: 700;
-}
-
-.hypothesis-copy h3 {
-  margin-top: calc(var(--u) * 0.75);
-  margin-bottom: calc(var(--u) * 0.35);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1250px) {
-  .section-grid {
-    grid-template-columns: repeat(12, var(--u)) !important;
-  }
-
-  .intro-copy {
-    grid-column: 2 / span 8 !important;
-  }
-
-  .intro-figure {
-    grid-column: 2 / span 8 !important;
-    margin-top: calc(var(--u) * 1.2);
-  }
-
-  .intro-diagram {
-    width: calc(var(--u) * 8) !important;
-  }
-
-  .problem-copy {
-    grid-column: 1 / span 6 !important;
-  }
-
-  .problem-figure {
-    grid-column: 1 / span 10 !important;
-    padding-top: calc(var(--u) * 1.2);
-  }
-
-  .problem-diagram {
-    width: calc(var(--u) * 9) !important;
-  }
 }
