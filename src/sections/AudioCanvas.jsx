@@ -38,7 +38,7 @@ function AudioCanvas() {
               There are no correct answers. The objective is simply to organize the
               samples into a perceptual landscape that feels internally consistent.
               These spatial relationships become the foundation from which topological
-              models are constructed. See if you agree with the starting positions below.
+              models are constructed. Begin by exploring the initial arrangement below.
             </p>
 
           </FadeIn>
