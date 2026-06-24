@@ -2557,7 +2557,7 @@ h3 {
 
 .prototype-iframe-wrap {
   width: 100%;
-  height: calc(var(--u) * 10.5);
+  height: calc(var(--u) * 12.5);
   border: 1px solid rgba(190, 191, 193, 0.18);
   background: #202020;
   overflow: hidden;
@@ -2590,4 +2590,8 @@ h3 {
 
   z-index: 10;
   pointer-events: none;
+}
+
+.prototype-iframe-wrap--audio-canvas {
+  height: min(85vh, 980px);
 }

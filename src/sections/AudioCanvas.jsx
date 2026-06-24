@@ -38,14 +38,19 @@ function AudioCanvas() {
               There are no correct answers. The objective is simply to organize the
               samples into a perceptual landscape that feels internally consistent.
               These spatial relationships become the foundation from which topological
-              models are constructed.
+              models are constructed. See if you agree with the starting positions below.
             </p>
 
           </FadeIn>
 
           <FadeIn className="prototype-embed">
-            <div className="prototype-placeholder prototype-placeholder--desktop">
-              <span>embedded audio canvas demo</span>
+            <div className="prototype-iframe-wrap prototype-iframe-wrap--audio-canvas">
+              <iframe
+                src="/audio-canvas-demo/index.html"
+                title="Audio Canvas Demo"
+                className="prototype-iframe"
+                loading="lazy"
+              />
             </div>
 
             <div className="prototype-mobile-fallback">
