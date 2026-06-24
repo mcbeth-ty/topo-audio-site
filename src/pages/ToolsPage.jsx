@@ -1,17 +1,14 @@
-// src/pages/ToolsPage.jsx
-
 import SiteMenu from "../components/SiteMenu";
+import UnderConstruction from "../components/UnderConstruction";
 
 function ToolsPage() {
   return (
     <>
       <SiteMenu />
-
-      <main className="simple-page">
-        <div className="simple-page__inner">
-          <h1>TOOLS</h1>
-        </div>
-      </main>
+      <UnderConstruction
+        title="TOOLS"
+        description="This section will provide access to the interactive tools developed for topo.audio, including the Harmonic Sequence Generator, Audio Canvas, and Topology Explorer."
+      />
     </>
   );
 }

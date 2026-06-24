@@ -1,17 +1,14 @@
-// src/pages/ResearchLogPage.jsx
-
 import SiteMenu from "../components/SiteMenu";
+import UnderConstruction from "../components/UnderConstruction";
 
 function ResearchLogPage() {
   return (
     <>
       <SiteMenu />
-
-      <main className="simple-page">
-        <div className="simple-page__inner">
-          <h1>RESEARCH LOG</h1>
-        </div>
-      </main>
+      <UnderConstruction
+        title="RESEARCH LOG"
+        description="This section will document the ongoing development of topo.audio, including literature reviews, methodological decisions, experiments, and project milestones."
+      />
     </>
   );
 }

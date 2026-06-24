@@ -1,17 +1,14 @@
-// src/pages/MethodologyPage.jsx
-
 import SiteMenu from "../components/SiteMenu";
+import UnderConstruction from "../components/UnderConstruction";
 
 function MethodologyPage() {
   return (
     <>
       <SiteMenu />
-
-      <main className="simple-page">
-        <div className="simple-page__inner">
-          <h1>METHODOLOGY</h1>
-        </div>
-      </main>
+      <UnderConstruction
+        title="METHODOLOGY"
+        description="This section will document the methodologies and experimental procedures developed throughout topo.audio."
+      />
     </>
   );
 }
