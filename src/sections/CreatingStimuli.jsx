@@ -130,7 +130,7 @@ function CreatingStimuli() {
                 extensions, and other structural features as new findings emerge from
                 the topology.
               </figcaption>
-            </figure>
+            </figure>s
           </FadeIn>
 
         </SectionGrid>

@@ -44,8 +44,13 @@ function HarmonyGenerator() {
           </FadeIn>
 
           <FadeIn className="prototype-embed">
-            <div className="prototype-placeholder prototype-placeholder--desktop">
-              <span>embedded harmonic sequence generator</span>
+            <div className="prototype-iframe-wrap prototype-placeholder--desktop">
+              <iframe
+                src="https://harmonic-sequence-demo.streamlit.app/?embed=true"
+                title="Harmonic Sequence Generator Demo"
+                className="prototype-iframe"
+                loading="lazy"
+              />
             </div>
 
             <div className="prototype-mobile-fallback">
@@ -53,8 +58,6 @@ function HarmonyGenerator() {
                 This interactive prototype is designed for larger screens.
                 Please view on Desktop.
               </p>
-
-            
             </div>
           </FadeIn>
         </SectionGrid>
