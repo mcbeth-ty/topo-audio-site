@@ -68,7 +68,7 @@ function ResearchProgress() {
 
         <NextSectionLink
           href="#generative-composing"
-          label="GENERATIVE APPLICATIONS"
+          label="TOPOLOGICAL COMPOSING"
         />
       </PageContainer>
     </section>
