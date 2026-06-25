@@ -49,8 +49,13 @@ function TopologyExplorer() {
           </FadeIn>
 
           <FadeIn className="prototype-embed">
-            <div className="prototype-placeholder prototype-placeholder--desktop">
-              <span>embedded topology explorer demo</span>
+            <div className="prototype-iframe-wrap prototype-placeholder--desktop">
+              <iframe
+                src="https://topo-explorer.streamlit.app/?embed=true"
+                title="Topology Explorer Demo"
+                className="prototype-iframe"
+                loading="lazy"
+              />
             </div>
 
             <div className="prototype-mobile-fallback">
