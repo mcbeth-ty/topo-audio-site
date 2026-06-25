@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
 
 function GenerativeComposing() {
   return (
@@ -11,11 +12,9 @@ function GenerativeComposing() {
         <SectionGrid>
           <FadeIn className="applications-copy body-copy">
             <SectionTitle>
-              generative and
+              topological
               <br />
-              compositional
-              <br />
-              applications
+              composition
             </SectionTitle>
 
             <p>
@@ -47,9 +46,9 @@ function GenerativeComposing() {
               Importantly, the objective is not to identify a single harmonic
               recipe for a feeling. The same affective region may contain many
               distinct harmonic realizations that nevertheless share common
-              perceptual characteristics. This raises the possibility of generating new musical material from regions
-              of the topology themselves, producing multiple musical solutions that
-              preserve aspects of an intended emotional experience.
+              perceptual characteristics. This raises the possibility of generating 
+              harmonic structures directly from regions of the topology, producing 
+              multiple musical solutions that preserve aspects of an intended emotional experience.
             </p>
 
             <p>
@@ -63,10 +62,12 @@ function GenerativeComposing() {
             </p>
           </FadeIn>
 
-          <FadeIn className="applications-figure">
-            <div className="applications-placeholder">
-              generative topology diagram
-            </div>
+          <FadeIn className="generative-image-wrap">
+            <LightboxImage
+              src="/diagrams/generative.png"
+              alt="generative applications diagram"
+              className="generative-image"
+            />
           </FadeIn>
         </SectionGrid>
 

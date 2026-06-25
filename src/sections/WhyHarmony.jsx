@@ -52,7 +52,7 @@ function WhyHarmony() {
             />
 
             <p className="why-caption">
-              Halo Reborn by composer Martin O'Donnell -
+              Intro bars of Halo Reborn by composer Martin O'Donnell -
 
               texture and expression add something to a harmonic event, but
               something remains even without it

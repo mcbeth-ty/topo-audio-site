@@ -3,6 +3,8 @@ import PageContainer from "../components/PageContainer";
 import SectionGrid from "../components/SectionGrid";
 import SectionTitle from "../components/SectionTitle";
 import NextSectionLink from "../components/NextSectionLink";
+import LightboxImage from "../components/LightboxImage";
+
 
 function Ethics() {
   return (
@@ -55,10 +57,12 @@ function Ethics() {
             </p>
           </FadeIn>
 
-          <FadeIn className="ethics-figure">
-            <div className="ethics-placeholder">
-              responsible development diagram
-            </div>
+          <FadeIn className="ethics-image-wrap">
+            <LightboxImage
+              src="/diagrams/ethics.png"
+              alt="Ethics and responsible development diagram"
+              className="ethics-image"
+            />
           </FadeIn>
         </SectionGrid>
 

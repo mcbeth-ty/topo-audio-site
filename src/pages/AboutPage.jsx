@@ -94,7 +94,7 @@ function AboutPage() {
                 Perception
               </p>
 
-              <p>
+              {/* <p>
                 IMDB
                 <br />
                 GitHub
@@ -102,7 +102,7 @@ function AboutPage() {
                 CV
                 <br />
                 Contact
-              </p>
+              </p> */}
             </aside>
           </section>
         </div>

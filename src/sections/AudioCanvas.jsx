@@ -21,9 +21,9 @@ function AudioCanvas() {
           <FadeIn className="prototype-copy body-copy">
             <p>
               Audio Canvas is the primary perceptual mapping tool
-              used in topo.audio. This version uses the Vector_v1 methodology, where
+              used in topo.audio. This version uses the Vector_v2 methodology, where
               harmonic samples are articulated as directional movements within a
-              space defined by stability and brightness.
+              space defined by valence and arrival.
             </p>
 
             <p>

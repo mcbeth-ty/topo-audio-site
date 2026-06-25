@@ -103,7 +103,7 @@ export const sections = [
   },
   {
     id: "generative-composing",
-    label: "GENERATIVE / COMPOSING APPLICATIONS",
+    label: "TOPOLOGICAL COMPOSITION",
     marker: "dot",
     tone: "secondary",
   },

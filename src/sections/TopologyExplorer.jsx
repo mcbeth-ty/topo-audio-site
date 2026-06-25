@@ -38,9 +38,11 @@ function TopologyExplorer() {
             </p>
 
             <p>
-              This demo includes approximately fifty sample sets generated using the
-              Line_v1 methodology. At this scale, the interface already begins to reveal
-              recurring structures and regions of agreement. As the dataset grows to
+              This demo includes approximately 28 observations generated using the
+              Vector_v2 methodology. At this scale, the interface already begins to reveal
+              some recurring structures and regions of agreement, but because this topology
+              is so small, meaningful groupings are limited. 
+              As the dataset grows to
               hundreds or thousands of observations, more sophisticated forms of
               analysis—including dynamic clustering, topology comparison, and
               cross-scale synthesis—become increasingly meaningful.

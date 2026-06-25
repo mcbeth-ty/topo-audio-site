@@ -87,7 +87,7 @@ function About() {
               Perception
             </p>
 
-            <p>
+            {/* <p>
               IMDB
               <br />
               GitHub
@@ -95,7 +95,7 @@ function About() {
               CV
               <br />
               Contact
-            </p>
+            </p> */}
           </FadeIn>
         </SectionGrid>
       </PageContainer>
