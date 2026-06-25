@@ -1665,7 +1665,20 @@ h3 {
   }
 
   .sidebar {
+    display: block;
+    width: 0;
+    height: 0;
+  }
+
+  .sidebar__nav {
     display: none;
+  }
+
+  .sidebar__brand-group {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 60;
   }
 
   main {
