@@ -10,7 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Ping Streamlit apps
+      - name: Install Playwright
         run: |
-          wget --timeout=60 --tries=2 --spider https://harmonic-sequence-demo.streamlit.app/ || true
-          wget --timeout=60 --tries=2 --spider https://topo-explorer.streamlit.app/ || true
+          npm init -y
+          npm install playwright
+          npx playwright install chromium
+
+      - name: Visit Streamlit apps
+        run: |
+          node <<'EOF'
+          const { chromium } = require('playwright');
+
+          const urls = [
+            'https://harmonic-sequence-demo.streamlit.app/',
+            'https://topo-explorer.streamlit.app/'
+          ];
+
+          (async () => {
+            const browser = await chromium.launch();
+            const page = await browser.newPage();
+
+            for (const url of urls) {
+              console.log(`Visiting ${url}`);
+              await page.goto(url, { waitUntil: 'networkidle', timeout: 120000 });
+              await page.waitForTimeout(30000);
+            }
+
+            await browser.close();
+          })();
+          EOF
