@@ -2656,3 +2656,7 @@ h3 {
   color: #f1f1f1;
   text-decoration: underline;
 }
+
+.prototype-iframe--audio-canvas {
+  height: calc(min(85vh, 980px) );
+}

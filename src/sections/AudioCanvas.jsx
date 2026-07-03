@@ -48,7 +48,7 @@ function AudioCanvas() {
               <iframe
                 src="/audio-canvas-demo/index.html"
                 title="Audio Canvas Demo"
-                className="prototype-iframe"
+                className="prototype-iframe prototype-iframe--audio-canvas"
                 loading="lazy"
               />
             </div>
