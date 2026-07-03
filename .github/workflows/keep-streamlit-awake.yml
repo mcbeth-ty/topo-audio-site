@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Ping Streamlit apps
         run: |
-          curl -L --max-time 60 https://harmonic-sequence-demo.streamlit.app/
-          curl -L --max-time 60 https://topo-explorer.streamlit.app/
+          wget --timeout=60 --tries=2 --spider https://harmonic-sequence-demo.streamlit.app/ || true
+          wget --timeout=60 --tries=2 --spider https://topo-explorer.streamlit.app/ || true
