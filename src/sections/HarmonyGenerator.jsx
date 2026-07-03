@@ -44,13 +44,28 @@ function HarmonyGenerator() {
           </FadeIn>
 
           <FadeIn className="prototype-embed">
-            <div className="prototype-iframe-wrap prototype-placeholder--desktop">
+            <div className="prototype-iframe-wrap prototype-iframe-wrap--desktop">
               <iframe
                 src="https://harmonic-sequence-demo.streamlit.app/?embed=true"
                 title="Harmonic Sequence Generator Demo"
                 className="prototype-iframe"
                 loading="lazy"
               />
+
+              <div className="prototype-launch-footer">
+                <span>Live prototype hosted on Streamlit Cloud.</span>
+                <span>
+                  If the app is asleep,{" "}
+                  <a
+                    href="https://harmonic-sequence-demo.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    open in new tab
+                  </a>
+                  and refresh. The app should reload in about 15-20 seconds.
+                </span>
+              </div>
             </div>
 
             <div className="prototype-mobile-fallback">
