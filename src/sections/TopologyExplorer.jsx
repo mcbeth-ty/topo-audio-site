@@ -13,39 +13,46 @@ function TopologyExplorer() {
               src="/diagrams/tools-3.svg"
               alt=""
               className="prototype-tools-icon"
-            />              
+            />
             <div className="prototype-kicker">interactive prototype / 03</div>
             <h1>topology explorer</h1>
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
             <p>
-              Topology Explorer is the analysis environment of topo.audio. Its role is to
-              aggregate perceptual data collected through Audio Canvas and
-              synthesize it into navigable topologies. By filtering and combining
-              different participants, methodologies, and stimulus datasets, the software
-              allows topologies to be constructed from many possible perspectives.
+              Topology Explorer is the central analysis environment of topo.audio.
+              It brings together perceptual observations, listener configurations,
+              stimulus datasets, and harmonic metadata so that topologies can be
+              constructed and investigated fluidly rather than through disconnected
+              analysis steps.
             </p>
 
             <p>
-              The current version focuses on exploratory analysis and early topology
-              construction. It provides tools for inspecting trajectories, identifying
-              regions, latent axes, and clusters, and tracing perceptual structures back to the
-              harmonic samples and metadata that generated them. Development is
-              ongoing, with future versions expanding toward higher-dimensional
-              topology construction, cross-method synthesis, and interactive models
-              that can be explored directly through listening.
+              The interface can filter and combine participants, methods, and
+              datasets; inspect individual observations; generate distance
+              structures and embeddings; identify clusters and latent axes; and
+              trace any region back to the sounds and harmonic parameters
+              associated with it.
+            </p>
+
+            <p>
+              Its importance is not only visual. By keeping listening, spatial
+              structure, and harmonic data in one environment, Topology Explorer
+              supports an iterative scale of research that is difficult to achieve
+              through static figures alone. A pattern can be heard, filtered,
+              tested against another participant configuration, and used to define
+              a new stimulus query without leaving the same pipeline.
             </p>
 
             <p>
               This demo includes approximately 28 observations generated using the
-              Vector_v2 methodology. At this scale, the interface already begins to reveal
-              some recurring structures and regions of agreement, but because this topology
-              is so small, meaningful groupings are limited. 
-              As the dataset grows to
-              hundreds or thousands of observations, more sophisticated forms of
-              analysis—including dynamic clustering, topology comparison, and
-              cross-scale synthesis—become increasingly meaningful.
+              Vector_v2 methodology. At this scale, the interface already begins to
+              reveal some recurring structures and regions of agreement, but
+              because this topology is so small, meaningful groupings are limited.
+              As the dataset grows to hundreds or thousands of observations, more
+              sophisticated forms of analysis—including dynamic clustering,
+              topology comparison, and cross-scale synthesis—become increasingly
+              meaningful.
             </p>
 
           </FadeIn>
@@ -79,7 +86,7 @@ function TopologyExplorer() {
                 This interactive prototype is designed for larger screens.
                 Please view on Desktop.
               </p>
-            </div>            
+            </div>
           </FadeIn>
         </SectionGrid>
 

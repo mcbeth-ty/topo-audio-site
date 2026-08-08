@@ -22,39 +22,31 @@ function About() {
 
           <FadeIn className="about-copy body-copy">
             <p>
-              I’m Tyler McBeth, an independent designer, composer, and
-              researcher based in Tokyo, Japan.
+              I’m Tyler McBeth, an independent designer, composer, and researcher
+              based in Japan.
             </p>
 
             <p>
-              My background spans architecture, computational design, and music
-              composition. I received a Bachelor of Science in Architecture from
-              Texas Tech University and a Master of Engineering in Architecture
-              from the University of Tokyo, where my work focused heavily on
-              computation, methods, parametric systems, and the representation of
-              complex relationships through geometry and data.
+              My background spans architecture, computational design, and music.
+              I studied architecture at Texas Tech University and the University
+              of Tokyo, then worked professionally in architectural design while
+              developing computational and parametric workflows for representing
+              complex systems.
             </p>
 
             <p>
-              Alongside my work in design and computation, I remain an active
-              composer, contributing music to film and independent projects while
-              maintaining an ongoing interest in how harmony gives rise to
-              emotional experience.
+              In parallel, I have continued to work as a composer across film and
+              independent music. Topo.audio emerged from the overlap between these
+              practices: spatial and relational thinking from architecture,
+              computational methods from design research, and a composer's
+              interest in the difficult-to-describe structure of musical feeling.
             </p>
 
             <p>
-              Topo.audio emerged from this intersection. It combines my
-              interests in music, perception, computation, and spatial thinking
-              in an attempt to investigate whether harmonic affect possesses
-              latent organization that can be observed, modeled, and ultimately
-              explored in new ways.
-            </p>
-
-            <p>
-              This website documents the ongoing development of that
-              investigation. It serves simultaneously as a research proposal, an
-              open laboratory, and a growing collection of ideas, methodologies,
-              and tools surrounding the study of harmonic affect.
+              The project is currently being developed independently as an open
+              research platform. This website documents the evolving hypothesis,
+              literature, methodology, experiments, software instruments, and
+              compositional applications as they develop.
             </p>
           </FadeIn>
 
@@ -64,7 +56,7 @@ function About() {
             <p>
               Composer<br />
               Designer <br />
-              
+
               <br />
               Japan
             </p>

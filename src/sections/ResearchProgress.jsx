@@ -17,18 +17,20 @@ function ResearchProgress() {
             <h3>Current Status</h3>
 
             <ul className="research-checklist">
-              <li>Harmonic stimulus generation</li>
-              <li>Perceptual mapping interfaces</li>
-              <li>Data archival and metadata systems</li>
-              <li>Early topology analysis tools</li>
+              <li>Parametric harmonic stimulus generation</li>
+              <li>Multiple Audio Canvas perceptual methodologies</li>
+              <li>Linked audio, MIDI, trial, and harmonic metadata</li>
+              <li>Topology Explorer analysis environment</li>
+              <li>Initial multidimensional scaling and clustering studies</li>
             </ul>
 
             <h3>In Progress</h3>
 
             <ul className="research-progress-list">
-              <li>Topology construction</li>
-              <li>Cross-method synthesis</li>
+              <li>Systematic participant studies</li>
+              <li>Cross-method and individual-differences analysis</li>
               <li>Multi-scale perceptual models</li>
+              <li>Topology-guided stimulus generation and composition</li>
             </ul>
           </FadeIn>
 
@@ -36,32 +38,32 @@ function ResearchProgress() {
             <h3>future directions</h3>
 
             <p>
-              The immediate objective of topo.audio is to investigate whether
-              stable topological structures of harmonic affect can be
-              constructed from listener perceptions. If such structures emerge,
-              they may open several avenues for future research.
+              The immediate research objective is to determine which perceptual
+              structures remain reliable across repeated trials, participants,
+              methods, and harmonic datasets.
             </p>
 
             <p>
-              As datasets grow, topologies can be constructed from different
-              participants, cultures, methodologies, and timescales. Comparing
-              these landscapes may reveal which aspects of harmonic affect are
-              broadly shared and which are shaped by personal history, cultural
-              exposure, or musical background.
+              As the evidence base grows, the project can move from exploratory
+              maps toward stronger comparisons: individual versus collective
+              spaces, expert versus non-expert listeners, different cultural and
+              musical backgrounds, free versus dimension-guided tasks, and short
+              versus longer musical scales.
             </p>
 
             <p>
-              Future development also includes expanding the range of perceptual
-              methodologies and musical materials. Longer phrases, richer
-              harmonic vocabularies, alternative tuning systems, and additional
-              forms of articulation may reveal structures that remain
-              inaccessible through short harmonic samples alone.
+              The musical vocabulary can expand in parallel. Richer harmonic
+              languages, alternative tuning systems, melodic-harmonic gestures,
+              longer phrases, and eventually timbral and formal dimensions can
+              test which structures persist beyond the project's initial
+              laboratory conditions.
             </p>
 
             <p>
-              More broadly, topo.audio asks whether complex emotional
-              experiences possess latent perceptual organization that can be
-              represented, explored, and studied as navigable structures.
+              More broadly, topo.audio asks whether musical experience can be
+              studied as a family of relational landscapes: structures that can
+              be measured empirically, compared computationally, heard directly,
+              and used creatively.
             </p>
           </FadeIn>
         </SectionGrid>

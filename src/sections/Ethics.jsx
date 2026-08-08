@@ -21,39 +21,40 @@ function Ethics() {
             </SectionTitle>
 
             <p>
-              Topo.audio investigates the relationship between harmony and
-              affect, a subject that inevitably raises questions about the
-              responsible use of emotionally informed technologies.
+              Topo.audio studies affective musical experience, which makes the
+              conditions under which perceptual data is collected and used part
+              of the research itself.
             </p>
 
             <p>
-              The project recognizes that sufficiently detailed models of musical
-              affect could eventually contribute to systems capable of producing
-              highly compelling emotional experiences. Such possibilities are
-              not inherently undesirable and may lead to valuable creative,
-              educational, and therapeutic applications. At the same time, they
-              also raise questions concerning persuasion, manipulation, and the
-              responsible development of emotionally aware generative systems.
+              Listener responses are contributions of human experience rather
+              than neutral raw material. Participant studies therefore require
+              informed consent, transparent descriptions of data use, appropriate
+              anonymization, and careful decisions about what should be retained,
+              shared, or made public.
             </p>
 
             <p>
-              The project also recognizes that perceptual datasets may
-              themselves become valuable research assets. Listener responses
-              represent human experiences contributed by participants and should
-              be handled transparently and responsibly. 
-            </p>  
+              Interpretation requires similar caution. A collective topology
+              should not be presented as a universal map of human emotion, and
+              differences between listeners or groups should not automatically be
+              treated as noise or deficiency. Cultural exposure, musical training,
+              personal history, task framing, and experimental context may all
+              shape the structures that emerge.
+            </p>
+
             <p className="body-highlight">
-              Topo.audio therefore
-              emphasizes informed participation, careful stewardship of
-              perceptual data, and open discussion surrounding the implications
-              of affective modeling technologies.
+              Topo.audio therefore treats uncertainty, individual variation, and
+              the limits of generalization as properties to be represented rather
+              than hidden.
             </p>
-            
 
             <p>
-              Ultimately, the objective of topo.audio is not to optimize
-              emotional influence, but to better understand the perceptual
-              structures through which musical experiences are organized.
+              The project also distinguishes analytical and creative augmentation
+              from systems designed to optimize emotional influence. Its aim is to
+              make relationships in musical perception more observable and
+              explorable, while keeping human judgment central to both
+              interpretation and composition.
             </p>
           </FadeIn>
 

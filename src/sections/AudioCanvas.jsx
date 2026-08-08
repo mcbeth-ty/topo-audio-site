@@ -13,32 +13,34 @@ function AudioCanvas() {
               src="/diagrams/tools-2.svg"
               alt=""
               className="prototype-tools-icon"
-            />            
+            />
             <div className="prototype-kicker">interactive prototype / 02</div>
             <h1>audio canvas</h1>
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
             <p>
-              Audio Canvas is the primary perceptual mapping tool
-              used in topo.audio. This version uses the Vector_v2 methodology, where
-              harmonic samples are articulated as directional movements within a
-              space defined by valence and arrival.
+              Audio Canvas is the perceptual data-collection environment of
+              topo.audio. The current Vector methodology asks listeners to
+              represent harmonic events as directional movements within an
+              explicit space.
             </p>
 
             <p>
-              Click a vector to hear its associated sample. Drag vectors to reposition
-              them according to how they feel relative to one another. Direction
-              represents the perceived character of the movement, while length
-              represents its intensity. As vectors are adjusted, a helper in the lower-right
-              corner provides a textual interpretation of the current placement.
+              Click a vector to hear its associated sample. Drag vectors to
+              reposition them according to how they feel relative to one another.
+              Direction represents the perceived character of the movement, while
+              length represents its intensity. As vectors are adjusted, a helper in
+              the lower-right corner provides a textual interpretation of the
+              current placement.
             </p>
 
             <p>
-              There are no correct answers. The objective is simply to organize the
-              samples into a perceptual landscape that feels internally consistent.
-              These spatial relationships become the foundation from which topological
-              models are constructed. Begin by exploring the initial arrangement below.
+              There are no correct answers. The objective is simply to organize
+              the samples into a perceptual landscape that feels internally
+              consistent. These spatial relationships become the foundation from
+              which topological models are constructed. Begin by exploring the
+              initial arrangement below.
             </p>
 
           </FadeIn>
@@ -59,7 +61,7 @@ function AudioCanvas() {
                 Please view on Desktop.
               </p>
 
-            
+
             </div>
           </FadeIn>
         </SectionGrid>

@@ -25,60 +25,39 @@ function CollectingPerceptions() {
             </SectionTitle>
 
             <p>
-              The central challenge of topo.audio is transforming subjective
-              musical experience into data without immediately reducing it to
-              language.
+              The central experimental challenge is turning subjective musical
+              experience into data without immediately reducing it to fixed
+              language. Topo.audio addresses this through a growing family of
+              listening instruments called Audio Canvas.
+            </p>
+
+            <blockquote className="pull-quote">
+              Rather than asking only what emotion a sample represents, these
+              interfaces ask listeners to articulate how harmonic experiences
+              relate.
+            </blockquote>
+
+            <p>
+              Different tools capture different aspects of the landscape. Spatial
+              arrangement measures proximity and grouping. Pairwise or adaptive
+              comparisons improve local resolution. Line and vector methods
+              represent perceived direction, magnitude, arrival, destabilization,
+              brightness, valence, tension, or other candidate qualities.
             </p>
 
             <p>
-              To address this, the project uses a collection of spatial
-              listening tools collectively referred to as Audio Canvas. 
-              
-               <blockquote className="pull-quote"   >
-                Rather than asking participants to describe emotions directly, these
-              tools ask listeners to articulate how harmonic experiences relate
-              to one another through spatial judgments.
-              </blockquote>
-              
+              These methods do not all serve the same purpose. Some are designed
+              for discovery; others test explicit hypotheses. Their overlap allows
+              the project to ask whether a structure survives changes in wording,
+              interface, and task.
             </p>
 
             <p>
-              Each method captures a different aspect of perception. Some focus
-              on similarity and organization, while others capture movement,
-              direction, intensity, or transitions between affective states. {" "}
               <span className="body-highlight">
-              Together, they provide multiple perspectives on the same
-              underlying perceptual landscape.
-                </span>
-            </p>
-
-            <p>
-              The simplest methods involve placing or arranging samples within a
-              shared space. More advanced methods ask participants to draw
-              relationships between samples. In the 2-Point Line method,
-              listeners represent a harmonic event as a trajectory between two
-              perceived states. In the Vector method, listeners articulate
-              perceived movement along chosen perceptual dimensions such as
-              brightness, stability, tension, or other qualities under
-              investigation.
-            </p>
-
-            <p>
-              Importantly, these methods are not intended to define emotion in
-              advance. The purpose is to collect relational information that can
-              later be examined collectively. A listener may struggle to explain
-              a feeling verbally, yet still reliably express how one harmonic
-              experience differs from another.
-            </p>
-
-            <p>
-                <span className="body-highlight">   
-              Audio Canvas should therefore be understood not as a single
-              experiment, but as a growing family of perceptual instruments
-              designed to reveal different aspects of harmonic affect. Each
-              method contributes a unique perspective, while the topology
-              emerges from their collective observations.
-                </span>
+                Audio Canvas is therefore not one experiment. It is an evolving set
+                of perceptual instruments through which multiple views of harmonic
+                experience can be collected and compared.
+              </span>
             </p>
           </FadeIn>
 

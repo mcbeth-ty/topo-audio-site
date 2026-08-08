@@ -1,130 +1,876 @@
+export const bibliographyMeta = {
+  version: "2.0",
+  edition: "Saturation-search edition",
+  totalSources: 148,
+  essentialSources: 83,
+  newSources: 42,
+  description: "A protective literature map for the study of felt musical form, controlled structural complexity, relational reconstruction, and cross-scale transformation.",
+};
+
 export const bibliographyGroups = [
   {
-    title: "Foundational Works",
-    description: "Core references for musical expectation, tonal cognition, and perceptual space.",
+    title: "Closest precedents and direct overlap",
+    established: "Listener-derived spaces already exist for musical emotion, chord relations, tonal organization, timbre, and minimal expressive tones. Controlled cadences, modulation, chord context, and affectively navigable harmonic interfaces also have direct precedents.",
+    open: "A cumulative program that reconstructs minimally constrained felt relations from acoustically restricted musical structures, follows those structures into larger contexts, compares the resulting relation systems across scale, and validates predictions with newly composed material.",
     items: [
       {
-        key: true,
-        citation: "Huron, D. (2006). Sweet Anticipation: Music and the Psychology of Expectation. Cambridge, MA: MIT Press.",
-        tags: ["Expectation", "Emotion", "Perception"]
+        rating: 5,
+        citation: "Bigand, E., Vieillard, S., Madurell, F., Marozeau, J., & Dacquet, A. (2005). Multidimensional scaling of emotional responses to music: The effect of musical expertise and of the duration of the excerpts. Cognition and Emotion, 19(8), 1113-1139.",
+        note: "Direct methodological ancestor: listener-derived dissimilarities, MDS, clustering, bootstrap stability, expertise and duration.",
       },
       {
-        key: true,
-        citation: "Meyer, L. B. (1956). Emotion and Meaning in Music. Chicago: University of Chicago Press.",
-        tags: ["Expectation", "Meaning", "Emotion"]
+        rating: 5,
+        new: true,
+        citation: "Cong, N. (2016). A Multi-Dimensional Analytical Model for Musical Harmony Perception (Doctoral dissertation, University of Sheffield).",
+        note: "A crucial controlled-harmony predecessor separating sensory dissonance, tonal ambiguity, gloom, and tension. Its dimensions are specified rather than relationally discovered.",
       },
       {
-        key: true,
-        citation: "Krumhansl, C. L. (1990). Cognitive Foundations of Musical Pitch. Oxford University Press.",
-        tags: ["Pitch", "Tonal cognition", "Perception"]
+        rating: 5,
+        citation: "Cowen, A. S., Fang, X., Sauter, D., & Keltner, D. (2020). What music makes us feel: At least 13 dimensions organize subjective experiences associated with music across different cultures. Proceedings of the National Academy of Sciences, 117(4), 1924-1934.",
+        note: "Strong evidence that musical affect is richer than a two-axis circumplex.",
       },
       {
-        key: true,
-        citation: "Krumhansl, C. L., & Kessler, E. J. (1982). Tracing the dynamic changes in perceived tonal organization in a spatial representation of musical keys. Psychological Review, 89(4), 334–368.",
-        tags: ["Tonal space", "MDS", "Perception"]
+        rating: 5,
+        citation: "Dellacherie, D., et al. (2011). Impaired recognition of musical emotion after temporal-lobe resection: A multidimensional-scaling approach. Cortex.",
+        note: "Direct clinical continuation of Bigand-style emotional dissimilarity and MDS methodology.",
       },
       {
-        citation: "Krumhansl, C. L., & Shepard, R. N. (1979). Quantification of the hierarchy of tonal functions within a diatonic context. Journal of Experimental Psychology: Human Perception and Performance, 5(4), 579–594.",
-        tags: ["Key profiles", "Tonal hierarchy"]
+        rating: 5,
+        citation: "Eerola, T., Ferrer, R., & Alluri, V. (2012). Timbre and affect dimensions: Evidence from affect and similarity ratings and acoustic correlates of isolated instrument sounds. Music Perception, 30(1), 49- 70.",
+        note: "Model for triangulating similarity data, affect ratings, and measurable stimulus features.",
       },
       {
+        rating: 5,
+        new: true,
+        citation: "Korsakova-Kreyn, M., & Dowling, W. J. (2014). Emotional processing in music: Study in affective responses to tonal modulation in controlled harmonic progressions and real music. Psychomusicology: Music, Mind, and Brain, 24(1), 4-20.",
+        note: "Directly links controlled harmonic movement and modulation to affective response; a major predecessor for treating motion through tonal space as experienced motion.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Krumhansl, C. L., Bharucha, J. J., & Kessler, E. J. (1982). Perceived harmonic structure of chords in three related musical keys. Journal of Experimental Psychology: Human Perception and Performance, 8(1), 24-36.",
+        note: "A central structural ancestor: ordered chord-pair judgments, contextual asymmetry, MDS, and clustering. It establishes listener-derived chord-relation geometry, though not affective similarity.",
+      },
+      {
+        rating: 5,
+        citation: "Lahdelma, I., & Eerola, T. (2016). Single chords convey distinct emotional qualities to both naïve and expert listeners. Psychology of Music, 44(1), 37-54.",
+        note: "Closest chord-level affect study; shows rich affective differentiation beyond simple major/minor valence.",
+      },
+      {
+        rating: 5,
+        citation: "Pereira, et al. (2026). Designing emotionally navigable harmonic spaces for interactive music generation. Proceedings/workshop paper, ICCC 2026.",
+        note: "Immediate overlap audit: interactive affective chord space and trajectory-based harmonic navigation; differs by deriving coordinates computationally rather than from relational listener data.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Smit, E. A., Milne, A. J., Dean, R. T., & Weidemann, G. (2020). Perceived emotions of harmonic cadences. Music & Science, 3.",
+        note: "Controlled cadences were positioned in valence-arousal space. This strongly overlaps the stimulus domain, while retaining predefined affective axes rather than reconstructing an unconstrained relation space.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Spreckelmeyer, K. N., Altenmüller, E., Colonius, H., & Münte, T. F. (2013). Preattentive processing of emotional musical tones: A multidimensional scaling and ERP study. Frontiers in Psychology, 4, 656.",
+        note: "Shows that relational judgments and multidimensional reconstruction can be applied even to minimal emotionally performed tones. The affective cues are primarily expressive/timbral rather than abstract structural relations.",
+      },
+      {
+        rating: 5,
+        citation: "Wedin, L. (1972). A multidimensional study of perceptual-emotional qualities in music. Scandinavian Journal of Psychology, 13, 241-257.",
+        note: "Early multidimensional treatment of musical expressive/emotional qualities.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Zhang, J., Li, L., Wei, L., & Wang, H. (2025). Moderating effects of chord progressions on the emotional experience of major and minor chords. Acta Psychologica, 253, 104690.",
+        note: "Recent direct evidence that progression context changes chord pleasantness through stability and tension. It supports transition-centered and context-sensitive designs.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Daikoku, T., Tanaka, M., & Yamawaki, S. (2024). Bodily maps of uncertainty and surprise in musical chord progression and the underlying emotional response. iScience, 27(4), 109498.",
+        note: "Connects chord-progressive uncertainty and surprise with emotion and bodily sensation; important explanatory competition for destabilization, intensity, and movement.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Oechslin, M. S., et al. (2012). Degree of musical expertise modulates higher-order brain functioning and the organization of individual chord-similarity maps. Frontiers in Psychology, 3, 142.",
+        note: "Uses complete pairwise chord similarity, nonmetric MDS, Procrustes alignment, and individual maps; a close methodological neighbor for chord-space reconstruction.",
+      },
+      {
+        rating: 3,
+        citation: "Canazza, S., De Poli, G., Roda, A., Vidolin, A., & Zanon, P. (2001). Kinematics-energy space for expressive interaction in music performance. Proceedings of MOSART.",
+        note: "Relevant precedent for movement/kinematic and energy dimensions in musical expressivity.",
+      },
+      {
+        rating: 3,
+        citation: "Carvalho, N., & Bernardes, G. (2023). Exploring latent spaces of tonal music using variational autoencoders. arXiv:2311.03621.",
+        note: "Corpus-derived tonal latent spaces; useful contrast with listener-derived affective structure.",
+      },
+      {
+        rating: 3,
+        citation: "Himpel, B. (2022). Geometry of music perception. arXiv:2207.11035.",
+        note: "Formal geometric model of chord space, voice leading, roughness, harmonicity, and resolution; theoretical comparison space.",
+      },
+      {
+        rating: 3,
+        citation: "Watt, R. J., & Ash, R. L. (1998). A psychological investigation of meaning in music. Musicae Scientiae, 2, 33-54.",
+        note: "Short excerpts, listener categorization, and musical meaning; important precursor to rapid emotional organization.",
+      },
+    ],
+  },
+  {
+    title: "Music emotion and affective theory",
+    established: "Musical affect is multidimensional, mechanism-dependent, culturally situated, and not exhausted by simple basic-emotion categories or valence-arousal.",
+    open: "How broader felt musical character - including movement, stability, openness, suspension, and transformation - relates to conventional emotion models across controlled structural scales.",
+    items: [
+      {
+        rating: 5,
+        citation: "Huron, D. (2006). Sweet Anticipation: Music and the Psychology of Expectation. MIT Press.",
+        note: "Expectation, prediction, tension, reaction, appraisal, and statistical regularities.",
+      },
+      {
+        rating: 5,
+        citation: "Juslin, P. N. (2013). From everyday emotions to aesthetic emotions: Towards a unified theory of musical emotions. Physics of Life Reviews, 10(3), 235-266.",
+        note: "Expanded BRECVEMA framework and aesthetic emotion account.",
+      },
+      {
+        rating: 5,
+        citation: "Juslin, P. N., & Sloboda, J. A. (Eds.). (2010). Handbook of Music and Emotion: Theory, Research, Applications. Oxford University Press.",
+        note: "Broad field reference; mechanisms, expression, induction, measurement, individual differences.",
+      },
+      {
+        rating: 5,
+        citation: "Juslin, P. N., & Västfjäll, D. (2008). Emotional responses to music: The need to consider underlying mechanisms. Behavioral and Brain Sciences, 31(5), 559-575.",
+        note: "Introduces a mechanisms-based framework for music-induced emotion.",
+      },
+      {
+        rating: 5,
+        citation: "Meyer, L. B. (1956). Emotion and Meaning in Music. University of Chicago Press.",
+        note: "Foundational expectation-based account of musical meaning and emotion.",
+      },
+      {
+        rating: 5,
+        citation: "Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39(6), 1161-1178.",
+        note: "Foundational valence-arousal model that later music research often adopts or critiques.",
+      },
+      {
+        rating: 5,
+        citation: "Scherer, K. R., & Zentner, M. R. (2001). Emotional effects of music: Production rules. In Music and Emotion: Theory and Research.",
+        note: "Clarifies perceived vs felt emotion and production-rule approaches.",
+      },
+      {
+        rating: 5,
+        citation: "Trost, W., Ethofer, T., Zentner, M., & Vuilleumier, P. (2012). Mapping aesthetic musical emotions in the brain. Cerebral Cortex, 22(12), 2769-2783.",
+        note: "Higher-order organization and neural correlates of music-specific emotions.",
+      },
+      {
+        rating: 5,
+        citation: "Zentner, M., Grandjean, D., & Scherer, K. R. (2008). Emotions evoked by the sound of music: Characterization, classification, and measurement. Emotion, 8(4), 494-521.",
+        note: "Introduces the Geneva Emotional Music Scale (GEMS).",
+      },
+      {
+        rating: 3,
+        citation: "Blood, A. J., & Zatorre, R. J. (2001). Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion. PNAS, 98(20), 11818-11823.",
+        note: "Reward-system evidence; important for pleasure, chills, and negative-valence enjoyment.",
+      },
+      {
+        rating: 3,
+        citation: "Eerola, T., & Vuoskoski, J. K. (2011). A comparison of the discrete and dimensional models of emotion in music. Psychology of Music, 39(1), 18-49.",
+        note: "Direct comparison of categorical and dimensional representation.",
+      },
+      {
+        rating: 3,
+        citation: "Gabrielsson, A. (2011). Strong Experiences with Music: Music Is Much More Than Just Music. Oxford University Press.",
+        note: "Ecologically rich evidence for complex, intense, personally situated musical emotion.",
+      },
+      {
+        rating: 3,
+        citation: "Krumhansl, C. L. (1997). An exploratory study of musical emotions and psychophysiology. Canadian Journal of Experimental Psychology, 51(4), 336-352.",
+        note: "Links subjective musical emotion categories with physiological responses.",
+      },
+      {
+        rating: 3,
+        citation: "Schaefer, H. E. (2017). Music-evoked emotions: Current studies. Frontiers in Neuroscience, 11, 600.",
+        note: "Accessible review of behavioral, neural, and theoretical music-emotion work.",
+      },
+      {
+        rating: 3,
+        citation: "Schubert, E. (1996). Enjoyment of negative emotions in music: An associative network explanation. Psychology of Music, 24(1), 18-28.",
+        note: "Addresses why sadness/negative expression need not equal unpleasant experience.",
+      },
+    ],
+  },
+  {
+    title: "Harmony, expectation, tension, and context",
+    established: "Chord quality, consonance, tonal function, expectation, uncertainty, surprise, context, and performance all shape harmonic experience.",
+    open: "How these explanatory factors jointly account for the relational organization listeners construct among controlled events and passages, and where context produces genuinely new organization.",
+    items: [
+      {
+        rating: 5,
+        citation: "Athanasopoulos, G., et al. (2021). Harmonic organisation conveys both universal and culture- specific cues for emotional expression in music. PLoS ONE / related publication.",
+        note: "Essential cultural qualification on harmony-emotion interpretation.",
+      },
+      {
+        rating: 5,
+        citation: "Bigand, E., & Parncutt, R. (1999). Perception of musical tension in long chord sequences. Psychological Research, 62, 237-254.",
+        note: "Key work on tension across chord sequences and hierarchical structure.",
+      },
+      {
+        rating: 5,
+        citation: "Bowling, D. L., Gill, K., Choi, J. D., Prinz, J., & Purves, D. (2010/2013). Major and minor music compared to excited and subdued speech / A vocal basis for the affective character of musical mode. Journal/Frontiers sources.",
+        note: "Mechanistic account connecting mode affect with speech prosody; verify exact preferred citation in review.",
+      },
+      {
+        rating: 5,
+        citation: "Farbood, M. M. (2012). A parametric, temporal model of musical tension. Music Perception, 29(4), 387-428.",
+        note: "Important temporal model combining harmony, dynamics, register, tempo, and other cues.",
+      },
+      {
+        rating: 5,
+        citation: "Hevner, K. (1935). The affective character of the major and minor modes in music. American Journal of Psychology, 47, 103-118.",
+        note: "Classic empirical major/minor affect study.",
+      },
+      {
+        rating: 5,
+        citation: "Kastner, M. P., & Crowder, R. G. (1990). Perception of the major/minor distinction: Emotional connotations in young children. Music Perception, 8(2), 189-201.",
+        note: "Developmental evidence for mode-emotion associations.",
+      },
+      {
+        rating: 5,
+        citation: "Lerdahl, F., & Krumhansl, C. L. (2007). Modeling tonal tension. Music Perception, 24(4), 329-366.",
+        note: "Formal and empirical model connecting tonal pitch space to perceived tension.",
+      },
+      {
+        rating: 5,
+        citation: "Peretz, I., Gagnon, L., & Bouchard, B. (1998). Music and emotion: Perceptual determinants, immediacy, and isolation after brain damage. Cognition, 68(2), 111-141.",
+        note: "Mode, tempo, rapid emotion recognition, and dissociations from other musical capacities.",
+      },
+      {
+        rating: 5,
+        citation: "Pillay, M., Zhang, T., Li, H., & Spence, C. (2026). Associating (dis)consonance of harmonic intervals with emotional valences: Exploring the visual representation of music through crossmodal associations. Frontiers in Psychology, 17, 1744946.",
+        note: "Recent interval-level affect, consonance, brightness, roughness, and visual association study.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Sakakibara, A. (1993). The effects of deviation from expectation on emotional responses in music [Japanese]. Japanese Journal of Educational Psychology, 41(3), 254-263.",
+        note: "An important Japanese controlled-harmony precedent using synthesized sequences and graded expectancy deviation to study pleasantness and interest.",
+      },
+      {
+        rating: 5,
+        citation: "Smit, E. A., et al. (2022). Major-minor tonality, musical exposure, and emotional connotations in a remote Papua New Guinea community. PLoS ONE, 17, e0269597.",
+        note: "Strong evidence that major/minor valence depends substantially on cultural exposure.",
+      },
+      {
+        rating: 5,
+        citation: "Steinbeis, N., Koelsch, S., & Sloboda, J. A. (2006). The role of harmonic expectancy violations in musical emotions: Evidence from subjective, physiological, and neural responses. Journal of Cognitive Neuroscience, 18(8), 1380-1393.",
+        note: "Direct evidence linking harmonic expectancy violations to felt/physiological/neural response.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Arthurs, Y. (2015). How Musical Context Influences Chord Perception (Doctoral dissertation, University of Sheffield).",
+        note: "A sustained examination of how context changes chord consonance and dissonance; central for distinguishing isolated, embedded, and whole-structure experience.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Bigand, E., Madurell, F., Tillmann, B., & Pineau, M. (1999/1997). Global context effects on musical expectancy. Perception & Psychophysics.",
+        note: "Shows that larger harmonic context changes the functional meaning and expectation of local chords; exact bibliographic year/volume should be normalized during final citation checking.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Jimenez, I., & Kuusi, T. (year to verify). Effects of chord duration on the perceptual salience of chord type and voicing changes.",
+        note: "Demonstrates that duration itself changes which harmonic properties dominate perception; a key control issue for cross-scale studies. Full publication record should be verified.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Navarro-Cáceres, M., Caetano, M., Bernardes, G., Sánchez-Barba, M., & Orio, N. (2020). A computational model of the tonal tension profile of chord progressions. Entropy, 22(11), 1291.",
+        note: "A formal comparison model combining tonal distance, dissonance, voice leading, and temporal organization.",
+      },
+      {
+        rating: 3,
+        citation: "Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. Psychological Review, 127(2), 216-244.",
+        note: "Modern integrative account of consonance, including multiple competing mechanisms.",
+      },
+      {
+        rating: 3,
+        citation: "Kaygusuz, C., & Zuluaga, J. (2018). Impact of intervals on the emotional effect in Western music. arXiv:1812.04723.",
+        note: "Shows key-relative interval distributions predict happy/sad labels better than raw interval jumps.",
+      },
+      {
+        rating: 3,
+        citation: "Parncutt, R. (1989). Harmony: A Psychoacoustical Approach. Springer.",
+        note: "Foundational psychoacoustic model of harmony, roots, salience, and consonance.",
+      },
+      {
+        rating: 3,
+        citation: "Plomp, R., & Levelt, W. J. M. (1965). Tonal consonance and critical bandwidth. Journal of the Acoustical Society of America, 38(4), 548-560.",
+        note: "Classic sensory-dissonance account.",
+      },
+      {
+        rating: 3,
+        citation: "Pressnitzer, D., McAdams, S., Winsberg, S., & Fineberg, J. (2000). Perception of musical tension for nontonal orchestral timbres and aggregate sonorities. Music Perception.",
+        note: "Relevant to tension arising from sonority/timbre apart from tonal function.",
+      },
+      {
+        rating: 3,
+        citation: "Sun, L., et al. (2020). Musical tension associated with violations of hierarchical structure. Frontiers in Human Neuroscience, 14, 578112.",
+        note: "Recent behavioral/neural work on unstable chords and hierarchical violations.",
+      },
+    ],
+  },
+  {
+    title: "Tonal, harmonic, and transformational spaces",
+    established: "Tonal hierarchies, key spaces, chord spaces, transformational systems, and voice-leading geometries are mature research traditions.",
+    open: "The correspondence - and divergence - between formal harmonic geometry and listener-derived felt- relational organization.",
+    items: [
+      {
+        rating: 5,
         citation: "Bharucha, J. J., & Krumhansl, C. L. (1983). The representation of harmonic structure in music: Hierarchies and networks. In M. Clynes (Ed.), Music, Mind, and Brain.",
-        tags: ["Harmony", "Networks", "Cognition"]
+        note: "Harmonic functions represented as structured cognitive networks.",
+      },
+      {
+        rating: 5,
+        citation: "Callender, C., Quinn, I., & Tymoczko, D. (2008). Generalized voice-leading spaces. Science, 320(5874), 346-348.",
+        note: "Formal quotient spaces for chord classes and efficient voice leading.",
+      },
+      {
+        rating: 5,
+        citation: "Krumhansl, C. L. (1990). Cognitive Foundations of Musical Pitch. Oxford University Press.",
+        note: "Central synthesis of tonal hierarchies, key profiles, and cognitive pitch space.",
+      },
+      {
+        rating: 5,
+        citation: "Krumhansl, C. L., & Kessler, E. J. (1982). Tracing the dynamic changes in perceived tonal organization in a spatial representation of musical keys. Psychological Review, 89(4), 334-368.",
+        note: "MDS-like reconstruction of key relations; direct precedent for mapping latent musical organization.",
+      },
+      {
+        rating: 5,
+        citation: "Krumhansl, C. L., & Shepard, R. N. (1979). Quantification of the hierarchy of tonal functions within a diatonic context. Journal of Experimental Psychology: Human Perception and Performance, 5(4), 579-594.",
+        note: "Probe-tone hierarchy and empirical latent tonal structure.",
+      },
+      {
+        rating: 5,
+        citation: "Lerdahl, F. (2001). Tonal Pitch Space. Oxford University Press.",
+        note: "Formal multilevel representation of tonal distance and attraction.",
+      },
+      {
+        rating: 5,
+        citation: "Lewin, D. (1987). Generalized Musical Intervals and Transformations. Yale University Press.",
+        note: "Relational/transformational formalism; useful for representing whole transitions rather than endpoint features.",
+      },
+      {
+        rating: 5,
+        citation: "Tymoczko, D. (2006). The geometry of musical chords. Science, 313(5783), 72-74.",
+        note: "Compact geometric account of chord and voice-leading spaces.",
+      },
+      {
+        rating: 5,
+        citation: "Tymoczko, D. (2011). A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice. Oxford University Press.",
+        note: "Full geometric theory of harmony and voice leading.",
+      },
+      {
+        rating: 3,
+        citation: "Chew, E. (2000). Towards a Mathematical Model of Tonality. Doctoral dissertation, MIT.",
+        note: "Spiral-array representation of pitch, chords, and keys.",
+      },
+      {
+        rating: 3,
+        citation: "Cohn, R. (2012). Audacious Euphony: Chromatic Harmony and the Triad's Second Nature. Oxford University Press.",
+        note: "Neo-Riemannian harmonic relations and transformations; important comparison to perceptual topology.",
+      },
+      {
+        rating: 3,
+        citation: "Janata, P., Birk, J. L., Van Horn, J. D., Leman, M., Tillmann, B., & Bharucha, J. J. (2002). The cortical topography of tonal structures underlying Western music. Science, 298(5601), 2167-2170.",
+        note: "Neural tracking of movement through tonal space.",
+      },
+      {
+        rating: 3,
+        citation: "Shepard, R. N. (1982). Geometrical approximations to the structure of musical pitch. Psychological Review, 89(4), 305-333.",
+        note: "Foundational geometric models of pitch and key relations.",
+      },
+      {
+        rating: 3,
+        citation: "Toiviainen, P., & Krumhansl, C. L. (2003). Measuring and modeling real-time responses to music: The dynamics of tonality induction. Perception, 32, 741-766.",
+        note: "Time-varying tonal organization and dynamic key-space methods.",
       },
     ],
   },
   {
-    title: "Expectation, Learning, and Melodic Structure",
-    description: "References connecting musical expectation to statistical regularities, implicit learning, and melodic prediction.",
+    title: "Expectation, learning, and culture",
+    established: "Tonal knowledge is largely implicit and enculturated; many affective associations vary with exposure and culture.",
+    open: "How shared and listener-specific structures coexist across populations, and which cross-scale relations are culturally stable, learned, or individually weighted.",
     items: [
       {
-        citation: "Pearce, M. T. (2005). The Construction and Evaluation of Statistical Models of Melodic Structure in Music Perception and Composition (Doctoral dissertation, City University London).",
-        tags: ["Prediction", "Statistical learning", "Composition"]
+        rating: 5,
+        citation: "Balkwill, L.-L., & Thompson, W. F. (1999). A cross-cultural investigation of the perception of emotion in music: Psychophysical and cultural cues. Music Perception, 17(1), 43-64.",
+        note: "Separates psychophysical cues from culturally learned conventions.",
       },
       {
-        citation: "Schmuckler, M. A. (1989). Expectation in music: Investigation of melodic and harmonic processes. Music Perception, 7(2), 109–150.",
-        tags: ["Expectation", "Melody", "Harmony"]
+        rating: 5,
+        citation: "Balkwill, L.-L., Thompson, W. F., & Matsunaga, R. (2004). Recognition of emotion in Japanese, Western, and Hindustani music by Japanese listeners. Japanese Psychological Research, 46, 337-349.",
+        note: "Cross-cultural emotion-recognition evidence.",
       },
       {
-        citation: "Reber, A. S. (1967). Implicit learning of artificial grammars. Journal of Verbal Learning and Verbal Behavior, 6(6), 855–863.",
-        tags: ["Implicit learning"]
+        rating: 5,
+        citation: "Fritz, T., et al. (2009). Universal recognition of three basic emotions in music. Current Biology, 19(7), 573-576.",
+        note: "Influential universality claim; should be read alongside later cultural qualifications.",
       },
       {
-        citation: "Saffran, J. R., Aslin, R. N., & Newport, E. L. (1996). Statistical learning by 8-month-old infants. Science, 274(5294), 1926–1928.",
-        tags: ["Statistical learning"]
+        rating: 5,
+        citation: "Pearce, M. T. (2005). The Construction and Evaluation of Statistical Models of Melodic Structure in Music Perception and Composition. Doctoral dissertation, City University London.",
+        note: "Statistical expectation models, multiple viewpoints, perception, and composition.",
       },
       {
-        citation: "Huron, D. (1996). The melodic arch in Western folksongs. Computing in Musicology, 10, 3–23.",
-        tags: ["Melody", "Statistical regularities"]
+        rating: 5,
+        citation: "Pearce, M. T., & Wiggins, G. A. (2006). Expectation in melody: The influence of context and learning. Music Perception, 23(5), 377-405.",
+        note: "IDyOM-style statistical expectation framework.",
       },
       {
-        citation: "Von Hippel, P., & Huron, D. (2000). Why do skips precede reversals? The effect of tessitura on melodic structure. Music Perception, 18(1), 59–85.",
-        tags: ["Melody", "Expectation"]
+        rating: 5,
+        citation: "Pearce, M. T., & Wiggins, G. A. (2012). Auditory expectation: The information dynamics of music perception and cognition. Topics in Cognitive Science, 4(4), 625-652.",
+        note: "Information-theoretic account linking uncertainty and surprise to perception.",
       },
       {
-        citation: "Vos, P. G., & Troost, J. M. (1989). Ascending and descending melodic intervals: Statistical findings and their perceptual relevance. Music Perception, 6(4), 383–396.",
-        tags: ["Intervals", "Melody"]
+        rating: 5,
+        citation: "Schmuckler, M. A. (1989). Expectation in music: Investigation of melodic and harmonic processes. Music Perception, 7(2), 109-150.",
+        note: "Behavioral evidence for melodic and harmonic continuation expectations.",
       },
       {
-        citation: "Aarden, B. (2003). Dynamic Melodic Expectancy. PhD dissertation, Ohio State University.",
-        tags: ["Melodic expectancy"]
+        rating: 5,
+        citation: "Tillmann, B., Bharucha, J. J., & Bigand, E. (2000). Implicit learning of tonality: A self-organizing approach. Psychological Review, 107(4), 885-913.",
+        note: "Listeners acquire tonal regularities implicitly through exposure.",
+      },
+      {
+        rating: 3,
+        citation: "Aarden, B. (2003). Dynamic Melodic Expectancy. Doctoral dissertation, Ohio State University.",
+        note: "Detailed empirical/statistical treatment of melodic expectancy.",
+      },
+      {
+        rating: 3,
+        citation: "Bharucha, J. J. (1987). Music cognition and perceptual facilitation: A connectionist framework. Music Perception, 5(1), 1-30.",
+        note: "Connectionist account of tonal activation, priming, and learned structure.",
+      },
+      {
+        rating: 3,
+        citation: "Bigand, E., & Poulin-Charronnat, B. (2006). Are we 'experienced listeners'? A review of the musical capacities that do not depend on formal musical training. Cognition, 100(1), 100-130.",
+        note: "Supports treating nonmusicians as highly enculturated listeners.",
+      },
+      {
+        rating: 3,
+        citation: "Hannon, E. E., & Trainor, L. J. (2007). Music acquisition: Effects of enculturation and formal training on development. Trends in Cognitive Sciences, 11(11), 466-472.",
+        note: "Developmental enculturation and training context.",
+      },
+      {
+        rating: 3,
+        citation: "Morrison, S. J., & Demorest, S. M. (2009). Cultural constraints on music perception and cognition. Progress in Brain Research, 178, 67-77.",
+        note: "Review of enculturation effects.",
+      },
+      {
+        rating: 3,
+        citation: "Reber, A. S. (1967). Implicit learning of artificial grammars. Journal of Verbal Learning and Verbal Behavior, 6(6), 855-863.",
+        note: "General foundation for tacit structural knowledge.",
+      },
+      {
+        rating: 3,
+        citation: "Saffran, J. R., Aslin, R. N., & Newport, E. L. (1996). Statistical learning by 8-month-old infants. Science, 274(5294), 1926-1928.",
+        note: "Foundational auditory statistical-learning evidence.",
+      },
+      {
+        rating: 3,
+        citation: "von Hippel, P., & Huron, D. (2000). Why do skips precede reversals? The effect of tessitura on melodic structure. Music Perception, 18(1), 59-85.",
+        note: "Important caution: apparent perceptual rules may be explained by regression to the mean.",
       },
     ],
   },
   {
-    title: "Topology, Geometry, and Computational Representation",
-    description: "Methods for reconstructing latent spaces from relational, perceptual, and high-dimensional data.",
+    title: "Measurement of emotion and felt character",
+    established: "Continuous ratings, semantic scales, nonverbal affect tools, and perceived/felt emotion measures are well developed but can impose their own constructs.",
+    open: "A robust task vocabulary that captures felt movement and musical character without collapsing into surface similarity or prespecifying the discovered geometry.",
     items: [
       {
-        key: true,
-        citation: "Borg, I., & Groenen, P. J. F. (2005). Modern Multidimensional Scaling: Theory and Applications (2nd ed.). New York, NY: Springer.",
-        tags: ["MDS", "Geometry", "Perceptual space"]
+        rating: 5,
+        citation: "Betella, A., & Verschure, P. F. M. J. (2016). The Affective Slider: A digital self-assessment scale for the measurement of human emotions. PLoS ONE, 11(2), e0148037.",
+        note: "Validated digital valence/arousal interface.",
       },
       {
-        citation: "Carlsson, G. (2009). Topology and Data. Bulletin of the American Mathematical Society, 46(2), 255–308. https://doi.org/10.1090/S0273-0979-09-01249-X",
-        tags: ["Topology", "Data analysis", "Multi-scale"]
+        rating: 5,
+        citation: "Ruef, A. M., & Levenson, R. W. (2007). Continuous measurement of emotion: The affect rating dial. In Handbook of Emotion Elicitation and Assessment.",
+        note: "Benefits and limitations of continuous bipolar emotion interfaces.",
+      },
+      {
+        rating: 5,
+        citation: "Schubert, E. (2001). Continuous measurement of self-report emotional response to music. In Music and Emotion: Theory and Research.",
+        note: "Foundational continuous affect measurement in music.",
+      },
+      {
+        rating: 5,
+        citation: "Schubert, E. (2004). Modeling perceived emotion with continuous musical features. Music Perception, 21(4), 561-585.",
+        note: "Links continuous ratings to changing musical features.",
+      },
+      {
+        rating: 5,
+        citation: "Upham, F., & McAdams, S. (2018). Activity analysis and coordination in continuous responses to music. Musicae Scientiae, 22(2), 145-159.",
+        note: "Shows agreement may reside in coordinated change rather than absolute rating level.",
+      },
+      {
+        rating: 3,
+        citation: "Bradley, M. M., & Lang, P. J. (1994). Measuring emotion: The Self-Assessment Manikin and the semantic differential. Journal of Behavior Therapy and Experimental Psychiatry, 25(1), 49-59.",
+        note: "Widely used nonverbal affect scale; relevant comparator for language-minimal tasks.",
+      },
+      {
+        rating: 3,
+        citation: "Nagel, F., Kopiez, R., Grewe, O., & Altenmüller, E. (2007). EMuJoy: Software for continuous measurement of perceived emotions in music. Behavior Research Methods, 39, 283-290.",
+        note: "Important interface and data-collection precedent.",
       },
     ],
   },
   {
-    title: "Harmony, Intervals, and Emotion",
-    description: "Studies linking intervallic or harmonic structure to affective interpretation.",
+    title: "Dynamic form, gesture, movement, and embodiment",
+    established: "Dynamical form, vitality, gesture, musical forces, and shared music-movement parameter structures provide deep ancestry for arrival, departure, expansion, suspension, and intensification.",
+    open: "Relational reconstruction of these dynamic forms from controlled music, their equivalence across harmonic and melodic realizations, and their preservation or transformation across nested scales.",
     items: [
       {
-        citation: "Kaygusuz, C., & Zuluaga, J. (2018). Impact of Intervals on the Emotional Effect in Western Music. arXiv:1812.04723.",
-        tags: ["Intervals", "Emotion", "Harmony"]
+        rating: 5,
+        new: true,
+        citation: "Hatten, R. S. (2004). Interpreting Musical Gestures, Topics, and Tropes: Mozart, Beethoven, Schubert. Indiana University Press.",
+        note: "Theoretical foundation for musical gesture as an emergent, affectively meaningful temporal whole integrating multiple parameters.",
       },
       {
-        citation: "Pillay, M., Zhang, T., Li, H., & Spence, C. (2026). Associating (dis)consonance of harmonic intervals with emotional valences: Exploring the visual representation of music through crossmodal associations. Frontiers in Psychology, 17, 1744946. https://doi.org/10.3389/fpsyg.2026.1744946",
-        tags: ["Intervals", "Valence", "Crossmodal"]
+        rating: 5,
+        new: true,
+        citation: "Hjortkjær, J., & Nielbo, F. (2010). A perceptual study on dynamical form in music. Proceedings of the Sound and Music Computing Conference.",
+        note: "A direct conceptual ancestor for perceived temporal forms such as explosive, fading, rising, and suspenseful, distinguished from ordinary emotion and source qualities.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Larson, S. (2012). Musical Forces: Motion, Metaphor, and Meaning in Music. Indiana University Press.",
+        note: "Formalizes gravity, magnetism, and inertia in tonal and melodic motion; a major explanatory model for arrival, continuation, attraction, and resistance.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. Proceedings of the National Academy of Sciences, 110(1), 70-75.",
+        note: "Demonstrates corresponding dynamic parameter structures across music and animated movement, establishing a strong precedent for equivalent felt transformations across realizations.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Stern, D. N. (2010). Forms of Vitality: Exploring Dynamic Experience in Psychology, the Arts, Psychotherapy, and Development. Oxford University Press.",
+        note: "Provides the broader theory of surging, bursting, fading, lingering, and other integrated forms of movement, force, time, and intention.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Clynes, M. (1977). Sentics: The Touch of Emotions. Anchor Press/Doubleday.",
+        note: "Historically important theory of emotion-specific dynamic time-forms across touch, sound, and gesture; influential but empirically controversial.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Kim, J. H. (2013). Shaping and co-shaping forms of vitality in music: Beyond cognitivist and emotivist approaches to musical expressiveness. Empirical Musicology Review.",
+        note: "Extends vitality-form theory into musical expressiveness and supports a construct broader than categorical emotion.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Margulis, E. H. (2005). A model of melodic expectation. Music Perception, 22(4), 663-714.",
+        note: "Hierarchical model using stability, proximity, direction, and mobility; relevant as a competing multiscale account of melodic tension and expectedness.",
       },
     ],
   },
   {
-    title: "Emotion Measurement and Interfaces",
-    description: "Tools and methods for collecting continuous or spatialized affective responses.",
+    title: "Mid-level perceptual features and musical impression",
+    established: "Listener-meaningful perceptual qualities can mediate between low-level/formal features and emotion; semantic and kansei traditions have mapped musical impression spaces.",
+    open: "Whether named qualities explain a relation structure discovered independently, how those qualities change across scale, and what relational variation remains unexplained.",
     items: [
       {
-        citation: "Upham, B., & McAdams, S. (2017). Activity analysis and coordination in continuous responses to music. Musicae Scientiae, 22(2), 145–159.",
-        tags: ["Continuous response", "Music emotion"]
+        rating: 5,
+        new: true,
+        citation: "Friberg, A., Schoonderwaldt, E., Hedblad, A., Fabiani, M., & Elowsson, A. (2014). Using perceptually defined music features in music information retrieval. arXiv:1403.7923.",
+        note: "Introduces listener-meaningful features as an intermediate layer between formal/audio properties and emotion; important context for topo.audio axes as candidate models.",
       },
       {
-        citation: "Betella, A., & Verschure, P. F. M. J. (2016). The affective slider: A digital self-assessment scale for the measurement of human emotions. PLOS ONE, 11(2), e0148037.",
-        tags: ["Interface", "Emotion measurement"]
+        rating: 4,
+        new: true,
+        citation: "Aljanaki, A., & Soleymani, M. (2018). A data-driven approach to mid-level perceptual musical feature modeling. Proceedings of ISMIR / arXiv:1806.04903.",
+        note: "Develops learned models of interpretable qualities such as melodiousness, tonal stability, rhythmic complexity, and dissonance.",
       },
       {
-        citation: "Ruef, A. M., & Levenson, R. W. (2007). Continuous measurement of emotion: The affect rating dial. In J. A. Coan & J. J. B. Allen (Eds.), Handbook of Emotion Elicitation and Assessment (pp. 286–297). New York, NY: Oxford University Press.",
-        tags: ["Affect rating", "Interface"]
+        rating: 4,
+        new: true,
+        citation: "Chowdhury, S., & Widmer, G. (2021). On perceived emotion in expressive piano performance and its explanation through mid-level perceptual features. arXiv:2107.13231.",
+        note: "Shows how interpretable perceptual features explain emotional differences among performances of the same composition.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Chowdhury, S., Vall, A., Haunschmid, V., & Widmer, G. (2019). Towards explainable music emotion recognition: The route via mid-level features. Proceedings of ISMIR / arXiv:1907.03572.",
+        note: "Positions mid-level perceptual descriptors as explainable mediators between audio and emotion.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Imberty, M. (1979). Entendre la musique: Sémantique psychologique de la musique. Dunod.",
+        note: "French foundation for psychological musical semantics using freely associated language and temporal/figural organization.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Imberty, M. (1981). Les écritures du temps: Sémantique psychologique de la musique, Tome 2. Dunod.",
+        note: "Extends musical semantics toward temporal organization, form, and psychological meaning.",
       },
     ],
   },
   {
-    title: "AI and Music Emotion Recognition",
-    description: "Recent computational work on predicting emotion from musical audio and musical features.",
+    title: "Similarity, MDS, RSA, manifolds, and topology",
+    established: "The statistical tools for relational reconstruction, individual differences, model comparison, alignment, nonlinear embedding, and topological analysis already exist.",
+    open: "Their careful application to nested felt musical relations with reliability, null models, held-out prediction, and explicit separation of shared, transformed, and scale-specific structure.",
     items: [
       {
-        citation: "Hirschprung, R. S., Leshman, O., & Hajaj, C. (2026). The sound of emotions: An artificial intelligence approach to predicting emotions from musical selections. Multimedia Systems, 32, Article 158. https://doi.org/10.1007/s00530-026-02220-1",
-        tags: ["AI", "MER", "Prediction"]
+        rating: 5,
+        citation: "Borg, I., & Groenen, P. J. F. (2005). Modern Multidimensional Scaling: Theory and Applications (2nd ed.). Springer.",
+        note: "Primary technical reference for MDS design, stress, interpretation, and validation.",
+      },
+      {
+        rating: 5,
+        citation: "Carlsson, G. (2009). Topology and data. Bulletin of the American Mathematical Society, 46(2), 255- 308.",
+        note: "Foundational TDA and persistent multiscale structure.",
+      },
+      {
+        rating: 5,
+        citation: "Carroll, J. D., & Chang, J.-J. (1970). Analysis of individual differences in multidimensional scaling via an N-way generalization of Eckart-Young decomposition. Psychometrika, 35, 283-319.",
+        note: "INDSCAL; crucial for shared space plus participant-specific dimension weights.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Goldstone, R. L. (1994). An efficient method for obtaining similarity data. Behavior Research Methods, Instruments, & Computers, 26(4), 381-386.",
+        note: "Original spatial-arrangement method: participants arrange objects so screen distance represents similarity.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Hout, M. C., Goldinger, S. D., & Ferguson, R. W. (2013). The versatility of SpAM: A fast, efficient, spatial method of data collection for multidimensional scaling. Journal of Experimental Psychology: General, 142(1), 256-281.",
+        note: "Strong validation of spatial arrangement as an efficient approximation to exhaustive pairwise judgments.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Kriegeskorte, N., & Mur, M. (2012). Inverse MDS: Inferring dissimilarity structure from multiple item arrangements. Frontiers in Psychology, 3, 245.",
+        note: "Efficient reconstruction of dissimilarity structure from repeated multi-item arrangements; highly relevant to scalable relational experiments.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Kriegeskorte, N., Mur, M., & Bandettini, P. A. (2008). Representational similarity analysis - connecting the branches of systems neuroscience. Frontiers in Systems Neuroscience, 2, 4.",
+        note: "Foundational RSA framework for comparing listener dissimilarity matrices with formal, acoustic, predictive, and model-derived relational structures.",
+      },
+      {
+        rating: 5,
+        citation: "Kruskal, J. B., & Wish, M. (1978). Multidimensional Scaling. Sage.",
+        note: "Concise classic MDS reference.",
+      },
+      {
+        rating: 5,
+        citation: "McInnes, L., Healy, J., & Melville, J. (2018). UMAP: Uniform Manifold Approximation and Projection for dimension reduction. arXiv:1802.03426.",
+        note: "Modern manifold visualization and neighborhood graph method.",
+      },
+      {
+        rating: 5,
+        citation: "Roweis, S. T., & Saul, L. K. (2000). Nonlinear dimensionality reduction by locally linear embedding. Science, 290, 2323-2326.",
+        note: "LLE; local neighborhood preservation.",
+      },
+      {
+        rating: 5,
+        citation: "Shepard, R. N. (1962). The analysis of proximities: Multidimensional scaling with an unknown distance function. Psychometrika, 27, 125-140; 219-246.",
+        note: "Foundational nonmetric MDS.",
+      },
+      {
+        rating: 5,
+        citation: "Tenenbaum, J. B., de Silva, V., & Langford, J. C. (2000). A global geometric framework for nonlinear dimensionality reduction. Science, 290, 2319-2323.",
+        note: "Isomap and nonlinear geodesic structure.",
+      },
+      {
+        rating: 5,
+        citation: "van der Maaten, L., & Hinton, G. (2008). Visualizing data using t-SNE. Journal of Machine Learning Research, 9, 2579-2605.",
+        note: "Useful visualization method, with important interpretive limitations.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "De Vito, R., Bellio, R., Trippa, L., & Parmigiani, G. (2022). Bayesian mixed multidimensional scaling for auditory perception. arXiv:2209.00102.",
+        note: "Represents shared latent auditory structure alongside population or individual differences; useful for avoiding false universality.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Hout, M. C., Papesh, M. H., & Goldinger, S. D. (2013). Multidimensional scaling. Wiley Interdisciplinary Reviews: Cognitive Science, 4, 93-103.",
+        note: "Concise modern overview of MDS concepts and design choices.",
+      },
+      {
+        rating: 3,
+        citation: "Edelsbrunner, H., & Harer, J. (2010). Computational Topology: An Introduction. American Mathematical Society.",
+        note: "Technical TDA reference for persistence and topological features.",
+      },
+      {
+        rating: 3,
+        citation: "Gower, J. C. (1975). Generalized Procrustes analysis. Psychometrika, 40, 33-51.",
+        note: "Alignment and comparison of participant/configuration spaces.",
+      },
+      {
+        rating: 3,
+        citation: "Kendall, D. G. (1984). Shape manifolds, Procrustean metrics, and complex projective spaces. Bulletin of the London Mathematical Society, 16, 81-121.",
+        note: "Formal shape-space background for comparing configurations.",
+      },
+      {
+        rating: 3,
+        citation: "Lee, J. A., & Verleysen, M. (2007). Nonlinear Dimensionality Reduction. Springer.",
+        note: "Broad technical synthesis of nonlinear methods.",
+      },
+    ],
+  },
+  {
+    title: "Hierarchy, context, and cross-scale organization",
+    established: "Music perception and syntax are hierarchical; local events are reinterpreted by global context, and perceptual spaces can be compared across simple and embedded carriers.",
+    open: "Direct reconstruction of relation structures at multiple nested musical scales and quantitative tests of preservation, accumulation, hierarchical weighting, contextual transformation, and emergence.",
+    items: [
+      {
+        rating: 5,
+        new: true,
+        citation: "Tillmann, B., & Bigand, E. (2004). The relative importance of local and global structures in music perception. Journal/volume to verify.",
+        note: "Directly addresses local and global contributions to musical perception; an essential ancestor for cross-scale questions.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Lindström, E. (2004). A Dynamic View of Melodic Organization and Performance (Doctoral dissertation, Uppsala University).",
+        note: "Systematically manipulates melodic structure and performance, emphasizing interactions among pitch, rhythm, implied harmony, stability, and emotion.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Prince, J. B., Thompson, W. F., & Schmuckler, M. A. (year to verify). Cross-modal similarity of melodic contours and visual line drawings.",
+        note: "Supports abstraction of musical contour into a more general shape representation across different melody lengths; full citation should be normalized.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Samson, S., Zatorre, R. J., & Ramsay, J. O. (1997). Multidimensional scaling of synthetic timbre of isolated tones and short melodies.",
+        note: "A key methodological analogue comparing perceptual spaces for simple sounds and the same timbral properties embedded in melodies. Full journal citation should be normalized.",
+      },
+    ],
+  },
+  {
+    title: "Computational models and generative systems",
+    established: "Music emotion recognition, learned tonal spaces, affect-conditioned harmonization, emotional trajectories, and navigable harmonic systems are active fields.",
+    open: "Generation and composition as out-of-sample tests of a listener-derived multiscale relational model rather than as conditioning on assigned labels or pretrained embeddings.",
+    items: [
+      {
+        rating: 5,
+        citation: "Hirschprung, R. S., Leshman, O., & Hajaj, C. (2026). The sound of emotions: An artificial intelligence approach to predicting emotions from musical selections. Multimedia Systems, 32, Article 158.",
+        note: "Recent large-scale AI MER study; illustrates current predictive strengths and label limitations.",
+      },
+      {
+        rating: 5,
+        citation: "Kim, Y. E., Schmidt, E. M., Migneco, R., Morton, B. G., Richardson, P., Scott, J., Speck, J. A., & Turnbull, D. (2010). Music emotion recognition: A state of the art review. Proceedings of ISMIR.",
+        note: "Field overview and label/prediction framing.",
+      },
+      {
+        rating: 5,
+        citation: "Laurier, C., Lartillot, O., Eerola, T., & Toiviainen, P. (2009). Exploring relationships between audio features and emotion in music. Proceedings of ESCOM.",
+        note: "Feature-emotion mapping; useful comparison to relational listener models.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Pereira, et al. (2026). Designing emotionally navigable harmonic spaces for interactive music generation. ICCC 2026 workshop paper.",
+        note: "The closest recent interface overlap: chords placed in an affective canvas and traversed as trajectories. Coordinates are computationally assigned rather than relationally reconstructed from listeners.",
+      },
+      {
+        rating: 5,
+        citation: "Yang, Y.-H., & Chen, H. H. (2012). Machine Recognition of Music Emotion: A Review. ACM Transactions on Intelligent Systems and Technology, 3(3), Article 40.",
+        note: "Canonical MER review.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Chen, K., et al. (2021). SurpriseNet: Melody harmonization conditioning on user-controlled surprise contours. arXiv:2108.00378.",
+        note: "Important comparison for information-theoretic progression trajectories and controllable harmonic surprise.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Makris, D., Agres, K., & Herremans, D. (2021). Generating lead sheets with affect: Affective conditioning of chord progressions and melody. arXiv:2104.13056.",
+        note: "Affect-conditioned harmonic generation based on assigned mood representations rather than listener-derived relation spaces.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Williams, D., et al. (2023). AffectMachine-Classical: A system for generating classical music following valence-arousal trajectories. Frontiers in Psychology, 14, 1158172.",
+        note: "Establishes emotion-trajectory generation as prior art; topo.audio must distinguish listener- reconstructed models from predefined affect coordinates.",
+      },
+      {
+        rating: 3,
+        citation: "Dash, A., Agres, K., & others. (2023). AI-based affective music generation systems: A review. arXiv:2301.06890.",
+        note: "Overview of emotion-conditioned generation, datasets, and evaluation.",
+      },
+      {
+        rating: 3,
+        citation: "Huang, J., et al. (2024). Emotion-driven melody harmonization / functional representation for controllable harmonization. arXiv:2407.20176.",
+        note: "Recent emotion-conditioned harmony generation; important novelty boundary.",
+      },
+      {
+        rating: 3,
+        citation: "Hung, H.-T., et al. (2021). EMOPIA: A multi-modal pop piano dataset for emotion recognition and emotion-based music generation. Proceedings of ISMIR / arXiv:2108.01374.",
+        note: "Major symbolic emotion dataset and generation benchmark.",
+      },
+      {
+        rating: 3,
+        citation: "Ji, S., & Yang, X. (2023). Emotion-conditioned melody harmonization with hierarchical variational autoencoder. arXiv:2306.03718.",
+        note: "Adjacent work showing limits of changing emotion through harmony alone in a fixed melody.",
+      },
+      {
+        rating: 3,
+        citation: "Simon, I., Roberts, A., Raffel, C., Engel, J., Hawthorne, C., & Eck, D. (2018). Learning a latent space of multitrack measures. arXiv:1806.00195.",
+        note: "Generative latent-space interpolation; computational rather than perceptual geometry.",
+      },
+    ],
+  },
+  {
+    title: "Artistic research and composition as validation",
+    established: "Practice-based research provides legitimate frameworks for artistic inquiry, interpretation, and reflective knowledge production.",
+    open: "A rigorous integration in which composition tests explicit perceptual predictions, failures revise the empirical model, and artistic and scientific claims remain distinguishable.",
+    items: [
+      {
+        rating: 5,
+        citation: "Borgdorff, H. (2012). The Conflict of the Faculties: Perspectives on Artistic Research and Academia. Leiden University Press.",
+        note: "Key framework for knowledge produced through artistic practice.",
+      },
+      {
+        rating: 5,
+        citation: "Nelson, R. (2013). Practice as Research in the Arts: Principles, Protocols, Pedagogies, Resistances. Palgrave Macmillan.",
+        note: "Methodological basis for practice-as-research and reflective documentation.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Ben-Tal, O. (2012/2013). Musical gesture as a self-contained expressive unit: computational and compositional perspectives. Full publication record to verify.",
+        note: "Useful for treating short controlled harmonic-melodic structures as gestural wholes rather than mere bundles of events.",
+      },
+      {
+        rating: 3,
+        citation: "Barrett, E., & Bolt, B. (Eds.). (2007). Practice as Research: Approaches to Creative Arts Enquiry. I.B. Tauris.",
+        note: "Broader practice-research methods and epistemology.",
+      },
+      {
+        rating: 3,
+        citation: "Candy, L., & Edmonds, E. (2018). Practice-based research in the creative arts: Foundations and futures from the front line. Leonardo, 51(1), 63-69.",
+        note: "Useful concise distinction among practice-based and practice-led research.",
       },
     ],
   },

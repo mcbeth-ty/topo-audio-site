@@ -13,32 +13,32 @@ function HarmonyGenerator() {
               src="/diagrams/tools-1.svg"
               alt=""
               className="prototype-tools-icon"
-            />              
+            />
             <div className="prototype-kicker">interactive prototype / 01</div>
             <h1>harmonic sequence generator</h1>
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
             <p>
-              Below is a demo of the Harmonic Sequence Generator, the tool used to
-              create musical stimuli for perceptual trials in Audio Canvas. The generator
-              produces collections of short harmonic samples together with their
-              underlying harmonic metadata.
+              This prototype creates the musical samples used in topo.audio
+              listening studies. Use the controls to shape the harmonic dataset,
+              then press “generate” to audition a collection of events with linked
+              structural descriptions.
             </p>
 
             <p>
-              Use the controls in the left sidebar to shape the generated dataset.
-              Parameters such as scale-degree distributions, inversions, chord types,
-              register, and harmonic event count can be weighted to produce different
-              kinds of musical material. The default settings provide a loose
-              approximation of common Western tonal practice.
+              The interface is designed to balance controlled variation with
+              musical coherence. Instead of generating either repeated textbook
+              progressions or unrestricted randomness, it allows distributions of
+              scale degrees, chord types, inversions, registers, and event counts
+              to be weighted parametrically.
             </p>
 
             <p>
-              Press Generate to create a new sample set. Each sample is presented
-              alongside an audio preview and a description of its harmonic structure.
-              Every sample’s properties remain fully described and can later be related
-              back to perceptual structures that emerge within the topology.
+              Every exported sample remains connected to its audio, MIDI, and
+              metadata. This linkage is essential: it allows regions discovered
+              through perception to be queried later for the harmonic structures
+              they contain.
             </p>
 
           </FadeIn>

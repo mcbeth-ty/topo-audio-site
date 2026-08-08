@@ -19,48 +19,37 @@ function Methodology() {
 
             <p>
               The central methodology of topo.audio is the{" "}
-                <span className="body-highlight">
-                spatial articulation of harmonic experience.
-                </span>{" "}
-              Rather than asking listeners to describe
-              emotions through language, participants interact with short
-              harmonic samples and express perceived relationships between them
-              spatially. Depending on the method, this may involve placing
-              samples, organizing them, drawing vectors, or articulating
-              movement between affective states.
-            </p>
-
-            <p>
-              The underlying hypothesis is that these spatial judgments may
-              reveal structures that are difficult to access through language
-              alone. While listeners often struggle to precisely describe musical
-              feelings, they may be far more consistent in expressing how
-              experiences relate to one another. {" "}
               <span className="body-highlight">
-                Across many participants and many trials, these articulations form a collective perceptual
-              landscape. 
+                construction of musical-perceptual topologies from relational listening data.
               </span>{" "}
-              Computational techniques such as multidimensional
-              scaling (MDS) and related methods can then be used to infer
-              higher-dimensional structures from the relationships expressed
-              within the data.
+              Participants encounter short harmonic samples and express how those
+              experiences relate through placement, grouping, comparison, vectors,
+              trajectories, or other spatial articulations.
             </p>
 
             <p>
-              The resulting perceptual structures can be connected directly back
-              to musical features, as every stimulus is generated with known
-              harmonic properties. This allows the project to investigate which
-              aspects of harmonic structure are associated with particular
-              regions, clusters, trajectories, and boundaries within the topology.
+              The approach does not assume that spatial judgment is entirely free
+              of language or task influence. Instead, multiple methods are treated
+              as complementary instruments. Unconstrained arrangements can reveal
+              emergent organization, while explicit dimensions such as arrival,
+              stability, brightness, tension, or valence can be tested as possible
+              explanations of that organization.
             </p>
 
             <p>
-              The process is iterative. As topological structures begin to
-              emerge, they can inform the design of new stimuli, new tests, and
-              new analytical methods. The goal is not simply to collect
-              responses, but to gradually refine a navigable model of harmonic
-              affect through an ongoing dialogue between perception,
-              computation, and musical structure.
+              The accumulated relations are converted into dissimilarity structures
+              and explored through multidimensional scaling, clustering, graph
+              models, representational similarity analysis, individual-differences
+              methods, and, where justified, manifold or topological analysis.
+              Because each stimulus remains connected to its harmonic description,
+              perceptual regions can be queried in musical terms.
+            </p>
+
+            <p>
+              The process is iterative: topologies inform new stimuli and
+              experiments; new data refine or divide the topology; composition
+              probes its musical consequences; and unexpected results generate new
+              questions.
             </p>
           </FadeIn>
 
@@ -82,92 +71,62 @@ function Methodology() {
 
           <FadeIn className="methodology-right body-copy">
             <SectionTitle>
-              from
+              constructing
               <br />
-              perception
+              perceptual
               <br />
-              to topology
+              topologies
             </SectionTitle>
 
             <p>
-              Every listener interaction contributes a small piece of
-              information about how a harmonic sample is perceived.
+              Every listener interaction contributes a small observation about
+              musical experience. Some trials describe a stimulus directly. Others
+              describe relations between stimuli: resemblance, contrast, direction,
+              grouping, intensity, or transformation.
+            </p>
+
+            <blockquote className="pull-quote">
+              Individually, these observations are partial. Collectively, they form
+              a network whose structure may contain more information than any single
+              rating.
+            </blockquote>
+
+            <p>
+              Computational methods can reconstruct the latent organization implied
+              by that network without requiring the dimensions of the final space
+              to be fixed in advance.
             </p>
 
             <p>
-              Some methods capture direct observations about a stimulus itself.
-              Others capture relationships between stimuli: similarity,
-              contrast, movement, clustering, or relative position. Individually,
-              these observations are simple. Collectively, they form a network
-              of perceptual relationships.
+              Topo.audio does not assume that there will be one definitive
+              topology. A single listener may produce a detailed personal
+              landscape. Aggregated data may reveal stable overlaps shared by many
+              listeners. Subgroups based on musical background, cultural exposure,
+              task, or stimulus type may produce related but differently weighted
+              spaces.
             </p>
 
             <p>
-                <blockquote className="pull-quote">
-                    The central assumption of topo.audio is that this network contains
-                    more information than any individual judgment alone.
-                </blockquote>
+              The objective is therefore to construct and compare a family of
+              topologies: individual and collective, local and large-scale, free and
+              dimension-guided. Their agreements and disagreements are part of the
+              result.
             </p>
 
             <p>
-              As perceptual data accumulates, computational techniques can be
-              used to reconstruct the latent structure implied by these
-              relationships. Methods such as multidimensional scaling (MDS) infer
-              spatial arrangements from perceived similarities, allowing
-              higher-dimensional structures to emerge from many local
-              observations.
+              Every point remains attached to harmonic data, allowing the topology
+              to be read from the opposite direction. Regions, boundaries, and
+              trajectories can be examined through interval content, tonal function,
+              common-tone retention, voice leading, register, inversion, expectancy,
+              and other structural properties.
             </p>
 
             <p>
-              Importantly, these dimensions are not predefined. Rather than
-              deciding in advance which emotional dimensions matter, the project
-              seeks to discover structure directly from listener responses. The
-              resulting topology is therefore not a map of musical features, nor
-              a map of language. It is a map of perceived relationships between
-              harmonic experiences.
+              <span className="body-highlight">
+                Perception constructs the landscape. Musical analysis and direct
+                listening explain and activate it.
+              </span>
             </p>
-
-            <p>
-            Topologies may be constructed from the responses of a single listener
-            or from the aggregated responses of many listeners. Individual
-            topologies are expected to capture finer-grained perceptual structure,
-            while collective topologies may reveal broader patterns that remain
-            stable across many people. Rather than treating one as inherently more
-            correct than the other, topo.audio views them as complementary scales
-            of observation.
-            </p>
-
-            <p>
-            One long-term objective is to understand how these scales relate to one
-            another: whether collective structures emerge from stable overlaps
-            between individual topologies, and how perceptual landscapes vary
-            across listeners, cultures, and musical backgrounds.
-            </p>
-
-            <p>
-            Because every stimulus is accompanied by detailed harmonic metadata,
-            the resulting topology can then be examined from the opposite
-            direction. Regions, clusters, boundaries, and trajectories may be
-            related back to harmonic properties such as interval content,
-            voice-leading behavior, scale degrees, register, inversion patterns,
-            and other structural characteristics.
-            </p>
-
-            <p>
-            In this way, the project moves in both directions simultaneously.
-            Perception informs the topology, while harmonic analysis helps explain
-            the structures that emerge within it.
-            </p>
-
-            <p>
-                <span className="body-highlight">
-                    The long-term objective is a navigable affective landscape of
-                    harmony—one that can be explored through listening, analyzed through
-                    computation, and ultimately used as a new way of understanding and
-                    creating music.
-                </span>
-            </p>
-
 
           </FadeIn>
         </SectionGrid>

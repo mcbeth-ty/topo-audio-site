@@ -23,41 +23,40 @@ function AboutPage() {
 
             <div className="about-page-copy">
               <p>
-                I’m Tyler McBeth, an independent designer, composer, and
-                researcher based in Tokyo, Japan.
+                I’m Tyler McBeth, an independent designer, composer, and researcher
+                based in Japan.
               </p>
 
               <p>
                 My background spans architecture, computational design, and music
-                composition. I received a Bachelor of Science in Architecture
-                from Texas Tech University and a Master of Engineering in
-                Architecture from the University of Tokyo, where my work focused
-                heavily on computation, methods, parametric systems, and the
-                representation of complex relationships through geometry and
-                data.
+                composition. I hold a Bachelor of Science in Architecture from
+                Texas Tech University and a Master of Engineering in Architecture
+                from the University of Tokyo. My design work has focused on
+                parametric systems, computation, spatial organization, and the
+                representation of complex relationships through geometry and data.
               </p>
 
               <p>
-                Alongside my work in design and computation, I remain an active
-                composer, contributing music to film and independent projects
-                while maintaining an ongoing interest in how harmony gives rise
-                to emotional experience.
+                Alongside this work, I remain an active composer for film and
+                independent music projects, with a long-standing interest in how
+                harmonic structure gives rise to felt movement and emotional
+                experience.
               </p>
 
               <p>
-                Topo.audio emerged from this intersection. It combines my
-                interests in music, perception, computation, and spatial thinking
-                in an attempt to investigate whether harmonic affect possesses
-                latent organization that can be observed, modeled, and ultimately
-                explored in new ways.
+                Topo.audio emerged from the intersection of those practices. It
+                treats musical perception as an architectural problem—not because
+                experience is literally a building, but because relationships,
+                neighborhoods, trajectories, scales, boundaries, and transformations
+                can provide a powerful way to investigate its organization.
               </p>
 
               <p>
-                This website documents the ongoing development of that
-                investigation. It serves simultaneously as a research proposal,
-                an open laboratory, and a growing collection of ideas,
-                methodologies, and tools surrounding the study of harmonic
-                affect.
+                The project combines music cognition, perceptual experimentation,
+                harmonic analysis, computational modeling, interface design, and
+                composition. This website serves as a research brief, an open
+                laboratory, and a growing record of the tools and ideas through
+                which the project is being developed.
               </p>
             </div>
 

@@ -17,20 +17,21 @@ function Intro() {
               <br />
               topology
               <br />
-              in harmony
+              of harmony
             </SectionTitle>
 
             <p className="intro-subtitle">
-              exploring whether collective spatial organization of harmony
-              can reveal the hidden structure of emotion in music
+              exploring how listener-derived perceptual topologies can connect
+              the structure of harmony with the emotional organization of
+              musical experience.
             </p>
           </FadeIn>
 
           <FadeIn className="intro-figure">
             <LightboxImage
-            src="/diagrams/intro-diagram.webp"
-            alt="Conceptual relationship between harmony, perception, and emotional topology"
-            className="intro-diagram"
+              src="/diagrams/intro-diagram.webp"
+              alt="Conceptual relationship between harmony, perception, and emotional topology"
+              className="intro-diagram"
             />
           </FadeIn>
         </SectionGrid>

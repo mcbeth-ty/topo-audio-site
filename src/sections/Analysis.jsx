@@ -16,51 +16,49 @@ function Analysis() {
             <SectionTitle>analysis</SectionTitle>
 
             <p>
-              Once topological models have been constructed, they can be explored
-              from multiple directions.
+              Once a topology has been constructed, it can be examined from
+              several directions.
             </p>
 
             <p>
-              At the perceptual level, the project investigates the structure of
-              the landscape itself. Regions, clusters, boundaries, trajectories,
-              and areas of agreement or disagreement may reveal recurring
-              patterns in how harmonic experiences are organized.
+              At the perceptual level, analysis concerns the shape of the
+              landscape itself: neighborhoods, clusters, boundaries, continuities,
+              trajectories, latent dimensions, and areas of agreement or
+              disagreement among listeners.
             </p>
 
             <p>
-              At the musical level, these structures can be connected back to the
-              harmonic samples from which they emerged. Because every stimulus is
-              accompanied by detailed metadata, topological regions can be
-              examined in terms of interval content, scale degrees,
-              voice-leading behavior, register, inversion patterns, and other
-              harmonic characteristics.
+              At the musical level, these structures are traced back to the sounds
+              and metadata from which they emerged. A region may contain recurring
+              interval structures, voice-leading patterns, degrees of tonal
+              stability, registers, inversions, or transition types. A trajectory
+              may correspond to systematic changes in arrival, tension, brightness,
+              common tones, or expectation.
             </p>
 
             <blockquote className="pull-quote">
-              The topology functions as an intermediary between perception and
-              musical structure.
+              The topology therefore operates as an intermediary representation
+              between measured experience and harmonic structure.
             </blockquote>
 
             <p>
-              Rather than asking whether a particular chord progression evokes a
-              specific emotion, the project investigates how harmonic features
-              contribute to broader perceptual relationships across the
+              Rather than testing one chord against one emotion label, the project
+              asks how musical properties organize relationships across an entire
               landscape.
             </p>
 
             <p>
-              As the research expands across methodologies and scales, analysis
-              can also focus on the relationships between topologies themselves.
-              Recurring structures, trajectories, and perceptual objects may
-              reveal connections that persist across different participants,
-              methods, and musical contexts.
+              As datasets expand, the Topology Explorer can also compare topologies
+              with one another—across participants, experiments, methods, and
+              musical scales—to identify structures that recur, deform, or
+              disappear.
             </p>
 
             <p className="body-highlight">
-              The long-term objective is to identify stable relationships between
-              harmonic structure and affective organization, gradually revealing
-              aspects of musical experience that are difficult to observe through
-              listening or language alone.
+              The objective is to identify stable relationships between harmonic
+              structure and affective organization, gradually revealing aspects of
+              musical experience that are difficult to observe through listening or
+              language alone.
             </p>
           </FadeIn>
 

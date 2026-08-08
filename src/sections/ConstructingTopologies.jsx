@@ -27,66 +27,34 @@ function ConstructingTopologies() {
             </SectionTitle>
 
             <p>
-              The objective of topo.audio is not to collect isolated perceptual
-              measurements, but to synthesize them into larger perceptual
-              structures.
+              Topo.audio is not intended to accumulate disconnected ratings. Its
+              purpose is to synthesize perceptual observations into larger
+              relational structures.
             </p>
 
             <p>
-              Every listening trial contributes information about relationships
-              between harmonic samples. Spatial placements, vectors,
-              trajectories, similarities, and other articulations collectively
-              form a network of perceptual observations that can be examined
-              computationally.
+              Placements, similarities, vectors, trajectories, and contextual
+              comparisons are converted into individual and collective
+              representational models. Multidimensional scaling may produce
+              interpretable maps; clustering and graphs can reveal regions and
+              connectivity; individual-differences methods can distinguish shared
+              structure from participant-specific weighting; nonlinear methods may
+              reveal local continuity that a flat projection cannot preserve.
             </p>
 
             <p>
-              Methods such as multidimensional scaling, clustering, and graph
-              analysis can then be used to infer latent structures from these
-              relationships.
-            </p>
-
-            <p>
-              Rather than producing a single fixed topology, the system can
-              construct different models from different combinations of
-              participants, sample sets, methodologies, and scales.
-            </p>
-
-            <p>
-              A topology built from one participant may reveal different
-              structures than a topology built from many participants. Likewise,
-              different methodologies may capture different aspects of harmonic
-              affect.
-            </p>
-
-            <p>
-              While some experiments may employ emotional labels or perceptual
-              dimensions to organize responses, these are treated as
-              observations rather than ground truth.
-            </p>
-
-            <p>
-              As topologies emerge, labels may be refined, transformed, or
-              replaced by structures revealed directly through the data.
-            </p>
-
-            <p>
-              The project also assumes that perceptual structure exists across
-              multiple scales. Short harmonic events, longer phrases, and larger
-              musical passages may each produce their own topologies.
-            </p>
-
-            <p>
-              Different methodologies may likewise produce different but related
-              views of the same landscape. The long-term goal is not to force all
-              data into a single representation, but to construct meaningful
-              models from available observations and explore the relationships
-              between them.
+              Different combinations of people, methods, stimuli, and scales can
+              generate different topologies. A topology built from one participant
+              is not simply an inferior version of a group average, and a collective
+              space is not assumed to erase meaningful variation. The project asks
+              how these configurations overlap, diverge, and transform one another.
             </p>
 
             <p className="body-highlight">
-              As these structures grow, regions, boundaries, trajectories, and
-              clusters become available for analysis.
+              Emotion labels and explicit perceptual dimensions may help interpret
+              the resulting structures, but they do not define them in advance.
+              The objective is to allow the relational organization to emerge
+              first, then test which musical and affective descriptions explain it.
             </p>
           </FadeIn>
 
@@ -111,7 +79,7 @@ function ConstructingTopologies() {
           </FadeIn>
         </SectionGrid>
 
-  
+
       </PageContainer>
     </section>
   );

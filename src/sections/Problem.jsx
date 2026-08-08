@@ -20,47 +20,59 @@ function Problem() {
             </SectionTitle>
 
             <div className="problem-text body-copy">
-            <p>
-                Music has a remarkable ability to affect emotion. Across cultures and
-                throughout history, humans have developed sophisticated ways of shaping
-                emotional experience through sound.
-            </p>
+              <p>
+                Music has a remarkable ability to shape emotion. Across cultures and
+                throughout history, people have developed sophisticated ways of creating
+                tension, release, intimacy, wonder, unease, power, and transformation
+                through sound.
+              </p>
 
-            <blockquote className="pull-quote">
-            Over centuries, we formalized many aspects of music into systems of
-            harmony, melody, rhythm, and form. These systems help us describe
-            musical structure, but they do not fully explain why music feels the
-            way it does.
-            </blockquote>
+              <blockquote className="pull-quote">
+                Over centuries, many aspects of music were formalized into systems of
+                harmony, melody, rhythm, and form. These systems describe musical
+                organization with extraordinary precision, but they do not fully explain
+                why structures feel the way they do—or why formally different passages can
+                inhabit similar regions of experience.
+              </blockquote>
 
-            <p>
-                Research in music cognition has revealed important mechanisms linking
-                musical structure and emotion. Expectation, prediction, tension, surprise,
-                fulfillment, and familiarity all appear to contribute to affective
-                experience. At the same time, composers and listeners consistently navigate
-                emotional experiences that exceed simple descriptions such as "happy" or
-                "sad". This suggests that there may be a richer structure connecting
-                musical events and emotional responses—one that remains difficult to
-                observe directly. If such a structure exists, it may be too complex to
-                understand through isolated musical features or verbal descriptions alone.
-                The central question of topo.audio is whether that structure can be made
-                visible.
-            </p>
+              <p>
+                Music-cognition research has revealed important mechanisms connecting
+                structure and affect. Expectation, prediction, tonal hierarchy, tension,
+                surprise, familiarity, gesture, and performance all contribute. Other
+                studies have shown that listeners’ relational judgments can recover latent
+                tonal and emotional spaces. Yet these traditions are rarely assembled into
+                a single, navigable framework that connects measured perception directly
+                back to the musical structures from which it emerged.
+              </p>
 
-            <h3>the language problem</h3>
+              <p>
+                Topo.audio begins from the possibility that musical experience has a
+                relational architecture: neighborhoods, directions, continuities,
+                separations, and trajectories that cannot be observed from isolated
+                features or verbal descriptions alone. Its central question is how that
+                architecture can be reconstructed, compared, and made musically usable.
+              </p>
 
-            <p>
-                A second challenge arises when attempting to describe emotional experience
-                itself. Most research relies on verbal labels, dimensional ratings, or
-                predefined categories such as valence-arousal or GEMS. These approaches are
-                useful, but they necessarily compress rich experiences into limited
-                descriptive frameworks. There are countless ways music can evoke sadness,
-                longing, wonder, nostalgia, unease, or transcendence. Listeners often
-                recognize meaningful differences between these experiences even when
-                language struggles to distinguish them. As a result, language may be better
-                viewed as an interpretation of affective experience than a direct
-                representation of its underlying structure.
-            </p>
+              <h3>the language problem</h3>
+
+              <p>
+                A second challenge appears when emotional experience must be described.
+                Most studies rely on verbal labels, rating scales, or predefined dimensions
+                such as valence and arousal. These approaches are valuable, but they
+                necessarily decide in advance which distinctions a listener is able to
+                express. Musical experience often exceeds those categories. Two passages
+                may both feel sad yet differ profoundly in motion, weight, openness,
+                instability, distance, or direction. Listeners can recognize such
+                differences even when language cannot name them precisely.
+              </p>
+
+              <p>
+                Topo.audio therefore treats language as one interpretive layer rather than
+                the ground truth of experience. The project asks whether listeners may
+                communicate more of what they hear by articulating relationships—similarity,
+                contrast, movement, clustering, and relative position—before those
+                relationships are translated into words.
+              </p>
             </div>
           </FadeIn>
 

@@ -18,47 +18,46 @@ function GenerativeComposing() {
             </SectionTitle>
 
             <p>
-              One long-term ambition of topo.audio is to transform topologies of
-              harmonic affect into navigable compositional spaces.
+              One long-term ambition of topo.audio is to turn perceptual
+              topologies into compositional spaces that can be heard and
+              navigated.
             </p>
 
             <p>
-              Rather than composing exclusively through symbolic systems such as
-              chord labels, scale degrees, or functional harmony, it may become
-              possible to explore musical affect directly through perceptual
-              landscapes.
+              Instead of searching only through chord symbols, scale degrees, or
+              functional categories, a composer could search through measured
+              relationships: neighborhoods with similar perceptual character,
+              trajectories associated with particular kinds of movement, or
+              boundaries where musical experience changes sharply.
+            </p>
+
+            <blockquote className="pull-quote">
+              Composition becomes, in part, the design of paths through a
+              perceptual landscape.
+            </blockquote>
+
+            <p>
+              Because every region remains linked to harmonic metadata, the
+              system can work in both directions. Existing music can be located
+              and analyzed within a topology, while selected regions or
+              trajectories can be used to retrieve or generate candidate harmonic
+              structures.
             </p>
 
             <p>
-              A topology can be understood as a map whose regions, boundaries,
-              trajectories, and neighborhoods correspond to different kinds of
-              musical experience. Listening within these landscapes may reveal
-              areas associated with particular qualities of affect, as well as
-              pathways that connect them.
-            </p>
-
-            <blockquote className="pull-quote"   >
-              Composition could therefore become, in part, an act of
-              navigating and shaping movement through these perceptual terrains.  
-            </blockquote>  
-
-            <p>
-              Importantly, the objective is not to identify a single harmonic
-              recipe for a feeling. The same affective region may contain many
-              distinct harmonic realizations that nevertheless share common
-              perceptual characteristics. This raises the possibility of generating 
-              harmonic structures directly from regions of the topology, producing 
-              multiple musical solutions that preserve aspects of an intended emotional experience.
+              This is not intended as automatic emotion generation. A perceptual
+              region is not a formula for producing a guaranteed feeling, and
+              many harmonically distinct events may occupy similar neighborhoods.
+              The value lies precisely in that multiplicity: the topology can
+              expose alternative musical realizations that preserve aspects of a
+              perceptual relationship without prescribing a single solution.
             </p>
 
             <p>
-              Such systems could provide new forms of creative augmentation. A
-              composer might search for alternative harmonic pathways that inhabit a
-              similar affective space, explore transitions between emotional regions, or
-              investigate perceptual territories that are difficult to describe through
-              conventional music theory. In this sense, the topology becomes not only an
-              analytical representation of harmonic affect, but also a medium for
-              listening, exploration, and composition.
+              In this sense, topological composition is conceived as a form of
+              creative augmentation. The system proposes possibilities and makes
+              hidden relationships explorable; the composer remains responsible
+              for listening, selection, context, form, and meaning.
             </p>
           </FadeIn>
 

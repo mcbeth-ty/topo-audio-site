@@ -24,60 +24,63 @@ function Hypothesis() {
 
           <FadeIn className="hypothesis-copy body-copy">
             <p>
-              Rather than asking listeners to describe emotions directly,
-              topo.audio investigates whether affective relationships can be
-              uncovered through spatial organization and perceptual comparison.
-              If listeners consistently organize harmonic experiences in
-              similar ways, those patterns may reveal latent structures that
-              are difficult to access through language alone.
+              Rather than asking listeners to define musical emotions directly,
+              topo.audio investigates whether the relational organization of harmonic
+              experience can be reconstructed from spatial and comparative judgments.
+              Prior research has already shown that perceptual judgments can reveal tonal,
+              timbral, and emotional spaces. Topo.audio builds from that foundation by
+              treating topology construction as an ongoing musical research process:
+              multiple participant configurations, musical scales, perceptual methods, and
+              harmonic datasets can each produce different but related views of the same
+              underlying landscape.
             </p>
 
             <p className="hypothesis-list">
-              <strong>H1:</strong> Collective spatial articulations of harmonic
-              stimuli contain stable structures.
+              <strong>H1:</strong> Listener articulations contain reliable relational
+              structure at individual and collective levels.
               <br />
               <br />
-              <strong>H2:</strong> These structures can be computationally
-              reconstructed into a topology.
-              <br />
-              <br />
-              <strong>H3:</strong> Regions of the topology correspond to
-              measurable harmonic / affective characteristics.
-            </p>
+              <h3>connecting harmonic &amp; emotion data</h3>
 
-            <h3>connecting harmonic &amp; emotion data</h3>
+              <p>
+                The upper layer represents musical structure: short harmonic events
+                generated with known intervals, scale degrees, voicings, inversions,
+                registers, common tones, and transition properties.
+              </p>
 
-            <p>
-              The top layer [1] represents harmonic data, captured as short
-              musical samples that isolate harmonic events.
-            </p>
+              <p>
+                The middle layer represents measured perception. Listeners organize,
+                compare, and articulate these events according to felt similarity,
+                movement, character, or change.
+              </p>
 
-            <p>
-              The middle layer [2] represents human perception—listeners
-              spatially articulate and organize these samples according to how
-              they feel.
-            </p>
+              <p>
+                The lower layer represents the latent organization inferred from those
+                relations: not a predefined map of emotion words, but a perceptual
+                landscape constructed from how harmonic experiences relate.
+              </p>
 
-            <p>
-              The bottom layer [3] represents the landscape of affect itself:
-              rich, multidimensional, and difficult to describe directly.
-            </p>
+              <p>
+                The connections between layers are bidirectional. Listener judgments
+                reveal the topology; harmonic metadata helps explain its regions and
+                paths. Once a stable region or trajectory is identified, the system can
+                return the musical structures associated with it, allowing analysis and
+                composition to move through the same space in parallel.
+                whether the middle layer can reveal a navigable relationship between harmonic structure and affective experience.
+              </p>
 
-            <p>
-            Topo.audio explores whether the middle layer can reveal a
-            navigable relationship between harmonic structure and affective
-            experience.
-            </p>
 
-            <p>
-            The connections running between layers represent the musical
-            structures associated with different regions of the topology.
             </p>
 
             <p>
-            By uncovering these relationships, we can begin to navigate the
-            landscape through both listening and harmonic analysis in
-            parallel.
+              The connections running between layers represent the musical
+              structures associated with different regions of the topology.
+            </p>
+
+            <p>
+              By uncovering these relationships, we can begin to navigate the
+              landscape through both listening and harmonic analysis in
+              parallel.
             </p>
 
           </FadeIn>

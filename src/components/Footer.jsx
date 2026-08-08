@@ -7,9 +7,9 @@ export default function Footer() {
         <p>
           topo.audio
           <br />
-          Version 0.1 · Research in Progress
+          Version 0.3 · Research in Progress
           <br />
-          Last updated: June 2026
+          Last updated: August 2026
         </p>
 
         <p>
