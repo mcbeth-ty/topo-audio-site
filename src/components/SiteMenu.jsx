@@ -7,6 +7,7 @@ function SiteMenu() {
     {
       "/brief": "BRIEF",
       "/about": "ABOUT",
+      "/cv": "CV",
       "/bibliography": "BIBLIOGRAPHY",
       "/methodology": "METHODOLOGY",
       "/research-log": "RESEARCH LOG",
@@ -23,6 +24,7 @@ function SiteMenu() {
       <nav className="sidebar__site-menu">
         <Link to="/brief">/BRIEF</Link>
         <Link to="/about">/ABOUT</Link>
+        <Link to="/cv">/CV</Link>
         <Link to="/bibliography">/BIBLIOGRAPHY</Link>
         <Link to="/methodology">/METHODOLOGY</Link>
         <Link to="/research-log">/RESEARCH LOG</Link>

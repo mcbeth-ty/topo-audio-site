@@ -7,6 +7,7 @@ import BibliographyPage from "./pages/BibliographyPage";
 import MethodologyPage from "./pages/MethodologyPage";
 import ResearchLogPage from "./pages/ResearchLogPage";
 import ToolsPage from "./pages/ToolsPage";
+import CVPage from "./pages/CVPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/brief" element={<BriefPage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/cv" element={<CVPage />} />
       <Route path="/bibliography" element={<BibliographyPage />} />
       <Route path="/methodology" element={<MethodologyPage />} />
       <Route path="/research-log" element={<ResearchLogPage />} />
