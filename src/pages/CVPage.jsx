@@ -90,16 +90,21 @@ const cvSections = [
                 subtitle: "Composer · Dir. Maya Sause",
             },
             {
+                meta: ["2026", "BRAND FILM"],
+                title: "Glo Brand Film",
+                subtitle: "Composer & Sound Designer",
+            },
+            {
+                meta: ["2026", "BRAND FILM"],
+                title: "Kamui Whisky Brand Film",
+                subtitle: "Composer",
+            },
+            {
                 meta: ["2025", "BRAND FILM"],
                 title: "The First Lessons",
                 subtitle: "Composer & Sound Designer · Sinyukai",
                 body:
                     "Recipient of Best Commercial / Promotional Video at the Tokyo Film and Screenplay Awards 2025.",
-            },
-            {
-                meta: ["2026", "BRAND FILM"],
-                title: "Glo Brand Film",
-                subtitle: "Composer & Sound Designer",
             },
             {
                 meta: ["2025", "CAMPAIGN FILM"],
@@ -110,11 +115,6 @@ const cvSections = [
                 meta: ["2023", "SHORT FILM"],
                 title: "Dreamscapes",
                 subtitle: "Composer & Sound Designer",
-            },
-            {
-                meta: ["2026", "BRAND FILM"],
-                title: "Kamui Whisky Brand Film",
-                subtitle: "Composer",
             },
         ],
     },
