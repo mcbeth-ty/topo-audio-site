@@ -14,8 +14,6 @@ function HomePage() {
             <Link to="/brief">/BRIEF</Link>
             <Link to="/about">/ABOUT</Link>
             <Link to="/bibliography">/BIBLIOGRAPHY</Link>
-            <Link to="/methodology">/METHODOLOGY</Link>
-            <Link to="/research-log">/RESEARCH LOG</Link>
             <Link to="/tools">/TOOLS</Link>
           </nav>
         </div>

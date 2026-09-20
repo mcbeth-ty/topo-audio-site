@@ -13,24 +13,24 @@ function Intro() {
         <SectionGrid>
           <FadeIn className="intro-copy">
             <SectionTitle>
-              emotional
+              topologies
               <br />
-              topology
+              of harmonic
               <br />
-              of harmony
+              experience
             </SectionTitle>
 
             <p className="intro-subtitle">
-              exploring how listener-derived perceptual topologies can connect
-              the structure of harmony with the emotional organization of
-              musical experience.
+              investigating whether relationships in how listeners experience
+              music can be measured, represented computationally, and used as
+              material for musical navigation and composition.
             </p>
           </FadeIn>
 
           <FadeIn className="intro-figure">
             <LightboxImage
               src="/diagrams/intro-diagram.webp"
-              alt="Conceptual relationship between harmony, perception, and emotional topology"
+              alt="Conceptual relationship between harmony, listener experience, and computational representation"
               className="intro-diagram"
             />
           </FadeIn>

@@ -26,8 +26,6 @@ function SiteMenu() {
         <Link to="/about">/ABOUT</Link>
         <Link to="/cv">/CV</Link>
         <Link to="/bibliography">/BIBLIOGRAPHY</Link>
-        <Link to="/methodology">/METHODOLOGY</Link>
-        <Link to="/research-log">/RESEARCH LOG</Link>
         <Link to="/tools">/TOOLS</Link>
       </nav>
     </div>
