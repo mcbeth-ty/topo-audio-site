@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SiteMenu from "../components/SiteMenu";
 
 const cvSections = [
@@ -26,12 +27,12 @@ const cvSections = [
         items: [
             {
                 meta: ["2025–PRESENT", "INDEPENDENT RESEARCHER & DEVELOPER"],
-                title: "Emotional Topology of Harmony / topo.audio",
+                title: "topo.audio / Topologies of Harmonic Experience",
                 body:
-                    "Developing an empirical and computational framework for modeling relationships in harmonic affect through perceptual mapping, multidimensional representation, and topological analysis. Designed and developed a suite of interactive research software for stimulus generation, spatial perceptual judgment, and exploratory analysis of resulting perceptual maps. Current work also investigates how these models might support topological composition and generative musical systems.",
+                    "Developing an empirical and computational framework for measuring and representing relationships in how listeners experience directed harmonic changes. Designed and developed interactive research software for controlled stimulus generation, relational listener judgment, and computational exploration of the resulting structures. Current work examines the reliability of listener-derived representations, relationships across temporal scales, and their potential use in musical navigation and generative systems.",
             },
             {
-                meta: ["2018", "MASTER'S THESIS / KAWAZOE LABORATORY"],
+                meta: ["2017–2018", "MASTER'S THESIS / KAWAZOE LABORATORY"],
                 title:
                     "Tokyo Luminary: Modeling and Configuring Light Tectonics in Urban Spatial Envelopes",
                 subtitle: "University of Tokyo",
@@ -43,7 +44,7 @@ const cvSections = [
                 title: "Sound Trees",
                 subtitle: "University of Tokyo",
                 body:
-                    "Developed a tensegrity structure whose wires could be tuned through resonance, exploring a relationship between acoustic behavior and structural calibration. The final installation incorporated electromagnetic resonators to produce ambient sound.",
+                    "Developed and built a small-scale tensegrity installation prototype whose wires could be tuned through resonance, exploring the relationship between acoustic behavior and structural calibration. Electromagnetic resonators produced an ambient soundscape; the larger architectural installation remained a proposal.",
             },
             {
                 meta: ["2016–2017", "OBUCHI LABORATORY"],
@@ -76,7 +77,7 @@ const cvSections = [
                 title: "Tiger",
                 subtitle: "Dir. Anshul Chauhan",
                 body:
-                    "World premiere at the Busan International Film Festival in 2025; recipient of the Highlyfe Vision Award. Official closing film of MOOSIC LAB 2026; currently in its festival cycle.",
+                    "World premiere at the Busan International Film Festival in 2025; recipient of the Highlyfe Vision Award. Official closing film of MOOSIC LAB 2026; winner of Best Picture at MIX Milano 2026; currently in its festival cycle.",
             },
             {
                 meta: ["FORTHCOMING 2027", "DOCUMENTARY"],
@@ -104,6 +105,11 @@ const cvSections = [
                 meta: ["2025", "CAMPAIGN FILM"],
                 title: "Chanel Chance Tokyo 2025",
                 subtitle: "Sound Designer",
+            },
+            {
+                meta: ["2023", "SHORT FILM"],
+                title: "Dreamscapes",
+                subtitle: "Composer & Sound Designer",
             },
             {
                 meta: ["2026", "BRAND FILM"],
@@ -174,6 +180,13 @@ const cvSections = [
         title: "SELECTED EXHIBITIONS, COMPETITIONS & RECOGNITION",
         items: [
             {
+                meta: ["2025", "PRESENTATION"],
+                title: "Multiplying Analyses to Manage Design Overload",
+                subtitle: "Autodesk University · Nashville, USA",
+                body:
+                    "Presented a computational workflow connecting Rhino/Grasshopper and Autodesk Forma through Python and API-based data exchange, enabling automated environmental analysis and systematic comparison of design iterations.",
+            },
+            {
                 meta: ["2018", "HONORABLE MENTION"],
                 title: "Northern Lights Rooms",
                 subtitle: "Bee Breeders / Buildner",
@@ -190,9 +203,9 @@ const cvSections = [
             {
                 meta: ["2016", "EXHIBITION"],
                 title: "Parallels",
-                subtitle: "Texas Biennial; First Friday Art Trail",
+                subtitle: "Texas Student Biennial · AIA Houston / Architecture Center Houston",
                 body:
-                    "1:1 inhabitable installation developed from independent research into sub-horizontal and twilight light.",
+                    "Also exhibited through the First Friday Art Trail at the Louise Hopkins Underwood Center for the Arts.",
             },
             {
                 meta: ["2015", "FINALIST"],
@@ -259,6 +272,15 @@ const cvSections = [
 ];
 
 function CVPage() {
+    useEffect(() => {
+        const previousTitle = document.title;
+        document.title = "Tyler McBeth Academic CV";
+
+        return () => {
+            document.title = previousTitle;
+        };
+    }, []);
+
     return (
         <>
             <SiteMenu />
@@ -287,14 +309,17 @@ function CVPage() {
                                 Composer, researcher, and architectural/computational designer
                                 working across independent music, film composition, music
                                 perception, spatial representation, and generative systems.
-                                Current research, <em>Emotional Topology of Harmony / topo.audio</em>,
-                                investigates whether relationships in harmonic affect can be
-                                modeled through perceptual mapping and multidimensional/topological
-                                methods, and how such models might support new compositional
-                                systems. A background in architectural research and professional
-                                parametric design provides a parallel methodological foundation in
-                                spatial modeling, computational workflows, and the formalization
-                                of experiential phenomena.
+                                Current research, <em>topo.audio / Topologies of Harmonic Experience</em>,
+                                investigates whether relationships in how listeners experience music
+                                can be measured reliably enough to become useful information for
+                                computational musical systems. It focuses on a bounded domain of
+                                directed harmonic changes, using relational listening judgments,
+                                multidimensional representation, and computational analysis, while
+                                exploring how listener-derived structures might support musical
+                                navigation and composition. A background in architectural research
+                                and professional parametric design provides a parallel methodological
+                                foundation in spatial modeling, computational workflows, and the
+                                formalization of experiential phenomena.
                             </p>
                         </div>
                     </header>
