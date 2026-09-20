@@ -1,10 +1,10 @@
 export const bibliographyMeta = {
-  version: "2.0",
-  edition: "Saturation-search edition",
-  totalSources: 148,
-  essentialSources: 83,
-  newSources: 42,
-  description: "A protective literature map for the study of felt musical form, controlled structural complexity, relational reconstruction, and cross-scale transformation.",
+  version: "2.1",
+  edition: "Proposal-aligned edition",
+  totalSources: 164,
+  essentialSources: 92,
+  newSources: 58,
+  description: "A proposal-aligned literature map for listener-derived harmonic relationships, relational reconstruction, temporal context, and computational musical operation.",
 };
 
 export const bibliographyGroups = [
@@ -53,7 +53,7 @@ export const bibliographyGroups = [
       },
       {
         rating: 5,
-        citation: "Lahdelma, I., & Eerola, T. (2016). Single chords convey distinct emotional qualities to both naïve and expert listeners. Psychology of Music, 44(1), 37-54.",
+        citation: "Lahdelma, I., & Eerola, T. (2016). Single chords convey distinct emotional qualities to both naÃ¯ve and expert listeners. Psychology of Music, 44(1), 37-54.",
         note: "Closest chord-level affect study; shows rich affective differentiation beyond simple major/minor valence.",
       },
       {
@@ -64,13 +64,13 @@ export const bibliographyGroups = [
       {
         rating: 5,
         new: true,
-        citation: "Smit, E. A., Milne, A. J., Dean, R. T., & Weidemann, G. (2020). Perceived emotions of harmonic cadences. Music & Science, 3.",
-        note: "Controlled cadences were positioned in valence-arousal space. This strongly overlaps the stimulus domain, while retaining predefined affective axes rather than reconstructing an unconstrained relation space.",
+        citation: "Smit, E. A., Dobrowohl, F. A., Schaal, N. K., Milne, A. J., & Herff, S. A. (2020). Perceived emotions of harmonic cadences. Music & Science, 3, 1-13. https://doi.org/10.1177/2059204320938635",
+        note: "Controlled cadences were judged as complete directed harmonic events in valence-arousal space. This overlaps the stimulus domain while retaining predefined affective axes rather than reconstructing an unconstrained relational space.",
       },
       {
         rating: 5,
         new: true,
-        citation: "Spreckelmeyer, K. N., Altenmüller, E., Colonius, H., & Münte, T. F. (2013). Preattentive processing of emotional musical tones: A multidimensional scaling and ERP study. Frontiers in Psychology, 4, 656.",
+        citation: "Spreckelmeyer, K. N., AltenmÃ¼ller, E., Colonius, H., & MÃ¼nte, T. F. (2013). Preattentive processing of emotional musical tones: A multidimensional scaling and ERP study. Frontiers in Psychology, 4, 656.",
         note: "Shows that relational judgments and multidimensional reconstruction can be applied even to minimal emotionally performed tones. The affective cues are primarily expressive/timbral rather than abstract structural relations.",
       },
       {
@@ -116,6 +116,42 @@ export const bibliographyGroups = [
         citation: "Watt, R. J., & Ash, R. L. (1998). A psychological investigation of meaning in music. Musicae Scientiae, 2, 33-54.",
         note: "Short excerpts, listener categorization, and musical meaning; important precursor to rapid emotional organization.",
       },
+      {
+        rating: 5,
+        new: true,
+        citation: "Bruner, C. L. (1984). The perception of contemporary pitch structures. Music Perception, 2(1), 25-39.",
+        note: "A particularly close precedent: relational judgments and MDS were used to recover perceptual organization among three-note pitch structures, and theoretical set similarity did not straightforwardly determine perceived similarity.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Roberts, L. A., & Shaw, M. L. (1984). Perceived structure of triads. Music Perception, 2(1), 95-124.",
+        note: "Establishes a bounded triadic perceptual domain and shows that judgments reflect consonance, tonal organization, presentation, and musical training rather than interval structure alone.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Milne, A. J., & Holland, S. (2016). Empirically testing Tonnetz, voice-leading, and spectral models of perceived triadic distance. Journal of Mathematics and Music, 10(1), 59-85. https://doi.org/10.1080/17459737.2016.1152517",
+        note: "Directly compares perceived triadic distances with formal, voice-leading, and spectral models; central precedent for testing which descriptors account for a listener-derived relational structure.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Grey, J. M. (1977). Multidimensional perceptual scaling of musical timbres. Journal of the Acoustical Society of America, 61(5), 1270-1277.",
+        note: "Foundational example of defining a controlled musical stimulus domain, recovering its perceptual geometry from relational judgments, and interpreting that geometry using measurable stimulus properties.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "GÃ³mez-MarÃ­n, D., JordÃ , S., & Herrera, P. (2020). Drum rhythm spaces: From polyphonic similarity to generative maps. Journal of New Music Research, 49(5), 438-456.",
+        note: "A strong music-technology analogue connecting similarity judgments, low-dimensional representation, interpolation, and generative navigation in a bounded musical domain.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Wessel, D. L. (1979). Timbre space as a musical control structure. Computer Music Journal, 3(2), 45-52.",
+        note: "Canonical precedent for turning a perceptually organized musical space into an operational interface for musical control rather than treating it only as an analytical visualization.",
+      },
     ],
   },
   {
@@ -140,7 +176,7 @@ export const bibliographyGroups = [
       },
       {
         rating: 5,
-        citation: "Juslin, P. N., & Västfjäll, D. (2008). Emotional responses to music: The need to consider underlying mechanisms. Behavioral and Brain Sciences, 31(5), 559-575.",
+        citation: "Juslin, P. N., & VÃ¤stfjÃ¤ll, D. (2008). Emotional responses to music: The need to consider underlying mechanisms. Behavioral and Brain Sciences, 31(5), 559-575.",
         note: "Introduces a mechanisms-based framework for music-induced emotion.",
       },
       {
@@ -217,6 +253,12 @@ export const bibliographyGroups = [
       },
       {
         rating: 5,
+        new: true,
+        citation: "Bigand, E., Parncutt, R., & Lerdahl, F. (1996). Perception of musical tension in short chord sequences: The influence of harmonic function, sensory dissonance, horizontal motion, and musical training. Perception & Psychophysics, 58(1), 125-141.",
+        note: "Tests how several harmonic and acoustic properties jointly contribute to tension across short chord sequences, providing a close explanatory precedent for focused characterization after relational structure is recovered.",
+      },
+      {
+        rating: 5,
         citation: "Bowling, D. L., Gill, K., Choi, J. D., Prinz, J., & Purves, D. (2010/2013). Major and minor music compared to excited and subdued speech / A vocal basis for the affective character of musical mode. Journal/Frontiers sources.",
         note: "Mechanistic account connecting mode affect with speech prosody; verify exact preferred citation in review.",
       },
@@ -275,19 +317,37 @@ export const bibliographyGroups = [
       {
         rating: 4,
         new: true,
-        citation: "Bigand, E., Madurell, F., Tillmann, B., & Pineau, M. (1999/1997). Global context effects on musical expectancy. Perception & Psychophysics.",
-        note: "Shows that larger harmonic context changes the functional meaning and expectation of local chords; exact bibliographic year/volume should be normalized during final citation checking.",
+        citation: "Bigand, E., & Pineau, M. (1998). Effects of global and local contexts on harmonic expectancy. Music Perception, 16(1), 99-117.",
+        note: "Shows that harmonic expectancy reflects both local events and larger context, directly grounding Study 2's refusal to assume that local relations simply persist unchanged at sequence scale.",
       },
       {
         rating: 4,
         new: true,
-        citation: "Jimenez, I., & Kuusi, T. (year to verify). Effects of chord duration on the perceptual salience of chord type and voicing changes.",
-        note: "Demonstrates that duration itself changes which harmonic properties dominate perception; a key control issue for cross-scale studies. Full publication record should be verified.",
+        citation: "Jimenez, I., Kuusi, T., Ojala, J., & Harrison, P. M. C. (2024). The effect of chord duration on the relative salience of chord-type and voicing changes. Psychology of Music. https://doi.org/10.1177/03057356241247533",
+        note: "Demonstrates that duration itself changes which harmonic properties dominate perception; a key control issue for cross-scale studies.",
       },
       {
         rating: 4,
         new: true,
-        citation: "Navarro-Cáceres, M., Caetano, M., Bernardes, G., Sánchez-Barba, M., & Orio, N. (2020). A computational model of the tonal tension profile of chord progressions. Entropy, 22(11), 1291.",
+        citation: "Jimenez, I., Kuusi, T., Ojala, J., Czedik-Eysenberg, I., Harrison, P. M. C., & Chander, A. (2025). Effect of timbre on goodness-of-fit ratings of short chord sequences. Music Perception, 42(5), 481-504.",
+        note: "Demonstrates that timbre can alter judgments of short harmonic sequences, supporting the proposal's decision to control realization while treating generalization beyond the chosen timbre cautiously.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Kuusi, T. (2003). The role of set-class identity in the estimation of chords. Music Theory Online, 9(3).",
+        note: "Compares perceived chord relationships with pitch-class-set descriptions and helps motivate using structural classification to define a candidate domain without assuming that it determines perceptual organization.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Weiser, M. E. (1992). Rating cadence stability: The effects of chord structure, tonal context, and musical training (Doctoral dissertation, McMaster University).",
+        note: "An arrow-focused precedent in which two-chord cadential events were judged for stability, showing that the directed relationship itself can be treated as a perceptual object.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Navarro-CÃ¡ceres, M., Caetano, M., Bernardes, G., SÃ¡nchez-Barba, M., & Orio, N. (2020). A computational model of the tonal tension profile of chord progressions. Entropy, 22(11), 1291.",
         note: "A formal comparison model combining tonal distance, dissonance, voice leading, and temporal organization.",
       },
       {
@@ -523,7 +583,7 @@ export const bibliographyGroups = [
       },
       {
         rating: 3,
-        citation: "Nagel, F., Kopiez, R., Grewe, O., & Altenmüller, E. (2007). EMuJoy: Software for continuous measurement of perceived emotions in music. Behavior Research Methods, 39, 283-290.",
+        citation: "Nagel, F., Kopiez, R., Grewe, O., & AltenmÃ¼ller, E. (2007). EMuJoy: Software for continuous measurement of perceived emotions in music. Behavior Research Methods, 39, 283-290.",
         note: "Important interface and data-collection precedent.",
       },
     ],
@@ -542,7 +602,7 @@ export const bibliographyGroups = [
       {
         rating: 5,
         new: true,
-        citation: "Hjortkjær, J., & Nielbo, F. (2010). A perceptual study on dynamical form in music. Proceedings of the Sound and Music Computing Conference.",
+        citation: "HjortkjÃ¦r, J., & Nielbo, F. (2010). A perceptual study on dynamical form in music. Proceedings of the Sound and Music Computing Conference.",
         note: "A direct conceptual ancestor for perceived temporal forms such as explosive, fading, rising, and suspenseful, distinguished from ordinary emotion and source qualities.",
       },
       {
@@ -581,6 +641,18 @@ export const bibliographyGroups = [
         citation: "Margulis, E. H. (2005). A model of melodic expectation. Music Perception, 22(4), 663-714.",
         note: "Hierarchical model using stability, proximity, direction, and mobility; relevant as a competing multiscale account of melodic tension and expectedness.",
       },
+      {
+        rating: 4,
+        new: true,
+        citation: "Maes, P.-J., Leman, M., Palmer, C., & Wanderley, M. M. (2014). Action-based effects on music perception. Frontiers in Psychology, 4, 1008.",
+        note: "Supports the possibility that action and spatial interaction can shape musical perception, an important qualification when evaluating an interactive relational-judgment interface.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Kelkar, T., & Jensenius, A. R. (2018). Analyzing free-hand sound-tracings of melodic phrases. Applied Sciences, 8(1), 135.",
+        note: "Provides methodological precedent for collecting and analysing continuous, nonverbal spatial traces of perceived musical motion and shape.",
+      },
     ],
   },
   {
@@ -615,13 +687,13 @@ export const bibliographyGroups = [
       {
         rating: 4,
         new: true,
-        citation: "Imberty, M. (1979). Entendre la musique: Sémantique psychologique de la musique. Dunod.",
+        citation: "Imberty, M. (1979). Entendre la musique: SÃ©mantique psychologique de la musique. Dunod.",
         note: "French foundation for psychological musical semantics using freely associated language and temporal/figural organization.",
       },
       {
         rating: 4,
         new: true,
-        citation: "Imberty, M. (1981). Les écritures du temps: Sémantique psychologique de la musique, Tome 2. Dunod.",
+        citation: "Imberty, M. (1981). Les Ã©critures du temps: SÃ©mantique psychologique de la musique, Tome 2. Dunod.",
         note: "Extends musical semantics toward temporal organization, form, and psychological meaning.",
       },
     ],
@@ -669,6 +741,18 @@ export const bibliographyGroups = [
         new: true,
         citation: "Kriegeskorte, N., Mur, M., & Bandettini, P. A. (2008). Representational similarity analysis - connecting the branches of systems neuroscience. Frontiers in Systems Neuroscience, 2, 4.",
         note: "Foundational RSA framework for comparing listener dissimilarity matrices with formal, acoustic, predictive, and model-derived relational structures.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Diedrichsen, J., & Kriegeskorte, N. (2017). Representational models: A common framework for understanding encoding, pattern-component, and representational-similarity analysis. PLOS Computational Biology, 13(4), e1005508.",
+        note: "Grounds Study 2's predictive logic: candidate models make testable predictions about relational geometry and are compared with independently measured representational structure.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "Nili, H., Wingfield, C., Walther, A., Su, L., Marslen-Wilson, W., & Kriegeskorte, N. (2014). A toolbox for representational similarity analysis. PLOS Computational Biology, 10(4), e1003553.",
+        note: "Practical framework for evaluating predicted and measured representational dissimilarity matrices across data sources, models, and individuals.",
       },
       {
         rating: 5,
@@ -742,13 +826,25 @@ export const bibliographyGroups = [
       {
         rating: 5,
         new: true,
-        citation: "Tillmann, B., & Bigand, E. (2004). The relative importance of local and global structures in music perception. Journal/volume to verify.",
+        citation: "Tillmann, B., & Bigand, E. (2004). The relative importance of local and global structures in music perception. The Journal of Aesthetics and Art Criticism, 62(2), 211-222.",
         note: "Directly addresses local and global contributions to musical perception; an essential ancestor for cross-scale questions.",
+      },
+      {
+        rating: 5,
+        new: true,
+        citation: "Smith, N. A., & Cuddy, L. L. (2003). Perceptions of musical dimensions in Beethoven's Waldstein sonata: An application of Tonal Pitch Space theory. Musicae Scientiae, 7(1), 7-34.",
+        note: "A major Study 2 precedent: measurements of isolated sonority properties, contextual tonal organization, hierarchical structure, and tension were related across a temporally unfolding passage.",
       },
       {
         rating: 4,
         new: true,
-        citation: "Lindström, E. (2004). A Dynamic View of Melodic Organization and Performance (Doctoral dissertation, Uppsala University).",
+        citation: "SchÃ¤fer, T., Zimmermann, D., & Sedlmeier, P. (2014). How we remember the emotional intensity of past musical experiences. Frontiers in Psychology, 5, 911. https://doi.org/10.3389/fpsyg.2014.00911",
+        note: "Directly addresses the whole-versus-ending problem for extended musical judgments: overall evaluations primarily reflected the temporal profile's average while peaks and endings also contributed substantially.",
+      },
+      {
+        rating: 4,
+        new: true,
+        citation: "LindstrÃ¶m, E. (2004). A Dynamic View of Melodic Organization and Performance (Doctoral dissertation, Uppsala University).",
         note: "Systematically manipulates melodic structure and performance, emphasizing interactions among pitch, rhythm, implied harmony, stability, and emotion.",
       },
       {
