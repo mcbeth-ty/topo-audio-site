@@ -93,6 +93,17 @@ function AboutPage() {
                 Perception
               </p>
 
+              <p>
+                <a
+                  className="about-page-meta-link"
+                  href="https://www.imdb.com/name/nm17710082/?_ssoLoop=1&newac=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  IMDB
+                </a>
+              </p>
+
               {/* <p>
                 IMDB
                 <br />

@@ -23,66 +23,15 @@ function Hypothesis() {
           </FadeIn>
 
           <FadeIn className="hypothesis-copy body-copy">
-            <p>
-              Rather than asking listeners to define musical emotions directly,
-              topo.audio investigates whether the relational organization of harmonic
-              experience can be reconstructed from spatial and comparative judgments.
-              Prior research has already shown that perceptual judgments can reveal tonal,
-              timbral, and emotional spaces. Topo.audio builds from that foundation by
-              treating topology construction as an ongoing musical research process:
-              multiple participant configurations, musical scales, perceptual methods, and
-              harmonic datasets can each produce different but related views of the same
-              underlying landscape.
-            </p>
+            <p className="research-lead">Harmonic experience contains relational structure that can be measured, represented, and tested without assuming that the same structure is shared by every listener.</p>
 
-            <p className="hypothesis-list">
-              <strong>H1:</strong> Listener articulations contain reliable relational
-              structure at individual and collective levels.
-              <br />
-              <br />
-              <h3>connecting harmonic &amp; emotion data</h3>
+            <p>Rather than defining musical experience through predetermined labels alone, topo.audio investigates whether relationships among experiences can be reconstructed from listener judgments. The first requirement is reliability: a listener-derived structure must show sufficient repeatability before its regions, dimensions, or trajectories are interpreted. Shared organization can then be examined across listeners without assuming that individual differences are simply noise.</p>
 
-              <p>
-                The upper layer represents musical structure: short harmonic events
-                generated with known intervals, scale degrees, voicings, inversions,
-                registers, common tones, and transition properties.
-              </p>
+            <h3>connecting musical structure &amp; experience</h3>
 
-              <p>
-                The middle layer represents measured perception. Listeners organize,
-                compare, and articulate these events according to felt similarity,
-                movement, character, or change.
-              </p>
+            <p>The diagram shows the basic research loop. Musical material provides a controlled structural layer; listener judgments provide observations of experienced relationships; and those observations are used to construct a perceptual topology. Because every observation remains linked to the sound and musical data from which it emerged, relationships discovered perceptually can be examined through their musical properties—and, eventually, used to retrieve or generate material for further listening.</p>
 
-              <p>
-                The lower layer represents the latent organization inferred from those
-                relations: not a predefined map of emotion words, but a perceptual
-                landscape constructed from how harmonic experiences relate.
-              </p>
-
-              <p>
-                The connections between layers are bidirectional. Listener judgments
-                reveal the topology; harmonic metadata helps explain its regions and
-                paths. Once a stable region or trajectory is identified, the system can
-                return the musical structures associated with it, allowing analysis and
-                composition to move through the same space in parallel.
-                whether the middle layer can reveal a navigable relationship between harmonic structure and affective experience.
-              </p>
-
-
-            </p>
-
-            <p>
-              The connections running between layers represent the musical
-              structures associated with different regions of the topology.
-            </p>
-
-            <p>
-              By uncovering these relationships, we can begin to navigate the
-              landscape through both listening and harmonic analysis in
-              parallel.
-            </p>
-
+            <blockquote className="pull-quote">THE AIM IS NOT ONE UNIVERSAL MAP, BUT RELATIONSHIPS STABLE ENOUGH TO BE MEASURED, COMPARED, AND USED.</blockquote>
           </FadeIn>
         </SectionGrid>
 

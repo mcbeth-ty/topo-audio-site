@@ -19,42 +19,15 @@ function TopologyExplorer() {
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
-            <p>
-              Topology Explorer is the central analysis environment of topo.audio.
-              It brings together perceptual observations, listener configurations,
-              stimulus datasets, and harmonic metadata so that topologies can be
-              constructed and investigated fluidly rather than through disconnected
-              analysis steps.
-            </p>
+            <p className="research-lead">Topology Explorer connects listener observations, relational models, sound, and musical description within one analysis and auditioning environment.</p>
 
-            <p>
-              The interface can filter and combine participants, methods, and
-              datasets; inspect individual observations; generate distance
-              structures and embeddings; identify clusters and latent axes; and
-              trace any region back to the sounds and harmonic parameters
-              associated with it.
-            </p>
+            <p>The platform can filter participants, tasks, datasets, and sessions; inspect repeated observations; construct listener-level relational structures; compare dimensional summaries; identify clusters or latent patterns; and trace any region back to the sounds and descriptors associated with it.</p>
 
-            <p>
-              Its importance is not only visual. By keeping listening, spatial
-              structure, and harmonic data in one environment, Topology Explorer
-              supports an iterative scale of research that is difficult to achieve
-              through static figures alone. A pattern can be heard, filtered,
-              tested against another participant configuration, and used to define
-              a new stimulus query without leaving the same pipeline.
-            </p>
+            <p>Its importance is not only visual. Direct auditioning allows an apparent computational pattern to be checked against the sounds it claims to organize. Different participant configurations, methods, and musical scales can be compared without separating the representation from the observations that produced it.</p>
 
-            <p>
-              This demo includes approximately 28 observations generated using the
-              Vector_v2 methodology. At this scale, the interface already begins to
-              reveal some recurring structures and regions of agreement, but
-              because this topology is so small, meaningful groupings are limited.
-              As the dataset grows to hundreds or thousands of observations, more
-              sophisticated forms of analysis—including dynamic clustering,
-              topology comparison, and cross-scale synthesis—become increasingly
-              meaningful.
-            </p>
+            <p className="body-highlight">The scientific representation is not identical to the interface. A plotted configuration may simplify higher-dimensional relationships, and a cluster may change under resampling or alternative parameters. Topology Explorer therefore aims to expose distortion, stability, uncertainty, and source observations rather than presenting every projection as a discovered musical geography.</p>
 
+            <p>The current demo uses a small provisional dataset intended to demonstrate the analysis environment rather than establish substantive perceptual findings. As validated relationships emerge, the same environment can support prospective queries, musical selections, and new listener tests.</p>
           </FadeIn>
 
           <FadeIn className="prototype-embed">

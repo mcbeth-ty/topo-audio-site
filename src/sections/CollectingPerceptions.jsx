@@ -24,41 +24,15 @@ function CollectingPerceptions() {
               perceptions
             </SectionTitle>
 
-            <p>
-              The central experimental challenge is turning subjective musical
-              experience into data without immediately reducing it to fixed
-              language. Topo.audio addresses this through a growing family of
-              listening instruments called Audio Canvas.
-            </p>
+            <p className="research-lead">The central experimental challenge is turning subjective musical experience into data without fixing its meaning too early.</p>
 
-            <blockquote className="pull-quote">
-              Rather than asking only what emotion a sample represents, these
-              interfaces ask listeners to articulate how harmonic experiences
-              relate.
-            </blockquote>
+            <p>Audio Canvas is the listening environment of topo.audio. Its prototypes span different levels of constraint. Free arrangement allows listeners to organize sounds through proximity and grouping. Directional interfaces allow a heard change to be expressed as movement. Line and labelled-vector interfaces can test whether selected descriptors such as stability, brightness, arrival, tension, or valence help explain part of an emerging organization.</p>
 
-            <p>
-              Different tools capture different aspects of the landscape. Spatial
-              arrangement measures proximity and grouping. Pairwise or adaptive
-              comparisons improve local resolution. Line and vector methods
-              represent perceived direction, magnitude, arrival, destabilization,
-              brightness, valence, tension, or other candidate qualities.
-            </p>
+            <p>These interfaces are not treated as equivalent versions of one final method. Some support discovery; others test explicit interpretations. Comparing methods can reveal which structures persist and which depend strongly on wording, interface, or task.</p>
 
-            <p>
-              These methods do not all serve the same purpose. Some are designed
-              for discovery; others test explicit hypotheses. Their overlap allows
-              the project to ask whether a structure survives changes in wording,
-              interface, and task.
-            </p>
+            <p>Repeated judgments make it possible to estimate within-listener stability and to identify trials, stimuli, or task formulations that do not support reliable interpretation. Randomization, counterbalancing, breaks, and session design are adjusted to the demands of each study rather than fixed across the entire platform.</p>
 
-            <p>
-              <span className="body-highlight">
-                Audio Canvas is therefore not one experiment. It is an evolving set
-                of perceptual instruments through which multiple views of harmonic
-                experience can be collected and compared.
-              </span>
-            </p>
+            <p className="body-highlight">Audio Canvas is therefore an evolving family of perceptual instruments. Existing interfaces demonstrate possible ways of collecting relational judgments; they are not themselves evidence that a stable topology has been established.</p>
           </FadeIn>
 
           <FadeIn className="collecting-figures">

@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
+import ProjectPage from "./pages/ProjectPage";
 import HomePage from "./pages/HomePage";
-import BriefPage from "./pages/BriefPage";
+import ResearchPage from "./pages/ResearchPage";
 import AboutPage from "./pages/AboutPage";
 import BibliographyPage from "./pages/BibliographyPage";
 import MethodologyPage from "./pages/MethodologyPage";
@@ -13,7 +14,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/brief" element={<BriefPage />} />
+      <Route path="/project" element={<ProjectPage />} />
+      <Route path="/research" element={<ResearchPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/cv" element={<CVPage />} />
       <Route path="/bibliography" element={<BibliographyPage />} />

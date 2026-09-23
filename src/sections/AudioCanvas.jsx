@@ -19,30 +19,15 @@ function AudioCanvas() {
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
-            <p>
-              Audio Canvas is the perceptual data-collection environment of
-              topo.audio. The current Vector methodology asks listeners to
-              represent harmonic events as directional movements within an
-              explicit space.
-            </p>
+            <p className="research-lead">Audio Canvas records how listeners externalize relationships among musical experiences.</p>
 
-            <p>
-              Click a vector to hear its associated sample. Drag vectors to
-              reposition them according to how they feel relative to one another.
-              Direction represents the perceived character of the movement, while
-              length represents its intensity. As vectors are adjusted, a helper in
-              the lower-right corner provides a textual interpretation of the
-              current placement.
-            </p>
+            <p>Current prototypes include free arrangement, line-based judgments, and vector interfaces. Depending on the task, listeners may organize samples through proximity, express a perceived direction and extent of change, or respond along selected experiential dimensions.</p>
 
-            <p>
-              There are no correct answers. The objective is simply to organize
-              the samples into a perceptual landscape that feels internally
-              consistent. These spatial relationships become the foundation from
-              which topological models are constructed. Begin by exploring the
-              initial arrangement below.
-            </p>
+            <p>The interfaces are treated as perceptual instruments rather than interchangeable skins. Unlabelled tasks can support discovery, while labelled dimensions can test candidate interpretations. Comparing methods can reveal which structures persist and which depend strongly on task framing.</p>
 
+            <p>The platform records the response together with the underlying stimulus and relevant trial information so that repeatability, task effects, fatigue, and carry-over can be examined rather than inferred from a final visualization alone.</p>
+
+            <p className="body-highlight">The live demo invites exploration of the interaction design. Its responses and provisional outputs are illustrative and are not presented as validated research findings.</p>
           </FadeIn>
 
           <FadeIn className="prototype-embed">

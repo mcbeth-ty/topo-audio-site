@@ -20,11 +20,7 @@ function Intro() {
               experience
             </SectionTitle>
 
-            <p className="intro-subtitle">
-              investigating whether relationships in how listeners experience
-              music can be measured, represented computationally, and used as
-              material for musical navigation and composition.
-            </p>
+            <p className="intro-subtitle">Investigating whether relationships in how listeners experience music can be measured, represented computationally, and used as material for musical navigation and composition.</p>
           </FadeIn>
 
           <FadeIn className="intro-figure">

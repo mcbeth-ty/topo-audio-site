@@ -1,8 +1,8 @@
-function SectionTitle({ children }) {
+function SectionTitle({ children, as: Heading = "h1" }) {
   return (
-    <h1 className="section-title">
+    <Heading className="section-title">
       {children}
-    </h1>
+    </Heading>
   );
 }
 

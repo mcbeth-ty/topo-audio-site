@@ -17,40 +17,15 @@ function Methodology() {
               methodology
             </SectionTitle>
 
-            <p>
-              The central methodology of topo.audio is the{" "}
-              <span className="body-highlight">
-                construction of musical-perceptual topologies from relational listening data.
-              </span>{" "}
-              Participants encounter short harmonic samples and express how those
-              experiences relate through placement, grouping, comparison, vectors,
-              trajectories, or other spatial articulations.
-            </p>
+            <p className="research-lead">The central methodology of topo.audio is the construction and comparison of musical-perceptual topologies from relational listening data.</p>
 
-            <p>
-              The approach does not assume that spatial judgment is entirely free
-              of language or task influence. Instead, multiple methods are treated
-              as complementary instruments. Unconstrained arrangements can reveal
-              emergent organization, while explicit dimensions such as arrival,
-              stability, brightness, tension, or valence can be tested as possible
-              explanations of that organization.
-            </p>
+            <p>Participants encounter controlled musical samples and express how those experiences relate through placement, grouping, comparison, vectors, trajectories, pairwise judgments, or other relational articulations. Different tasks are treated as perceptual instruments with different assumptions rather than interchangeable routes to a single ground truth.</p>
 
-            <p>
-              The accumulated relations are converted into dissimilarity structures
-              and explored through multidimensional scaling, clustering, graph
-              models, representational similarity analysis, individual-differences
-              methods, and, where justified, manifold or topological analysis.
-              Because each stimulus remains connected to its harmonic description,
-              perceptual regions can be queried in musical terms.
-            </p>
+            <p>The accumulated observations are converted into relational structures such as dissimilarity matrices, graphs, or higher-dimensional configurations. Multidimensional scaling can provide a spatial summary when it preserves the measured relationships adequately; clustering, representational similarity analysis, individual-differences methods, and other models can examine complementary aspects of the same data.</p>
 
-            <p>
-              The process is iterative: topologies inform new stimuli and
-              experiments; new data refine or divide the topology; composition
-              probes its musical consequences; and unexpected results generate new
-              questions.
-            </p>
+            <p className="body-highlight">Reliability precedes interpretation. Repeated observations are used to determine whether an individual listener's organization is stable enough to analyze. Group summaries are constructed only after listener-level structure has been examined, so disagreement is not automatically averaged away.</p>
+
+            <p>Because every stimulus remains connected to its sound and musical description, perceptual relationships can be compared with harmonic, acoustic, and experiential descriptors without allowing those descriptors to determine the representation in advance. The process is iterative: observations inform representations; representations expose new questions; and new listening tests whether apparent relationships survive.</p>
           </FadeIn>
 
           <FadeIn className="methodology-concept">
@@ -78,56 +53,17 @@ function Methodology() {
               topologies
             </SectionTitle>
 
-            <p>
-              Every listener interaction contributes a small observation about
-              musical experience. Some trials describe a stimulus directly. Others
-              describe relations between stimuli: resemblance, contrast, direction,
-              grouping, intensity, or transformation.
-            </p>
+            <p className="research-lead">Every listener interaction contributes a partial observation about how musical experiences are organized.</p>
 
-            <blockquote className="pull-quote">
-              Individually, these observations are partial. Collectively, they form
-              a network whose structure may contain more information than any single
-              rating.
-            </blockquote>
+            <p>Some observations concern proximity or similarity. Others concern grouping, direction, magnitude, contrast, or transformation. Each response is only a partial observation; accumulated across repeated judgments, these observations form the relational structure shown in the diagram, from which neighborhoods, boundaries, continuities, latent dimensions, and possible trajectories can be reconstructed.</p>
 
-            <p>
-              Computational methods can reconstruct the latent organization implied
-              by that network without requiring the dimensions of the final space
-              to be fixed in advance.
-            </p>
+            <p>Topo.audio does not assume that there will be one definitive topology. A single listener may produce a reliable personal organization. Some relationships may recur across listeners, while others may depend on musical background, cultural exposure, task, context, stimulus realization, or the scale of the material being judged.</p>
 
-            <p>
-              Topo.audio does not assume that there will be one definitive
-              topology. A single listener may produce a detailed personal
-              landscape. Aggregated data may reveal stable overlaps shared by many
-              listeners. Subgroups based on musical background, cultural exposure,
-              task, or stimulus type may produce related but differently weighted
-              spaces.
-            </p>
+            <p className="body-highlight">Different combinations of listeners, methods, and musical datasets can therefore produce a family of related representations. Their agreements and disagreements are part of the result rather than errors to be removed automatically.</p>
 
-            <p>
-              The objective is therefore to construct and compare a family of
-              topologies: individual and collective, local and large-scale, free and
-              dimension-guided. Their agreements and disagreements are part of the
-              result.
-            </p>
+            <p>Every point or relationship remains attached to sound and metadata. Regions can therefore be auditioned and examined through interval content, voice leading, register, acoustic properties, tonal context, or other descriptors. Perception contributes organization to the representation; musical analysis helps characterize what that organization contains.</p>
 
-            <p>
-              Every point remains attached to harmonic data, allowing the topology
-              to be read from the opposite direction. Regions, boundaries, and
-              trajectories can be examined through interval content, tonal function,
-              common-tone retention, voice leading, register, inversion, expectancy,
-              and other structural properties.
-            </p>
-
-            <p>
-              <span className="body-highlight">
-                Perception constructs the landscape. Musical analysis and direct
-                listening explain and activate it.
-              </span>
-            </p>
-
+            <blockquote className="pull-quote">REPEATABILITY IS ESTABLISHED WITHIN LISTENERS BEFORE COLLECTIVE STRUCTURE IS INTERPRETED.</blockquote>
           </FadeIn>
         </SectionGrid>
 

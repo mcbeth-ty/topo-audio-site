@@ -13,55 +13,29 @@ function WhyHarmony() {
           <FadeIn className="why-copy body-copy">
             <SectionTitle>why harmony?</SectionTitle>
 
-            <p>
-              Musical affect emerges from many interacting layers. Timbre,
-              instrumentation, rhythm, performance, lyrics, memory, and cultural
-              context all shape how music is experienced.
-            </p>
+            <p className="research-lead">Musical experience emerges from many interacting layers. Timbre, instrumentation, rhythm, melody, performance, production, memory, and cultural context all shape what is heard and felt.</p>
 
-            <p>
-              Topo.audio begins with a more constrained question:
-            </p>
+            <p className="body-highlight">Topo.audio begins with a more constrained question: what perceptual organization can be recovered from harmony itself?</p>
 
-            <blockquote className="pull-quote">
-              what perceptual organization can be recovered from harmony itself?
-            </blockquote>
+            <p>Harmony is not chosen because it is the only source of musical feeling. It is chosen because it is both experientially consequential and structurally describable. Harmonic events can be generated systematically, altered parametrically, and linked to detailed metadata while selected aspects of timbre, production, and expressive performance are held comparatively stable.</p>
 
-            <p>
-              Harmony is not chosen because it is the only source of musical
-              feeling. It is chosen because it is both experientially powerful
-              and structurally describable. Harmonic events can be generated in
-              large numbers, altered parametrically, and linked to complete
-              metadata while timbre, production, and expressive performance
-              remain controlled.
-            </p>
+            <p>Short sonorities, directed transitions, and brief sequences provide useful laboratory units because they can be repeated, compared across many examples, and related to known properties such as interval content, common tones, voice leading, register, inversion, tonal position, and acoustic characteristics. Different studies can constrain this broader domain differently depending on the question being asked.</p>
 
-            <p>
-              This reduction is a starting laboratory rather than a final
-              boundary. By first recovering structure in a domain that can be
-              systematically described, the project creates a foundation for
-              later movement toward longer phrases, melodic-harmonic gestures,
-              richer sound, and larger musical forms.
-            </p>
+            <p>This reduction is a starting laboratory rather than a final boundary. By first recovering structure in domains that can be systematically described, the project creates a foundation for later work with richer harmonic languages, tuning systems, melodic-harmonic gestures, longer phrases, timbral variation, and larger musical forms.</p>
           </FadeIn>
 
           <FadeIn className="why-audio">
             <AudioExample
               src="/audio/with-texture.mp3"
-              label="HARMONIC EVENT WITH TEXTURE / EXPRESSION"
+              label="ORIGINAL MUSICAL CONTEXT"
             />
 
             <AudioExample
               src="/audio/without-texture.mp3"
-              label="HARMONIC EVENT WITHOUT TEXTURE / EXPRESSION"
+              label="SIMPLIFIED HARMONIC REALIZATION"
             />
 
-            <p className="why-caption">
-              Intro bars of Halo Reborn by composer Martin O'Donnell -
-
-              texture and expression add something to a harmonic event, but
-              something remains without it
-            </p>
+            <p className="why-caption">Intro bars of Halo Reborn by composer Martin O'Donnell — the original passage and a simplified realization of its harmonic material illustrate what changes, and what remains, when orchestration and performance context are reduced.</p>
           </FadeIn>
         </SectionGrid>
 

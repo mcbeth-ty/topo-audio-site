@@ -19,28 +19,13 @@ function HarmonyGenerator() {
           </FadeIn>
 
           <FadeIn className="prototype-copy body-copy">
-            <p>
-              This prototype creates the musical samples used in topo.audio
-              listening studies. Use the controls to shape the harmonic dataset,
-              then press “generate” to audition a collection of events with linked
-              structural descriptions.
-            </p>
+            <p className="research-lead">The Harmonic Sequence Generator creates and documents controlled musical material while keeping every sound linked to its structural description.</p>
 
-            <p>
-              The interface is designed to balance controlled variation with
-              musical coherence. Instead of generating either repeated textbook
-              progressions or unrestricted randomness, it allows distributions of
-              scale degrees, chord types, inversions, registers, and event counts
-              to be weighted parametrically.
-            </p>
+            <p>The current prototype can vary scale, chord type, inversion, register, voicing, duration, and sequence structure while exporting audio, MIDI, and metadata. Different studies can constrain this broader environment to the domain required by their research question.</p>
 
-            <p>
-              Every exported sample remains connected to its audio, MIDI, and
-              metadata. This linkage is essential: it allows regions discovered
-              through perception to be queried later for the harmonic structures
-              they contain.
-            </p>
+            <p>Calculated musical and acoustic descriptors support inspection, sampling, and later interpretation. The same records remain available when material is auditioned, judged by listeners, represented computationally, or selected again for a new experiment or musical operation.</p>
 
+            <p className="body-highlight">The interface shown here is a development prototype. Its available controls demonstrate the larger stimulus-generation environment and should not be read as the fixed design of every topo.audio study.</p>
           </FadeIn>
 
           <FadeIn className="prototype-embed">

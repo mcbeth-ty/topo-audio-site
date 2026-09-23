@@ -11,7 +11,8 @@ function HomePage() {
           <h1>TOPO.AUDIO</h1>
 
           <nav className="simple-page__nav">
-            <Link to="/brief">/BRIEF</Link>
+            <Link to="/project">/PROJECT</Link>
+            <Link to="/research">/RESEARCH</Link>
             <Link to="/about">/ABOUT</Link>
             <Link to="/bibliography">/BIBLIOGRAPHY</Link>
             <Link to="/tools">/TOOLS</Link>

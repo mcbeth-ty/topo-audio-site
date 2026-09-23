@@ -5,7 +5,8 @@ function SiteMenu() {
 
   const pageLabel =
     {
-      "/brief": "BRIEF",
+      "/research": "RESEARCH",
+      "/project": "PROJECT",
       "/about": "ABOUT",
       "/cv": "CV",
       "/bibliography": "BIBLIOGRAPHY",
@@ -16,13 +17,14 @@ function SiteMenu() {
 
   return (
     <div className="sidebar__brand-group">
-      <Link to="/brief" className="sidebar__brand">
+      <Link to="/research" className="sidebar__brand">
         TOPO.AUDIO
         {pageLabel && <> / <span>{pageLabel}</span></>}
       </Link>
 
       <nav className="sidebar__site-menu">
-        <Link to="/brief">/BRIEF</Link>
+        <Link to="/project">/PROJECT</Link>
+        <Link to="/research">/RESEARCH</Link>
         <Link to="/about">/ABOUT</Link>
         <Link to="/cv">/CV</Link>
         <Link to="/bibliography">/BIBLIOGRAPHY</Link>

@@ -1,6 +1,6 @@
 // src/components/Footer.jsx
 
-export default function Footer() {
+export default function Footer({ project = false }) {
   return (
     <footer className="site-footer">
       <div className="footer-inner">
@@ -17,22 +17,19 @@ export default function Footer() {
         </p>
 
         <nav className="footer-nav">
-          <a href="#intro">Brief</a>
+          <a href="/project">Project</a>
           <span>·</span>
-
-          <a href="/methodology">Methodology</a>
+          <a href={project ? "/research" : "#intro"}>Research</a>
           <span>·</span>
-
-          <a href="/research">Research Log</a>
+          <a href="/tools">Tools</a>
           <span>·</span>
-
-          <a href="#about">About</a>
+          <a href="/about">About</a>
           <span>·</span>
-
+          <a href="/cv">CV</a>
+          <span>·</span>
           <a href="/bibliography">Bibliography</a>
           <span>·</span>
-
-          <a href="#about">Contact</a>
+          <a href={project ? "/research#about" : "#about"}>Contact</a>
         </nav>
 
         <p>© 2026 Tyler McBeth</p>

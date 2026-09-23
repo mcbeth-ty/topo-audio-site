@@ -15,51 +15,17 @@ function Analysis() {
           <FadeIn className="analysis-copy body-copy">
             <SectionTitle>analysis</SectionTitle>
 
-            <p>
-              Once a topology has been constructed, it can be examined from
-              several directions.
-            </p>
+            <p className="research-lead">Once a topology has been constructed, analysis asks what information the representation carries, how stable it is, where it fails, and how it relates to musical structure.</p>
 
-            <p>
-              At the perceptual level, analysis concerns the shape of the
-              landscape itself: neighborhoods, clusters, boundaries, continuities,
-              trajectories, latent dimensions, and areas of agreement or
-              disagreement among listeners.
-            </p>
+            <p>At the perceptual level, analysis concerns neighborhoods, distances, boundaries, possible dimensions, trajectories, and patterns of agreement or difference within and across listeners. Stability under repetition, resampling, and alternative model choices is examined before visual regions or dimensions are interpreted.</p>
 
-            <p>
-              At the musical level, these structures are traced back to the sounds
-              and metadata from which they emerged. A region may contain recurring
-              interval structures, voice-leading patterns, degrees of tonal
-              stability, registers, inversions, or transition types. A trajectory
-              may correspond to systematic changes in arrival, tension, brightness,
-              common tones, or expectation.
-            </p>
+            <p>At the musical and acoustic levels, the same relationships can be compared with descriptors attached to the stimuli. Representational similarity analysis and related model-comparison approaches allow candidate explanations to be tested against the relational structure. Correlated descriptors are treated cautiously so that one underlying source of variation is not presented as several independent explanations.</p>
 
-            <blockquote className="pull-quote">
-              The topology therefore operates as an intermediary representation
-              between measured experience and harmonic structure.
-            </blockquote>
+            <p className="body-highlight">Individual representations can then be compared with one another. Recurring organization may support a shared structure; stable differences may indicate listener-specific weighting, subgroups, or multiple related topologies. Either outcome is informative.</p>
 
-            <p>
-              Rather than testing one chord against one emotion label, the project
-              asks how musical properties organize relationships across an entire
-              landscape.
-            </p>
+            <p>The same framework can support prospective tests. A relationship identified in existing data can define a new stimulus query, prediction, or musical selection, and new listener judgments can test whether that relationship generalizes beyond the observations from which it was discovered.</p>
 
-            <p>
-              As datasets expand, the Topology Explorer can also compare topologies
-              with one another—across participants, experiments, methods, and
-              musical scales—to identify structures that recur, deform, or
-              disappear.
-            </p>
-
-            <p className="body-highlight">
-              The objective is to identify stable relationships between harmonic
-              structure and affective organization, gradually revealing aspects of
-              musical experience that are difficult to observe through listening or
-              language alone.
-            </p>
+            <blockquote className="pull-quote">A MAP BECOMES INTERPRETABLE ONLY AFTER THE RELATIONSHIPS BENEATH IT HAVE SHOWN SUFFICIENT STABILITY.</blockquote>
           </FadeIn>
 
           <FadeIn className="analysis-figure">

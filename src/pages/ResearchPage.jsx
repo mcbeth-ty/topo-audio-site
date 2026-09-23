@@ -19,12 +19,12 @@ import GenerativeComposing from "../sections/GenerativeComposing";
 import Ethics from "../sections/Ethics";
 import About from "../sections/About";
 
-function BriefPage() {
+function ResearchPage() {
   return (
     <>
       <Sidebar />
 
-      <main>
+      <main className="research-page">
         <Intro />
         <Problem />
         <Hypothesis />
@@ -49,4 +49,4 @@ function BriefPage() {
   );
 }
 
-export default BriefPage;
+export default ResearchPage;
