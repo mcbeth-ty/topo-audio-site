@@ -9,6 +9,7 @@ import MethodologyPage from "./pages/MethodologyPage";
 import ResearchLogPage from "./pages/ResearchLogPage";
 import ToolsPage from "./pages/ToolsPage";
 import CVPage from "./pages/CVPage";
+import AcrossTheValleyPage from "./pages/AcrossTheValleyPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/methodology" element={<MethodologyPage />} />
       <Route path="/research-log" element={<ResearchLogPage />} />
       <Route path="/tools" element={<ToolsPage />} />
+      <Route path="/across-the-valley" element={<AcrossTheValleyPage />} />
     </Routes>
   );
 }
