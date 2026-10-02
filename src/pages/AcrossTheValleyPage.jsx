@@ -18,9 +18,15 @@ export default function AcrossTheValleyPage() {
           </header>
 
           <div className="film-work-video">
-            {/* Replace this placeholder with the final video or iframe.
-                Keep the wrapper to preserve the responsive 16:9 layout. */}
-            <div className="film-work-placeholder">VIDEO COMING SOON</div>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/PTfYEfNo84E?autoplay=0&rel=0&playsinline=1&iv_load_policy=3"
+              title="Across the Valley — full film"
+              width="960"
+              height="540"
+              allow="encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
 
           <p className="film-work-description">
