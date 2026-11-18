@@ -52,6 +52,7 @@ function ToolsPage() {
                   </div>
                 </div>
                 <div className="prototype-iframe-wrap prototype-iframe-wrap--atlas">
+                  <div className="atlas-embed-frame">
                   <iframe
                     src="https://affective-atlas.streamlit.app/?embed=true"
                     title="Affective Atlas interactive demo"
@@ -59,6 +60,11 @@ function ToolsPage() {
                     allow="autoplay; fullscreen"
                     allowFullScreen
                   />
+                    <svg className="atlas-embed-frame__overlay" aria-hidden="true" focusable="false">
+                      <rect className="atlas-embed-frame__mask" width="100%" height="100%" />
+                      <rect className="atlas-embed-frame__line" width="100%" height="100%" />
+                    </svg>
+                  </div>
                   <div className="prototype-launch-footer">
                     <span>Scroll inside the demo to explore Models, Arrange, and Generator.</span>
                     <a href="https://affective-atlas.streamlit.app/" target="_blank" rel="noopener noreferrer">
