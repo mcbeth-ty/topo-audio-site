@@ -52,11 +52,11 @@ function AboutPage() {
               </p>
 
               <p>
-                The project combines music cognition, perceptual experimentation,
+                The research initiative combines music cognition, perceptual experimentation,
                 harmonic analysis, computational modeling, interface design, and
                 composition. This website serves as a research brief, an open
                 laboratory, and a growing record of the tools and ideas through
-                which the project is being developed.
+                which its two related projects are being developed.
               </p>
             </div>
 

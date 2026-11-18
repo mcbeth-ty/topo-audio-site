@@ -13,13 +13,13 @@ export default function Footer({ project = false }) {
         </p>
 
         <p>
-          An ongoing investigation into the topology of harmonic affect.
+          Research into musical experience, relational representation, and computational exploration.
         </p>
 
         <nav className="footer-nav">
-          <a href="/project">Project</a>
+          <a href="/project">01 / Harmonic Experience</a>
           <span>·</span>
-          <a href={project ? "/research" : "#intro"}>Research</a>
+          <a href="/musical-affect">02 / Musical Affect</a>
           <span>·</span>
           <a href="/tools">Tools</a>
           <span>·</span>

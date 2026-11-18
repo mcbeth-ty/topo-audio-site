@@ -32,10 +32,10 @@ export default function ProjectPage() {
               <PageContainer>
                 <SectionGrid>
                   <FadeIn className="project-heading">
-                    <p className="project-eyebrow">{section.number}</p>
+                    <p className="project-eyebrow">{index === 0 ? "PROJECT 01" : section.number}</p>
                     <div id={`${section.id}-title`}>
                       <SectionTitle as={index === 0 ? "h1" : "h2"}>
-                        {section.title}
+                        {index === 0 ? "01 / Topologies of Harmonic Experience" : section.title}
                       </SectionTitle>
                     </div>
                     <p className="project-lead">{section.lead}</p>
@@ -51,6 +51,9 @@ export default function ProjectPage() {
                   <div className="project-visual-field">
                     <ProjectVisual index={index} />
                   </div>
+                  {index === 0 && (
+                    <div className="project-links"><Link to="/research">Research Framework →</Link></div>
+                  )}
                   {section.links.length > 0 && (
                     <div className="project-links">
                       {section.links.map((link) => <Link key={link.to} to={link.to}>{link.label}<span aria-hidden="true"> ↗</span></Link>)}

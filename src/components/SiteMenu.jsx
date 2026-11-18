@@ -1,12 +1,15 @@
 import { Link, useLocation } from "react-router-dom";
 
+import { siteLinks } from "../data/siteLinks";
+
 function SiteMenu() {
   const location = useLocation();
 
   const pageLabel =
     {
-      "/research": "RESEARCH",
-      "/project": "PROJECT",
+      "/research": "01 / FRAMEWORK",
+      "/project": "01",
+      "/musical-affect": "02",
       "/about": "ABOUT",
       "/cv": "CV",
       "/bibliography": "BIBLIOGRAPHY",
@@ -17,18 +20,18 @@ function SiteMenu() {
 
   return (
     <div className="sidebar__brand-group">
-      <Link to="/research" className="sidebar__brand">
+      <Link to="/" className="sidebar__brand" onClick={event => {
+        if (window.matchMedia("(hover: none)").matches) {
+          event.preventDefault();
+          event.currentTarget.focus();
+        }
+      }}>
         TOPO.AUDIO
         {pageLabel && <> / <span>{pageLabel}</span></>}
       </Link>
 
       <nav className="sidebar__site-menu">
-        <Link to="/project">/PROJECT</Link>
-        <Link to="/research">/RESEARCH</Link>
-        <Link to="/about">/ABOUT</Link>
-        <Link to="/cv">/CV</Link>
-        <Link to="/bibliography">/BIBLIOGRAPHY</Link>
-        <Link to="/tools">/TOOLS</Link>
+        {siteLinks.map(([to, label]) => <Link key={to} to={to}>{label}</Link>)}
       </nav>
     </div>
   );

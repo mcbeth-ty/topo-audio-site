@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SiteMenu from "../components/SiteMenu";
+import { siteLinks } from "../data/siteLinks";
 
 function HomePage() {
   return (
@@ -9,13 +10,10 @@ function HomePage() {
       <main className="simple-page">
         <div className="simple-page__inner">
           <h1>TOPO.AUDIO</h1>
+          <p>Research into musical experience, relational representation, and computational exploration.</p>
 
           <nav className="simple-page__nav">
-            <Link to="/project">/PROJECT</Link>
-            <Link to="/research">/RESEARCH</Link>
-            <Link to="/about">/ABOUT</Link>
-            <Link to="/bibliography">/BIBLIOGRAPHY</Link>
-            <Link to="/tools">/TOOLS</Link>
+            {siteLinks.map(([to, label]) => <Link key={to} to={to}>{label}</Link>)}
           </nav>
         </div>
       </main>
