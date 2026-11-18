@@ -1,4 +1,34 @@
+import { useSyncExternalStore } from "react";
 import SiteMenu from "../components/SiteMenu";
+
+const desktopQuery = "(min-width: 1281px)";
+const subscribeDesktop = callback => {
+  const query = window.matchMedia(desktopQuery);
+  query.addEventListener("change", callback);
+  return () => query.removeEventListener("change", callback);
+};
+
+function DesktopAtlas({ children }) {
+  const desktop = useSyncExternalStore(subscribeDesktop,
+    () => window.matchMedia(desktopQuery).matches, () => false);
+  return desktop ? children : (
+    <div className="prototype-mobile-fallback">
+      <p>This interactive prototype is designed for larger screens. Please view on Desktop.</p>
+    </div>
+  );
+}
+
+function ToolFrame({ children }) {
+  return (
+    <div className="tool-embed-frame">
+      {children}
+      <svg className="tool-embed-frame__overlay" aria-hidden="true" focusable="false">
+        <rect className="tool-embed-frame__mask" width="100%" height="100%" />
+        <rect className="tool-embed-frame__line" width="100%" height="100%" />
+      </svg>
+    </div>
+  );
+}
 
 function ToolsPage() {
   return (
@@ -51,8 +81,9 @@ function ToolsPage() {
                     </p>
                   </div>
                 </div>
+                <DesktopAtlas>
                 <div className="prototype-iframe-wrap prototype-iframe-wrap--atlas">
-                  <div className="atlas-embed-frame">
+                  <ToolFrame>
                   <iframe
                     src="https://affective-atlas.streamlit.app/?embed=true"
                     title="Affective Atlas interactive demo"
@@ -60,11 +91,7 @@ function ToolsPage() {
                     allow="autoplay; fullscreen"
                     allowFullScreen
                   />
-                    <svg className="atlas-embed-frame__overlay" aria-hidden="true" focusable="false">
-                      <rect className="atlas-embed-frame__mask" width="100%" height="100%" />
-                      <rect className="atlas-embed-frame__line" width="100%" height="100%" />
-                    </svg>
-                  </div>
+                  </ToolFrame>
                   <div className="prototype-launch-footer">
                     <span>Scroll inside the demo to explore Models, Arrange, and Generator.</span>
                     <a href="https://affective-atlas.streamlit.app/" target="_blank" rel="noopener noreferrer">
@@ -72,6 +99,7 @@ function ToolsPage() {
                     </a>
                   </div>
                 </div>
+                </DesktopAtlas>
               </section>
               <section className="tools-page__tool" id="tool-harmonic-generator">
                 <div className="tools-page__tool-header">
@@ -86,12 +114,14 @@ function ToolsPage() {
                 </div>
 
                 <div className="prototype-iframe-wrap prototype-iframe-wrap--desktop">
+                  <ToolFrame>
                   <iframe
                     src="https://harmonic-sequence-demo.streamlit.app/?embed=true"
                     title="Harmonic Sequence Generator Demo"
                     className="prototype-iframe"
                     loading="lazy"
                   />
+                  </ToolFrame>
 
                   <div className="prototype-launch-footer">
                     <span>Live prototype hosted on Streamlit Cloud.</span>
@@ -131,12 +161,14 @@ function ToolsPage() {
                 </div>
 
                 <div className="prototype-iframe-wrap prototype-iframe-wrap--audio-canvas">
+                  <ToolFrame>
                   <iframe
                     src="/audio-canvas-demo/index.html"
                     title="Audio Canvas Demo"
                     className="prototype-iframe prototype-iframe--audio-canvas"
                     loading="lazy"
                   />
+                  </ToolFrame>
                 </div>
 
                 <div className="prototype-mobile-fallback">
@@ -161,12 +193,14 @@ function ToolsPage() {
                 </div>
 
                 <div className="prototype-iframe-wrap prototype-iframe-wrap--desktop">
+                  <ToolFrame>
                   <iframe
                     src="https://topo-explorer.streamlit.app/?embed=true"
                     title="Topology Explorer Demo"
                     className="prototype-iframe"
                     loading="lazy"
                   />
+                  </ToolFrame>
 
                   <div className="prototype-launch-footer">
                     <span>Live prototype hosted on Streamlit Cloud.</span>

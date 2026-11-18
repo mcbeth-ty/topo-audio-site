@@ -4136,23 +4136,23 @@ body:has(.tools-page) .site-menu,
   }
 }
 
-/* Experimental Atlas frame: remove this block and its SVG to revert. */
-.tools-page .prototype-iframe-wrap--atlas {
+/* Shared thin frame for Tools-page embeds. */
+.tools-page .prototype-iframe-wrap {
   border:0;
 }
-.atlas-embed-frame {
+.tool-embed-frame {
   position:relative;
 }
-.atlas-embed-frame__overlay {
+.tool-embed-frame__overlay {
   position:absolute; inset:0; width:100%; height:100%;
   display:block; z-index:2; pointer-events:none;
 }
-.atlas-embed-frame__overlay rect {
+.tool-embed-frame__overlay rect {
   fill:none; vector-effect:non-scaling-stroke;
 }
-.atlas-embed-frame__mask {
+.tool-embed-frame__mask {
   stroke:#0a0a0a; stroke-width:16px;
 }
-.atlas-embed-frame__line {
+.tool-embed-frame__line {
   stroke:#fff; stroke-width:1px;
 }
