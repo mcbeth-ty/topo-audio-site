@@ -32,6 +32,12 @@ const cvSections = [
                     "Developing an empirical and computational framework for measuring and representing relationships in how listeners experience directed harmonic changes. Designed and developed interactive research software for controlled stimulus generation, relational listener judgment, and computational exploration of the resulting structures. Current work examines the reliability of listener-derived representations, relationships across temporal scales, and their potential use in musical navigation and generative systems.",
             },
             {
+                meta: ["2026–PRESENT", "INDEPENDENT RESEARCHER & DEVELOPER"],
+                title: "topo.audio / Relational Structures of Musical Affect",
+                body:
+                    "Developing an empirical and computational framework for investigating relationships among the emotional qualities perceived in music. The research uses controlled ambient harmonic stimuli and repeated relational listening judgments to construct individual representations of musical emotion, then examines their potential for emotional differentiation, reflection, and guided musical navigation. Designed and developed Affective Atlas, an integrated research environment combining harmonic generation, perceptual measurement, multidimensional modeling, and interactive pathfinding through listener-derived emotional relationships.",
+            },
+            {
                 meta: ["2017–2018", "MASTER'S THESIS / KAWAZOE LABORATORY"],
                 title:
                     "Tokyo Luminary: Modeling and Configuring Light Tectonics in Urban Spatial Envelopes",
@@ -311,20 +317,18 @@ function CVPage() {
                         <div className="cv-profile">
                             <div className="cv-profile__label">RESEARCH PROFILE</div>
                             <p>
-                                Composer, researcher, and architectural/computational designer
-                                working across independent music, film composition, music
-                                perception, spatial representation, and generative systems.
-                                Current research, <em>topo.audio / Topologies of Harmonic Experience</em>,
-                                investigates whether relationships in how listeners experience music
-                                can be measured reliably enough to become useful information for
-                                computational musical systems. It focuses on a bounded domain of
-                                directed harmonic changes, using relational listening judgments,
-                                multidimensional representation, and computational analysis, while
-                                exploring how listener-derived structures might support musical
-                                navigation and composition. A background in architectural research
-                                and professional parametric design provides a parallel methodological
-                                foundation in spatial modeling, computational workflows, and the
-                                formalization of experiential phenomena.
+                                Composer, researcher, and architectural/computational designer working
+                                across independent music, film composition, music perception, spatial
+                                representation, and generative systems. Current research through
+                                topo.audio investigates how relationships in musical experience can be
+                                measured, represented, and used computationally. Two complementary
+                                research directions examine the structure and musical operation of
+                                harmonic relationships, and the representation of perceived musical
+                                emotion as a resource for emotional understanding and navigation. This
+                                work draws on a background in architectural research and professional
+                                parametric design, providing a methodological foundation in spatial
+                                modeling, computational workflows, and the formalization of
+                                experiential phenomena.
                             </p>
                         </div>
                     </header>
