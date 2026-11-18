@@ -4063,13 +4063,13 @@ body:has(.tools-page) .sidebar__site-menu a:hover {
   color: var(--color-muted);
 }
 
-/* Affective Atlas fills the main area; preserve existing tools' content cap. */
+/* Tools use the available main area beside the local navigator. */
 .tools-page__inner {
   max-width: none;
 }
 
 .tools-page__tool:not(.tools-page__tool--atlas) {
-  max-width: 1136px;
+  max-width: none;
 }
 
 .tools-page .prototype-iframe--atlas {
@@ -4083,7 +4083,7 @@ body:has(.tools-page) .sidebar__site-menu a:hover {
 
 @media (max-width: 1280px) {
   .tools-page__tool:not(.tools-page__tool--atlas) {
-    max-width: 1184px;
+    max-width: none;
   }
 }
 
@@ -4091,5 +4091,47 @@ body:has(.tools-page) .sidebar__site-menu a:hover {
   .tools-page .prototype-iframe--atlas {
     height: 85svh;
     min-height: 480px;
+  }
+}
+
+/* Match the embedded Atlas canvas without changing other site pages. */
+body:has(.tools-page),
+body:has(.tools-page) .sidebar,
+body:has(.tools-page) .site-menu,
+.tools-page,
+.tools-page .prototype-iframe-wrap,
+.tools-page .prototype-iframe {
+  background: #0a0a0a;
+}
+
+.tools-page__inner {
+  padding-right: 24px;
+}
+
+@media (min-width: 901px) {
+  body:has(.tools-page) {
+    --sidebar-area: 210px;
+  }
+
+  body:has(.tools-page) .sidebar__brand-group {
+    left: 18px;
+  }
+
+  .tools-page__nav {
+    width: max-content;
+  }
+
+  .tools-page__nav a {
+    white-space: nowrap;
+  }
+
+  .tools-page__inner {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 520px) {
+  .tools-page__inner {
+    padding-right: 16px;
   }
 }
