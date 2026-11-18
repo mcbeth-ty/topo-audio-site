@@ -100,6 +100,11 @@ const cvSections = [
                 subtitle: "Composer",
             },
             {
+                meta: ["2026", "BRAND FILM"],
+                title: "FUUUN Brand Film",
+                subtitle: "Composer & Sound Designer",
+            },
+            {
                 meta: ["2025", "BRAND FILM"],
                 title: "The First Lessons",
                 subtitle: "Composer & Sound Designer · Sinyukai",
