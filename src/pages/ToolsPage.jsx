@@ -11,7 +11,7 @@ function ToolsPage() {
             <p className="tools-page__eyebrow">INTERACTIVE RESEARCH ENVIRONMENT</p>
             <h1>TOOLS</h1>
             <p className="tools-page__intro">
-              Three linked instruments for generating harmonic material,
+              Interactive instruments for generating harmonic material,
               collecting perceptual judgments, and constructing perceptual
               topologies.
             </p>
@@ -19,24 +19,57 @@ function ToolsPage() {
 
           <div className="tools-page__layout">
             <nav className="tools-page__nav" aria-label="Tools navigation">
-              <a href="#tool-harmonic-generator">
+              <a href="#tool-affective-atlas">
                 <span>01</span>
+                AFFECTIVE ATLAS
+              </a>
+              <a href="#tool-harmonic-generator">
+                <span>02</span>
                 HARMONIC SEQUENCE GENERATOR
               </a>
               <a href="#tool-audio-canvas">
-                <span>02</span>
+                <span>03</span>
                 AUDIO CANVAS
               </a>
               <a href="#tool-topology-explorer">
-                <span>03</span>
+                <span>04</span>
                 TOPOLOGY EXPLORER
               </a>
             </nav>
 
             <div className="tools-page__content">
-              <section className="tools-page__tool" id="tool-harmonic-generator">
+              <section className="tools-page__tool tools-page__tool--atlas" id="tool-affective-atlas">
                 <div className="tools-page__tool-header">
                   <div className="tools-page__tool-index">01</div>
+                  <div>
+                    <h2>Affective Atlas</h2>
+                    <p>
+                      Affective Atlas is an experimental environment for exploring
+                      perceived relationships between musical sounds. Navigate
+                      interactive spatial models, discover paths between sounds,
+                      and experiment with relational arrangement and harmonic generation.
+                    </p>
+                  </div>
+                </div>
+                <div className="prototype-iframe-wrap prototype-iframe-wrap--atlas">
+                  <iframe
+                    src="https://affective-atlas.streamlit.app/?embed=true"
+                    title="Affective Atlas interactive demo"
+                    className="prototype-iframe prototype-iframe--atlas"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                  />
+                  <div className="prototype-launch-footer">
+                    <span>Scroll inside the demo to explore Models, Arrange, and Generator.</span>
+                    <a href="https://affective-atlas.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                      Open in new tab ↗
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <section className="tools-page__tool" id="tool-harmonic-generator">
+                <div className="tools-page__tool-header">
+                  <div className="tools-page__tool-index">02</div>
                   <div>
                     <h2>HARMONIC SEQUENCE GENERATOR</h2>
                     <p>
@@ -80,7 +113,7 @@ function ToolsPage() {
 
               <section className="tools-page__tool" id="tool-audio-canvas">
                 <div className="tools-page__tool-header">
-                  <div className="tools-page__tool-index">02</div>
+                  <div className="tools-page__tool-index">03</div>
                   <div>
                     <h2>AUDIO CANVAS</h2>
                     <p>
@@ -110,7 +143,7 @@ function ToolsPage() {
 
               <section className="tools-page__tool" id="tool-topology-explorer">
                 <div className="tools-page__tool-header">
-                  <div className="tools-page__tool-index">03</div>
+                  <div className="tools-page__tool-index">04</div>
                   <div>
                     <h2>TOPOLOGY EXPLORER</h2>
                     <p>
