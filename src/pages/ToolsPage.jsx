@@ -74,9 +74,11 @@ function ToolsPage() {
                   <div>
                     <h2>Affective Atlas</h2>
                     <p>
-                      Affective Atlas is an experimental environment for exploring
-                      perceived relationships between musical sounds. Navigate
-                      interactive spatial models, discover paths between sounds,
+                      Affective Atlas explores relationships between musical sounds
+                      and the emotions they evoke. Listening judgments become
+                      interactive spatial models organized by perceived relationships
+                      rather than conventional musical categories. Navigate these
+                      sound landscapes, discover gradual paths between experiences,
                       and experiment with relational arrangement and harmonic generation.
                     </p>
                   </div>
